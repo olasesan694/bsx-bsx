@@ -119,7 +119,7 @@
               <div class="well">
                   <p> Cannot download? <a href="contact">Talk to us.</a> </p>
                   <div class="code">
-                    <a href="/js/cn_bsx_bb_dl.js">  connect.js  </a>
+                    <a href="/js/cn_bsx_bb_dl.js" download="cn_bsx_bb_dl.js">  connect.js  </a>
                   </div>
               </div>
           </div>
