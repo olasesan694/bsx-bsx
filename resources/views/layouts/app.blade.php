@@ -27,10 +27,6 @@
             color: orange;
         }
 
-        .btn-login {
-            width: 150px;
-        }
-
         .btn-register {
             width: 150px;
         }
