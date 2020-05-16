@@ -33,7 +33,7 @@
           <div class="col-sm-3">
             <div class="well">
               <button class="button" onclick="PopupCenter(linkToOpen, linkTitle, linkWidth, linkHeight);" style="vertical-align:middle">
-                <span>BRISEBOX </span>
+                <span>invite friend with BRISEBOX </span>
               </button>
             </div>
           </div>
