@@ -59,7 +59,8 @@
 
 
 .container-fluid .sidenav {
-    background-color: #fff;
+    background-color: whitesmoke;
+    height: 100vh;
 }
 
 .container-fluid h2 {

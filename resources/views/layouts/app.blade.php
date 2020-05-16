@@ -18,6 +18,23 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <style>
+        .card-header {
+            font-size: 18px;
+            padding: 15px;
+            background-color: #282639;
+            color: orange;
+        }
+
+        .btn-login {
+            width: 150px;
+        }
+
+        .btn-register {
+            width: 150px;
+        }
+    </style>
 </head>
 <body>
     <div id="app">

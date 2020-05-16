@@ -37,36 +37,15 @@
               </button>
             </div>
           </div>
-          <!-- <div class="col-sm-3">
-            <div class="well">
-              <button class="button" style="vertical-align:middle"><span>BRISEBOX </span></button>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="well">
-              <button class="button" style="vertical-align:middle"><span>BRISEBOX </span></button>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="well">
-              <button class="button" style="vertical-align:middle"><span>BRISEBOX </span></button>
-            </div>
-          </div> -->
         </div>
   
         <div class="row">
           <div id="getstarted" class="col-sm-8">
             <div class="well">
-            <h3>Add the buttons to your website</h3> 
-              <p>Now that you've seen the BRISEBOX Buttons in action, add the button code to your website.</p> 
-              <p>Copy this code into your HTML page. You'll use the code to start a basic integration.</p>
-              <p>Set product properties meta tags. </p> 
+              <h3>Add meta tags</h3> 
+              <p>Now that you've seen the BRISEBOX Buttons in action,</p> 
+              <p>Copy the following inside the &lt;head&gt; tag in your details page.</p>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <!-- <div class="well">
-              <p>Text</p> 
-            </div> -->
           </div>
         </div>
         
@@ -77,54 +56,60 @@
                   &lt;!-- Brisebox meta and open graph tags --&gt;
                   <br>
                   <br>
-                  &lt;meta property="og:url"           content="https://www.your-domain.com/your-page.html" /&gt;
+                  &lt;meta property="og:url"           content="https://www.your-domain.com/your-details-page" /&gt;
                   <br>
                   &lt;meta property="og:type"          content="website" /&gt;
                   <br>
-                  &lt;meta property="og:title"         content="Your Website Title" /&gt;
+                  &lt;meta property="og:title"         content="the_website_title" /&gt;
                   <br>
-                  &lt;meta property="bb:price"         content="Your Product Price" /&gt;
+                  &lt;meta property="bb:price"         content="the_product_price" /&gt;
                   <br>
                   &lt;meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" /&gt;
                   <br>
-                  &lt;meta property="bb:company"       content="macys" /&gt;
-                  <br>
-                  &lt;script src="popup-demo.js"&gt;&lt;/script&gt;
+                  &lt;meta property="bb:company"       content="your_company_name" /&gt;
                   <br>
                   <br>
                   <br>
+                  &lt;!-- Brisebox script --&gt;
                   <br>
-                  &lt;!-- Brisebox button connector  --&gt;
                   <br>
-                  <br>
-                  &lt;button class="btn-primary bb-share-button" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="vertical-align:middle"&gt;
-                      invite friend with BRISEBOX 
-                  &lt;/button&gt;
+                  &lt;script src="cn_bsx_bb_dl.js"&gt;&lt;/script&gt;
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <!-- <div class="well">
-              <p>Text</p> 
-            </div> -->
+          
+          <div class="row">
+            <div id="getstarted" class="col-sm-8">
+              <div class="well">
+                <h3>Add the Brisebox Button to your website</h3> 
+                <p> Copy the code for Brisebox button connector. </p> 
+                <p> Most people paste this in their details page, under the 'Add to cart' button. </p> 
+              </div>
+            </div>
           </div>
+          <div id="" class="row">
+            <div class="col-sm-8">
+              <div class="well ">
+                <div class="code">
+                    &lt;!-- Brisebox button connector  --&gt;
+                    <br>
+                    <br>
+                    &lt;button class="btn-primary bb-share-button" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="vertical-align:middle"&gt;
+                        invite friend with BRISEBOX 
+                    &lt;/button&gt;
+                </div>
+              </div>
+            </div>
         </div>
   
         <div class="row">
           <div class="col-sm-6">
             <div class="well">
-              <!-- <h3>See the example</h3> 
-              <p>Try now</p>  -->
               <div class="col-md-6">
                   <div class="price-content">
                       <ul>
-                          <!-- <li><i class="fa fa-twitter"></i></li> -->
                           <h3>Final Step:</h3> 
                           <li>Download connect.js and move it to your js folder.</li>
-                          
-                          <!-- <li><i class="fa fa-linkedin"></i>Product's specific Title,</li>
-                          <li><i class="fa fa-linkedin"></i>and its price.</li>
-                          <li><i class="fa fa-linkedin"></i>Add dependencies through terminal.</li> -->
                       </ul>
                   </div>
               </div>
@@ -132,36 +117,12 @@
           </div>
           <div class="col-sm-6">
               <div class="well">
-                  <!-- <p><img src="creative_team.png" class="feature-img" alt="" style="width:60%;"></p>  -->
                   <p> Cannot download? <a href="contact">Talk to us.</a> </p>
                   <div class="code">
                     <a href="/js/cn_bsx_bb_dl.js" download="connect.js">  connect.js  </a>
                   </div>
-                  <!-- <br>
-                  <p> PHP </p>
-                  <div class="code">
-                    <p> script src="https://www.brisebox.com/sdk/js?client-id=sb"> brisebox.Buttons().render("body");
-                    <br>
-                    script src="https://www.brisebox.com/sdk/js?client-id=sb"> brisebox.Buttons().render("body");
-                    </p>
-                  </div>
-                  <br>
-                  <p> Java </p>
-                  <div class="code">
-                    <p> script src="https://www.brisebox.com/sdk/js?client-id=sb"> brisebox.Buttons().render("body");
-                    <br>
-                    script src="https://www.brisebox.com/sdk/js?client-id=sb"> brisebox.Buttons().render("body");
-                    </p>
-                  </div> -->
               </div>
           </div>
-          <!-- <div class="col-sm-4">
-            <div class="well">
-              <p>Text</p> 
-              <p>Text</p> 
-              <p>Text</p>  
-            </div>
-          </div> -->
         </div>
   
       </div>
@@ -173,8 +134,6 @@
         <div class="container">
             <div class="row offset-1">
                 <div class="col-md-4 footer-box">
-                    <!-- <p>A fun way to text, video communicate, and plan things all in the workplace. Fun way to text, video communicate, and plan things all in the workplace.</p>
-                    <p class="user-details"><b>Angelina</b> <br> Executive Director, ESsense</p> -->
                     <p> <b>Account</b> </p>
                     <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
                     <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
