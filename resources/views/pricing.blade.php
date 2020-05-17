@@ -11,7 +11,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto text-uppercase">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="dashboard">Docs & API <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -111,17 +111,17 @@
                 <div class="col-md-4 services">
                     <img src="images/customize.png" alt="picture" class="service-img">
                     <h4>Customize</h4>
-                    <p>Easily customize the layout to match your brand. You can customize the display of the buttons to fit your website. </p>
+                    <p>Easily customize the Brisebox Button layout to match your brand. You can customize the display of the button to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/group.png" alt="picture" class="service-img">
                     <h4>Integrate Quickly</h4>
-                    <p>Take advantage of the pre-made BRISEBOX UI/Buttons to allow user-to-user discussions as they shop in your website.</p>
+                    <p>Take advantage of the pre-made Brisebox UI/Button to begin closing purchases faster.</p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/purchase.png" alt="picture" class="service-img">
-                    <h4>Customers Make Purchases Faster</h4>
-                    <p>The BRISEBOX API functionality helps your customers get LIVE advise from their friends WHILE shopping on your website.</p>
+                    <h4>Customers Initiate Purchases Faster</h4>
+                    <p>The Brisebox API functionality helps engage your customers until they are ready to make their purchase.</p>
                 </div>
             </div>
         </div>
@@ -130,42 +130,24 @@
     <section id="faq" class="faq">
         <div class="container text-center">
             <h2>Some Helpful Questions.</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <th scope="row">1</th>
-                    <td>How long does the free trial last and what are its limitations?</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">2</th>
-                    <td>Are there any additional fees (or fine print) that I should know about?</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">3</th>
-                    <td>What’s the difference between the per verification and the subscriptions fees?</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">4</th>
-                    <td>What information do you store about my users?</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    </tr>
-                </tbody>
-            </table>
+        
+            <button class="accordion">Are there any additional fees (or fine print) that I should know about?</button>
+            <div class="panel">
+              <p>We will only issue invoices, and VAT is included in the price if it applies to you. You can edit your invoice information and provide your company information in the billing section.</p>
+            </div>
+            
+            <button class="accordion">What information do you store about the users?</button>
+            <div class="panel">
+              <p>Brisebox takes data security very seriously. We only collect your users email, phone. These will be used to verified and connect each user.</p>
+            </div>
+            
+            <button class="accordion">Do you issue invoices? Is VAT included?</button>
+            <div class="panel">
+              <p>Yes, we do. Please refer to Q1 for more.</p>
+            </div>
+        
+        <h6>Have more questions? Join the Q&A, <a href="{{ url('/contact') }}" target="_blank" rel="noopener noreferrer">Talk with us</a></h6>
+        
         </div>
     </section>
 
@@ -192,9 +174,10 @@
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p> <b>Subscribe below for updates</b> </p>
-                    <input type="email" class="form-control" placeholder="Your Email">
-                    <button type="button" class="btn btn-primary">Subscribe</button>
+                    <p> <b>NYC, United States 10013</b> </p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
                 </div>
             </div>
             <p class="copyright"> &copy; brisebox 2020 </p>

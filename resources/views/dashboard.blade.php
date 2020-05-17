@@ -40,7 +40,7 @@
                             </div>
                             <div class="card-footer text-secondary">
                                 <i class="fas fa-sync mr-3"></i>
-                                <span>Current</span>
+                                <span>Option to update: begins 12/11/2021</span>
                             </div>
                         </div>
                     </div>

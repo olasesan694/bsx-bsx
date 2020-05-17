@@ -507,6 +507,41 @@ p {
     color: rgb(85, 85, 85);
     padding-bottom: 20px;
 }
+
+.faq h6 {
+    color: rgb(141, 141, 141);
+    padding-top: 50px;
+}
+
+.accordion {
+    background-color: whitesmoke;
+    color: #282639;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border: 1px solid #282639;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 18px;
+    display: none;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .panel p {
+      color: #000000;
+      font-size: 16px;
+  }
 /* END FAQ */
 
 
@@ -578,8 +613,8 @@ p {
     text-align: center;
     padding-top: 7px;
     border-radius: 2px;
-    background-image: linear-gradient(to right, #a517ba, #a517ba);
-}
+    background-color: none;
+  }
 
 .footer-box .form-control {
     box-shadow: none !important;
@@ -652,5 +687,4 @@ hr {
     .contactus p {
         padding: 0 50px;
     }
-    
 }

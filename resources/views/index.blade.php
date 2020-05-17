@@ -90,22 +90,22 @@
 
     <section id="services">
         <div class="container text-center">
-            <h2 class="title"> Help your customers initiate a purchase faster<br> using the Brisebox API.</h2>
+            <h2 class="title"> Are your customers leaving without making purchases? <br> We help your customers initiate a purchase faster through the Brisebox API.</h2>
             <div class="row text-left">
                 <div class="col-md-4 services">
                     <img src="images/customize.png" alt="picture" class="service-img">
                     <h4>Customize</h4>
-                    <p>Easily customize the layout to match your brand. You can customize the display of the buttons to fit your website. </p>
+                    <p>Easily customize the Brisebox Button layout to match your brand. You can customize the display of the button to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/group.png" alt="picture" class="service-img">
                     <h4>Integrate Quickly</h4>
-                    <p>Take advantage of the pre-made BRISEBOX UI/Buttons to allow user-to-user discussions as they shop in your website.</p>
+                    <p>Take advantage of the pre-made Brisebox UI/Button to begin closing purchases faster.</p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/purchase.png" alt="picture" class="service-img">
                     <h4>Customers Initiate Purchases Faster</h4>
-                    <p>The BRISEBOX API functionality helps your customers get LIVE advise from their friends WHILE shopping on your website.</p>
+                    <p>The Brisebox API functionality helps engage your customers until they are ready to make their purchase.</p>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                     <ul>
                         <li>1. Create you longer customer retention</li>
                         <li>2. Increase your customer engagement</li>
-                        <li>3. Instant Shopping assistance</li>
+                        <li>3. Provide your customers instant shopping assistance</li>
                         <li>4. Help your customers initiate a purchase faster</li>
                     </ul>
                 </div>
@@ -139,7 +139,7 @@
 
     <section id="sample">
         <div id="demo">
-            <h3 class="text-center">Get started to try the BRISEBOX sample button</h3>
+            <h3 class="text-center">Get started to try the Brisebox Sample Button</h3>
         </div>
         <br>
         <br>
@@ -170,8 +170,8 @@
                     <br>
                     <br>
                     <!-- BRISEBOX BUTTON CONNECTOR  -->
-                    <button class="btn-primary bb-share-button" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="vertical-align:middle">
-                        use BRISEBOX 
+                    <button class="btn-primary bb-share-button" onclick="window.location.href='{{ url('/register') }}'" style="vertical-align:middle">
+                        use Brisebox <div style="font-style: italic; display:inline;"> Sample </div>
                     </button>
                 </div>
             </div>
@@ -254,9 +254,6 @@
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    {{-- <p> <b>Subscribe below for updates</b> </p>
-                    <input type="email" class="form-control" placeholder="Your Email">
-                    <button type="button" class="btn btn-primary">Subscribe</button> --}}
                     <p> <b>NYC, United States 10013</b> </p>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
