@@ -17,22 +17,21 @@
       <div class="col-sm-9">
         <div id="about" class="well">
           <h3>Allow User-To-User Shopping Discussions on your Website</h3>
-          <p>Learn how to integrate with Brisebox to allow user-to-user discussions while they shop online, and close purchases faster.
-              BRISEBOX API gives online shoppers a simplified and secure shopping experience. 
-          <br>
-          Whether you’re a startup or a global enterprise, Learn how and try the button
+          <p>Learn how to integrate with Brisebox to allow live user-to-user discussions while they shop online, and close purchases faster.
+              BRISEBOX API gives your customers a social and engaging shopping experience throughout their shopping experience.
           </p>
         </div>
   
         <div id="Demo" class="well">
-          <h3>Try the Buttons</h3>
-          <p>Whether you’re a startup or a global enterprise, learn how </p>
+          <h3>Try the Button</h3>
+          <p>Whether you’re a small or a global enterprise, try the Brisebox Button 
+            <br> to see how your customers will have the option to invite a friend and begin live dicussions. </p>
         </div>
   
         <div class="row">
           <div class="col-sm-3">
             <div class="well">
-              <button class="button" onclick="PopupCenter(linkToOpen, linkTitle, linkWidth, linkHeight);" style="vertical-align:middle">
+              <button class="button" onclick="PopupCenter(linkToOpen, linkTitle, linkWidth, linkHeight);">
                 <span>invite friend with BRISEBOX </span>
               </button>
             </div>
@@ -43,8 +42,8 @@
           <div id="getstarted" class="col-sm-8">
             <div class="well">
               <h3>Add meta tags</h3> 
-              <p>Now that you've seen the BRISEBOX Buttons in action,</p> 
-              <p>Copy the following inside the &lt;head&gt; tag in your details page.</p>
+              <p>Now that you've seen the Brisebox Button in action,</p> 
+              <p>Copy the following, and paste it inside the &lt;head&gt; tag of your details page.</p>
             </div>
           </div>
         </div>
@@ -53,7 +52,7 @@
           <div class="col-sm-8">
             <div class="well ">
               <div class="code">
-                  &lt;!-- Brisebox meta and open graph tags --&gt;
+                  &lt;!-- Meta and Open Graph Tags --&gt;
                   <br>
                   <br>
                   &lt;meta property="og:url"           content="https://www.your-domain.com/your-details-page" /&gt;
@@ -70,7 +69,7 @@
                   <br>
                   <br>
                   <br>
-                  &lt;!-- Brisebox script --&gt;
+                  &lt;!-- Brisebox Script --&gt;
                   <br>
                   <br>
                   &lt;script src="cn_bsx_bb_dl.js"&gt;&lt;/script&gt;
@@ -82,7 +81,7 @@
             <div id="getstarted" class="col-sm-8">
               <div class="well">
                 <h3>Add the Brisebox Button to your website</h3> 
-                <p> Copy the code for Brisebox button connector. </p> 
+                <p> Copy the code for Brisebox Button connector. </p> 
                 <p> Most people paste this in their details page, under the 'Add to cart' button. </p> 
               </div>
             </div>
@@ -91,11 +90,23 @@
             <div class="col-sm-8">
               <div class="well ">
                 <div class="code">
-                    &lt;!-- Brisebox button connector  --&gt;
+                    &lt;!-- Brisebox Button Connector  --&gt;
                     <br>
                     <br>
-                    &lt;button class="btn-primary bb-share-button" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="vertical-align:middle"&gt;
-                        invite friend with BRISEBOX 
+                    &lt;button 
+                    class="btn cn bsx bb-btn" 
+                    onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" 
+                    style="border-radius: 4px;
+                    background-color: #000000;
+                    border: none;
+                    color: #ffb6c1;
+                    text-align: center;
+                    font-size: 12px;
+                    padding: 7px;
+                    width: 250px;
+                    transition: all 0.5s;
+                    cursor: pointer;"&gt;
+                    &lt;span&gt; invite friend with BRISEBOX &lt;/span&gt;
                     &lt;/button&gt;
                 </div>
               </div>
@@ -109,7 +120,7 @@
                   <div class="price-content">
                       <ul>
                           <h3>Final Step:</h3> 
-                          <li>Download connect.js and move it to your js folder.</li>
+                          <li>Download the connect js file and move it to your js folder.</li>
                       </ul>
                   </div>
               </div>
@@ -119,7 +130,7 @@
               <div class="well">
                   <p> Cannot download? <a href="contact">Talk to us.</a> </p>
                   <div class="code">
-                    <a href="/js/cn_bsx_bb_dl.js" download="cn_bsx_bb_dl.js">  connect.js  </a>
+                    <a href="/js/cn_bsx_bb_dl.js" download="cn_bsx_bb_dl.js"> Download </a>
                   </div>
               </div>
           </div>

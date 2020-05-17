@@ -61,40 +61,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-xl-3 col-sm-6 p-2">
-                        <div class="card card-common">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <i class="fas fa-users fa-3x text-warning"></i>
-                                    <div class="text-right text-secondary">
-                                        <h5>Users</h5>
-                                        <h3>$15,000</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-secondary">
-                                <i class="fas fa-sync mr-3"></i>
-                                <span>Updated Now</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 p-2">
-                        <div class="card card-common">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <i class="fas fa-chart-line fa-3x text-danger"></i>
-                                    <div class="text-right text-secondary">
-                                        <h5>Visitors</h5>
-                                        <h3>$45,000</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-secondary">
-                                <i class="fas fa-sync mr-3"></i>
-                                <span>Updated Now</span>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -109,7 +75,7 @@
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-muted text-center mb-3">Allow User-To-User Discussions on your Website.</h3>
+                        <h3 class="text-muted text-center mb-3">Allow <div style="font-style: italic; display:inline;"> Live </div> User-To-User Discussions on your Website.</h3>
                         <ul class="list-group">
                             <li class="list-group-item ">Get Started By: <li>
                             <li class="list-group-item">(1). Trying the Brisebox Button to see how it will look for your users </li>
@@ -118,19 +84,6 @@
                             <li class="list-group-item">(4). Done. Enjoy more users on your platform.</li>
                         </ul>
                         <a href="docs" class="btn btn-danger btn-lg">Try Now</a>
-
-                        <!-- pagination  -->
-                        <!-- <nav>
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3"><span>&laquo;</span></a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3"><span>&raquo;</span></a>
-                                </li>
-                            </ul>
-                        </nav> -->
-                        <!-- end of pagination  -->
                     </div>
                     <div class="col-12">
                         

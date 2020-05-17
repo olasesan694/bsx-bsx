@@ -80,6 +80,14 @@
     border-radius: 5px;
 }
 
+.container-fluid .well .code a {
+    background-color: #f77f91;
+    border: 1px solid #f77f91;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 .container-fluid .sidenav li a {
     font-size: 16px;
     color: #7386D5;
@@ -88,7 +96,7 @@
 .button {
     /* display: inline-block; */
     border-radius: 4px;
-    background-color: #000;
+    background-color: #000000;
     border: none;
     color: #ffb6c1;
     text-align: center;
