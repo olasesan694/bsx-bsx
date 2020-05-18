@@ -138,11 +138,11 @@
     </section>
 
     <section id="sample">
-        <div id="demo">
+        {{-- <div id="demo"> --}}
             <h3 class="text-center">Get started to try the Brisebox Sample Button</h3>
-        </div>
-        <br>
-        <br>
+        {{-- </div> --}}
+        {{-- <br>
+        <br> --}}
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -174,7 +174,10 @@
                         use Brisebox <div style="font-style: italic; display:inline;"> Sample </div>
                     </button>
                 </div>
+                <img src="/images/stores.png" alt="stores" style="height:100px;">
+                {{-- <img src="/images/stores2.png" alt="stores" style="height:100px;"> --}}
             </div>
+            
         </div>
     </section> 
 
@@ -208,7 +211,7 @@
                         <div class="card-body">
                             <li>$<span class="money">30</span>/website</li>
                             <li>All of free plan</li>
-                            <li>Plus:</li>
+                            <li>In-app assistance</li>
                             <li>Instant feedback</li>
                             <li>Customer Support 24/7</li>
                         </div>
@@ -219,16 +222,16 @@
                 </div>
                 <div class="col-lg-4 col-12">
                     <div class="card text-center">
-                        <div class="card-header">PREMIUM</div>
+                        <div class="card-header">CUSTOM</div>
                         <div class="card-body">
                             <li>$<span class="money">60</span>/website</li>
-                            <li>All of free plan</li>
-                            <li>Customer Support 24/7</li>
-                            <li>In-app assistance</li>
-                            <li>Live insights</li>
+                            <li>Want More?</li>
+                            <li>Tell us your specific requirement </li>
+                            <li>for tools, features, etc?</li>
+                            <li>Talk to us</li>
                         </div>
                         <div class="card-footer">
-                            <a href="pricing">Purchase</a>
+                            <a href="contact">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -248,13 +251,14 @@
                 </div>
                 <div class="col-md-4 footer-box">
                     <p> <b>Resources</b> </p>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Documentation</p>
-                    <p> <i class="fa fa-phone" aria-hidden="true"></i>API</p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Sales</p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Docs & APIs</p>
+                    <p> <i class="fa fa-phone" aria-hidden="true"></i>Pricing</p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Careers</p>
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p> <b>NYC, United States 10013</b> </p>
+                    <p> <a href="about">About Brisebox</a> </p>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-linkedin"></a>
