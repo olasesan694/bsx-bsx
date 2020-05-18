@@ -267,9 +267,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/6" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/6" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">CV</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">CV</h6></a>
                 <h6>New York, New York</h6>
                 <span class="fade-06">
                   
@@ -288,9 +288,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/9" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/9" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Customer Success Associate (Tech)</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Customer Success Associate (Tech)</h6></a>
                 <h6>New York</h6>
                 <span class="fade-06">
                   
@@ -309,9 +309,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/1" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/1" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Scraping Developer (PHP)</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Scraping Developer (PHP)</h6></a>
                 <h6>New York, Remote</h6>
                 <span class="fade-06">
                   
@@ -323,9 +323,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/2" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/2" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Backend Engineer (PHP/APIs)</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Backend Engineer (PHP/APIs)</h6></a>
                 <h6>Texas, California, remotefriendly</h6>
                 <span class="fade-06">
                   
@@ -337,9 +337,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/3" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/3" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Frontend Developer</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Frontend Developer</h6></a>
                 <h6>Indiana</h6>
                 <span class="fade-06">
                   
@@ -358,9 +358,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/7" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/7" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Finance Associate</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Finance Associate</h6></a>
                 <h6>New York</h6>
                 <span class="fade-06">
                   
@@ -372,9 +372,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/10" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/10" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Operations Associate</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Operations Associate</h6></a>
                 <h6>New York</h6>
                 <span class="fade-06">
                   
@@ -393,9 +393,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               
               <div class="marg-40-btm">
                 <span class="pull-right text-bold text-big"> 
-                  <a href="/Brisebox/jobs/5" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
+                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
-                <a href="/Brisebox/jobs/5" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Product Manager</h6></a>
+                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Product Manager</h6></a>
                 <h6>New York</h6>
                 <span class="fade-06">
                   

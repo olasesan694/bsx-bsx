@@ -34,7 +34,7 @@
         <section class="header-section">
             <div class="center-div">
                 <h1 class="font-weight-bold">
-                    Brisebox is pioneering engagement on e-commerce stores. 
+                    Brisebox is pioneering engagement on e-commerce platforms. 
                 </h1>
                 <p> We help online business close purchases faster using our Brisebox API.</p>
                 <div class="header-buttons">
@@ -76,12 +76,11 @@
                         <div class="card-header">Offices</div>
                         <div class="card-body">
                             <h5>Corporate offices</h5>
-                            <li>2211 North First Street
-                                San Jose, California 95131 </li>
+                            <li>San Jose, California 95131 </li>
                             <h5>Others</h5>
                             <li>Austin, Texas</li>
                             <li>Seattle, WA</li>
-                            <li>Indianapolis, IN</li>
+                            <li>Fishers, IN</li>
                             <li>Denver, Co.</li>
                         </div>
                     </div>
