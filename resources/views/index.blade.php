@@ -90,7 +90,7 @@
 
     <section id="services">
         <div class="container text-center">
-            <h2 class="title"> Are your customers leaving without making purchases? <br> We help your customers initiate a purchase faster through the Brisebox API.</h2>
+            <h2 class="title">  We help your customers initiate a purchase faster <br> through the Brisebox API.</h2>
             <div class="row text-left">
                 <div class="col-md-4 services">
                     <img src="images/customize.png" alt="picture" class="service-img">
@@ -100,7 +100,7 @@
                 <div class="col-md-4 services">
                     <img src="images/group.png" alt="picture" class="service-img">
                     <h4>Integrate Quickly</h4>
-                    <p>Take advantage of the pre-made Brisebox UI/Button to begin closing purchases faster.</p>
+                    <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox Button to get help with initiating purchases.</p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/purchase.png" alt="picture" class="service-img">
