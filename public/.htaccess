@@ -6,9 +6,8 @@
     RewriteEngine On
 
     # Force SSL
-    #RewriteCond %{HTTP_HOST} ^retailers\.brisebox\.com [NC]
-    #RewriteCond %{SERVER_PORT} 80
-    #RewriteRule ^(.*)$ https://retailers.brisebox.com/$1 [R,L]
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://retailers.brisebox.com/$1 [R,L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
