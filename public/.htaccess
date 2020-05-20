@@ -20,9 +20,7 @@
     RewriteRule ^ index.php [L]
 
     # Force SSL
-    <VirtualHost *:80>
-        ServerName www.retailers.brisebox.com
-        ServerAlias retailers.brisebox.com
-        Redirect permanent / https://retailers.brisebox.com/  <-- this line added
-    </VirtualHost>
+    RewriteCond %{HTTP_HOST} ^retailers\.brisebox\.com [NC]
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://retailers.brisebox.com/$1 [R,L]
 </IfModule>
