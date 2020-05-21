@@ -19,13 +19,13 @@
                                 <a class="nav-link" href="pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="jobs">Careers</a>
+                                <a class="nav-link" href="{{ url('jobs') }}">Careers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact">Contact</a>
+                                <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ url('/login') }}">{{ __('Login') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
