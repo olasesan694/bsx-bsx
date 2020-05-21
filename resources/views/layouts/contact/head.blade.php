@@ -31,7 +31,7 @@
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="{{ url('/') }}"> <img src="/images/logo.png" alt="brisebox logo">BRISEBOX</a> 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="menu.png" alt="responsive menu icon"></span>
+                        <img src="/images/menu.png" alt="responsive menu icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto text-uppercase">
