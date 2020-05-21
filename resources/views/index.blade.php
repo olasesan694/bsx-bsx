@@ -224,8 +224,8 @@
                     <div class="card text-center">
                         <div class="card-header">CUSTOM</div>
                         <div class="card-body">
-                            <li><span class="money">Need More?</span></li>
-                            <li>Contact Us</li>
+                            <li>$<span class="money">80</span>+</li>
+                            <li>Want More?</li>
                             <li>Tell us your specific requirements </li>
                             <li>for tools, features, etc?</li>
                             <li>Talk to us</li>
