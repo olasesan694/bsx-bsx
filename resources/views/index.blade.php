@@ -95,12 +95,12 @@
                 <div class="col-md-4 services">
                     <img src="images/customize.png" alt="picture" class="service-img">
                     <h4>Customize</h4>
-                    <p>Easily customize the Brisebox Button layout to match your brand. You can customize the display of the button to fit your website. </p>
+                    <p>Easily customize the Brisebox UI layout to match your brand. You can customize the display of the UI to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/group.png" alt="picture" class="service-img">
                     <h4>Integrate Quickly</h4>
-                    <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox Button to get help with initiating purchases.</p>
+                    <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/purchase.png" alt="picture" class="service-img">
@@ -224,9 +224,9 @@
                     <div class="card text-center">
                         <div class="card-header">CUSTOM</div>
                         <div class="card-body">
-                            <li>$<span class="money">60</span>/website</li>
-                            <li>Want More?</li>
-                            <li>Tell us your specific requirement </li>
+                            <li><span class="money">Need More?</span></li>
+                            <li>Contact Us</li>
+                            <li>Tell us your specific requirements </li>
                             <li>for tools, features, etc?</li>
                             <li>Talk to us</li>
                         </div>

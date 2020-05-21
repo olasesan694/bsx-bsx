@@ -75,7 +75,7 @@
                         <div class="card-body">
                             <li>$<span class="money">30</span>/website</li>
                             <li>All of free plan</li>
-                            <li>Plus:</li>
+                            <li>In-app assistance</li>
                             <li>Instant feedback</li>
                             <li>Customer Support 24/7</li>
                         </div>
@@ -86,16 +86,16 @@
                 </div>
                 <div class="col-lg-4 col-12">
                     <div class="card text-center">
-                        <div class="card-header">PREMIUM</div>
+                        <div class="card-header">CUSTOM</div>
                         <div class="card-body">
-                            <li>$<span class="money">60</span>/website</li>
-                            <li>All of free plan</li>
-                            <li>Customer Support 24/7</li>
-                            <li>In-app assistance</li>
-                            <li>Live insights</li>
+                            <li><span class="money">Need More?</span></li>
+                            <li>Contact Us</li>
+                            <li>Tell us your specific requirements </li>
+                            <li>for tools, features, etc?</li>
+                            <li>Talk to us</li>
                         </div>
                         <div class="card-footer">
-                            <a href="dashboard">Purchase</a>
+                            <a href="contact">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -106,17 +106,16 @@
 
     <section id="services">
         <div class="container text-center">
-            <!-- <h2 class="title">Frequently asked Questions.</h2> -->
             <div class="row text-left">
                 <div class="col-md-4 services">
                     <img src="images/customize.png" alt="picture" class="service-img">
                     <h4>Customize</h4>
-                    <p>Easily customize the Brisebox Button layout to match your brand. You can customize the display of the button to fit your website. </p>
+                    <p>Easily customize the Brisebox UI layout to match your brand. You can customize the display of the UI to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/group.png" alt="picture" class="service-img">
                     <h4>Integrate Quickly</h4>
-                    <p>Take advantage of the pre-made Brisebox UI/Button to begin closing purchases faster.</p>
+                    <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
                 </div>
                 <div class="col-md-4 services">
                     <img src="images/purchase.png" alt="picture" class="service-img">
@@ -133,12 +132,12 @@
         
             <button class="accordion">Are there any additional fees (or fine print) that I should know about?</button>
             <div class="panel">
-              <p>We will only issue invoices, and VAT is included in the price if it applies to you. You can edit your invoice information and provide your company information in the billing section.</p>
+              <p>We will only issue invoices, and VAT is included in the price if it applies to you. You can view your invoice information in your dashboard.</p>
             </div>
             
-            <button class="accordion">What information do you store about the users?</button>
+            <button class="accordion">What information do you store about the users after the Brisebox API integration?</button>
             <div class="panel">
-              <p>Brisebox takes data security very seriously. We only collect your users email, phone. These will be used to verified and connect each user.</p>
+              <p>Brisebox takes data security very seriously. We only collect the user's login information to verified and connect each user.</p>
             </div>
             
             <button class="accordion">Do you issue invoices? Is VAT included?</button>
@@ -158,8 +157,6 @@
         <div class="container">
             <div class="row offset-1">
                 <div class="col-md-4 footer-box">
-                    <!-- <p>A fun way to text, video communicate, and plan things all in the workplace. Fun way to text, video communicate, and plan things all in the workplace.</p>
-                    <p class="user-details"><b>Angelina</b> <br> Executive Director, ESsense</p> -->
                     <p> <b>Account</b> </p>
                     <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
                     <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
