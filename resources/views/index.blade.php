@@ -93,17 +93,17 @@
             <h2 class="title">  We help your customers initiate a purchase faster <br> through the Brisebox API.</h2>
             <div class="row text-left">
                 <div class="col-md-4 services">
-                    <img src="images/customize.png" alt="picture" class="service-img">
+                    <img src="images/doc.png" alt="picture" class="service-img">
                     <h4>Customize</h4>
                     <p>Easily customize the Brisebox UI layout to match your brand. You can customize the display of the UI to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
-                    <img src="images/group.png" alt="picture" class="service-img">
+                    <img src="images/gear.png" alt="picture" class="service-img">
                     <h4>Integrate Quickly</h4>
                     <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
                 </div>
                 <div class="col-md-4 services">
-                    <img src="images/purchase.png" alt="picture" class="service-img">
+                    <img src="images/cart.png" alt="picture" class="service-img">
                     <h4>Customers Initiate Purchases Faster</h4>
                     <p>The Brisebox API functionality helps engage your customers until they are ready to make their purchase.</p>
                 </div>

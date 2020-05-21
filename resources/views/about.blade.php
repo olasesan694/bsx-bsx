@@ -47,7 +47,7 @@
     <section id="detailsdiv" class="details">
         <div class="container headings text-center">
             <h1 class="text-center font-weight-bold">
-                who we are.
+                Who we are.
             </h1>
         </div>
         <div class="container">
