@@ -382,7 +382,6 @@ p {
 }
 
 #services h2 {
-  color: #a599dd;
   /* color: #f8ada8; */
   color: orangered;
 }
@@ -390,14 +389,14 @@ p {
 .services h4 {
   padding: 5px;
   margin-top: 25px;
-  color: #a599dd;
   /* color: #f8ada8; */
   color: orange;
   /* text-transform: uppercase; */
 }
 
 .services p {
-  color: #a7a7a7;
+  color: #282639;
+  font-size: 16px;
 }
 
 /* .title:before {
