@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Try the Brisebox Sample in Action and Get Started in Minutes. <br> Create your Account.</div>
+                <div class="card-header">Try the Brisebox Sample in Action. <br> Create your Account.</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -92,8 +92,17 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary btn-register">
-                                    {{ __('Register') }}
+                                    TRY SAMPLE
                                 </button>
+                                Have an Account?
+                                    <a class="" href="login">
+                                        LOGIN 
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <p style="color:#ccc">By creating an account you agree to our <a href="privacy">Terms & Privacy</a>.</p>
                             </div>
                         </div>
                     </form>
@@ -102,4 +111,58 @@
         </div>
     </div>
 </div>
+<section id="faq" class="faq">
+    <div class="container text-center">
+        <h2>Join the Talk.</h2>
+    
+        <button class="accordion">Are there any additional fees (or fine print) that I should know about?</button>
+        <div class="panel">
+          <p>We will only issue invoices, and VAT is included in the price if it applies to you. You can view your invoice information in your dashboard.</p>
+        </div>
+        
+        <button class="accordion">What information do you store about the users after the Brisebox API integration?</button>
+        <div class="panel">
+          <p>Brisebox takes data security very seriously. We only collect the user's login information to verified and connect each user.</p>
+        </div>
+        
+        <button class="accordion">Do you issue invoices? Is VAT included?</button>
+        <div class="panel">
+          <p>Yes, we do. Please refer to Q1 for more.</p>
+        </div>
+    
+    <h6>Have more questions? Join the Q&A, <a href="{{ url('/contact') }}" target="_blank" rel="noopener noreferrer">Talk with us</a></h6>
+    
+    </div>
+</section>
+
+
+
+
+<section id="footer">
+    <div class="container">
+        <div class="row offset-1">
+            <div class="col-md-4 footer-box">
+                <p> <b>Account</b> </p>
+                <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
+                <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
+                <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Sign In</p>
+                <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Support</p>
+            </div>
+            <div class="col-md-4 footer-box">
+                <p> <b>Resources</b> </p>
+                <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Documentation</p>
+                <p> <i class="fa fa-phone" aria-hidden="true"></i>API</p>
+                <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Sales</p>
+                <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
+            </div>
+            <div class="col-md-4 footer-box">
+                <p> <b>NYC, United States 10013</b> </p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+        <p class="copyright"> &copy; brisebox 2020 </p>
+    </div>
+</section>
 @endsection

@@ -91,8 +91,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="site-branding">
                     <!--<h1 class="site-title"><a href="#home" rel="home">Lucky.</a></h1> change 1-->
                 <a id="logo-path-link" href="{{ url('/') }}" target="_blank"> 
-                        <img id="logo-path" src="/images/logo.png" class="img-responsive center-block" style="max-height: 50px; padding-top: 10px;"> 
-                    </a> <!--change3-->
+                        <img id="logo-path" src="/images/logo.png" class="img-responsive center-block" style="width:50px; height:50px;"> 
+                    </a>
                 </div><!-- .site-branding -->
               </div><!-- .col-sm-3 -->
 

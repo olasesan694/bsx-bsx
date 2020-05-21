@@ -78,7 +78,7 @@
                 </h1>
                 <p> Get help with closing online purchases faster.</p>
                 <div class="header-buttons">
-                    <a href="dashboard">Try it</a>
+                    <a href="register">Try it</a>
                     <a href="contact">Help with Integration</a>
                 </div>
                 <script src="/js/header.js"></script>

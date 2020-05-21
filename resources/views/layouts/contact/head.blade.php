@@ -29,7 +29,7 @@
         <div id="app">
             <section id="nav-bar">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="{{ url('/') }}"> <img src="/images/logo.png" alt="brisebox logo">BRISEBOX</a> 
+                    <a class="navbar-brand" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo" style="width:50px; height:50px;">BRISEBOX</a> 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <img src="/images/menu.png" alt="responsive menu icon"></span>
                     </button>

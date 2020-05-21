@@ -519,12 +519,12 @@ p {
 }
 
 .accordion {
-  background-color: whitesmoke;
+  background-color: white;
   color: #282639;
   cursor: pointer;
   padding: 30px;
   width: 100%;
-  border: 1px solid #282639;
+  border: 1px solid whitesmoke;
   text-align: left;
   outline: none;
   font-size: 20px;
@@ -534,7 +534,7 @@ p {
 
 .active,
 .accordion:hover {
-  background-color: #ccc;
+  background-color: whitesmoke;
 }
 
 .panel {

@@ -24,7 +24,7 @@
                             <a class="nav-link" href="contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sign In -></a>
+                            <a class="nav-link" href="login">Sign In -></a>
                         </li>
                     </ul>
                 </div>
@@ -106,7 +106,7 @@
     <section id="values" class="values">
         <div class="container text-center">
             <h3>Core Values</h3>
-            <p>Fueled by a fundamental belief that having access to enagement services creates opportunity, Brisebox (NASDAQ: BSX) is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. Our open digital Brisebox Button gives Brisebox’s 277 million active account holders the confidence to connect and transact in new and powerful ways, whether they are online, on a mobile device, in an app, or in person. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while online shopping on ecommerce stores. Available in a few markets, Brisebox enables consumers and merchants to experience better online shopping. For more information on Brisebox, visit <a href="https://www.brisebox.com/about">https://www.brisebox.com/about</a>. For Brisebox enagement information, visit <a href="https://investor.brisebox.com">https://investor.brisebox.com</a>.</p>
+            <p>We are fueled by a fundamental belief that having access to enagement services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. Our open digital Brisebox Button gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways, whether they are online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while online shopping on ecommerce stores. Available in a few markets, Brisebox enables consumers and merchants to achieve better online shopping. For more information on Brisebox, visit <a href="https://www.brisebox.com/contact">https://www.brisebox.com/contact</a>.
         </div>
     </section>
 
@@ -114,8 +114,6 @@
         <div class="container">
             <div class="row offset-1">
                 <div class="col-md-4 footer-box">
-                    <!-- <p>A fun way to text, video communicate, and plan things all in the workplace. Fun way to text, video communicate, and plan things all in the workplace.</p>
-                    <p class="user-details"><b>Angelina</b> <br> Executive Director, ESsense</p> -->
                     <p> <b>Account</b> </p>
                     <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
                     <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
