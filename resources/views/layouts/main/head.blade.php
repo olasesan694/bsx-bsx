@@ -7,7 +7,14 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>brisebox - Software for Closing Online Purchases Faster</title>
+        <title>brisebox - Software for Faster Sales on Any Online Platform</title>
+
+        {{-- <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/> --}}
+        <meta name="description" content="If you are wondering how to sell faster on any online platform, from Ebay to Etsy, Brisebox is for you."/>
+        <meta property="og:title" content="Brisebox is hiring! Apply now."/>
+        <meta property="og:url" content="https://retailers.brisebox.com"/>
+        <meta property="og:description" content="Sell faster on any online platform like Ebay, or Etsy using Brisebox."/>
+        <meta property="og:type" content="website"/>
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>

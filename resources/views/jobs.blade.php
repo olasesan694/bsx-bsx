@@ -91,7 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="site-branding">
                     <!--<h1 class="site-title"><a href="#home" rel="home">Lucky.</a></h1> change 1-->
                 <a id="logo-path-link" href="{{ url('/') }}" target="_blank"> 
-                        <img id="logo-path" src="/images/logo.png" class="img-responsive center-block" style="width:50px; height:50px;"> 
+                        <img id="logo-path" src="/images/logo.png" alt="brisebox logo" class="img-responsive center-block" style="width:50px; height:50px;"> 
                     </a>
                 </div><!-- .site-branding -->
               </div><!-- .col-sm-3 -->
@@ -312,7 +312,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Scraping Developer (PHP)</h6></a>
-                <h6>New York, Remote</h6>
+                <h6>California, Remote</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -396,7 +396,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Product Manager</h6></a>
-                <h6>New York</h6>
+                <h6>Sunnyvale, CA</h6>
                 <span class="fade-06">
                   
                     Full time

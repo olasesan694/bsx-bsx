@@ -36,7 +36,7 @@
                 <h1 class="font-weight-bold">
                     Brisebox is pioneering engagement on e-commerce platforms. 
                 </h1>
-                <p> We help online business close purchases faster using our Brisebox API.</p>
+                <p> We help online businesses close purchases faster using our Brisebox API.</p>
                 <div class="header-buttons">
                     <a href="contact">Get in Touch</a>
                 </div>
@@ -76,7 +76,7 @@
                         <div class="card-header">Offices</div>
                         <div class="card-body">
                             <h5>Corporate offices</h5>
-                            <li>San Jose, California 95131 </li>
+                            <li>Sunnyvale, California 94043 </li>
                             <h5>Others</h5>
                             <li>Austin, Texas</li>
                             <li>Seattle, WA</li>
@@ -106,7 +106,7 @@
     <section id="values" class="values">
         <div class="container text-center">
             <h3>Core Values</h3>
-            <p>We are fueled by a fundamental belief that having access to enagement services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. Our open digital Brisebox Button gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways, whether they are online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while online shopping on ecommerce stores. Available in a few markets, Brisebox enables consumers and merchants to achieve better online shopping. For more information on Brisebox, visit <a href="https://www.brisebox.com/contact">https://www.brisebox.com/contact</a>.
+            <p>We are fueled by a fundamental belief that having access to enagement services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. Our open digital Brisebox Button gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways, whether they are online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while online shopping on ecommerce stores. Available in a few markets, Brisebox enables consumers and merchants to achieve better online shopping. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
         </div>
     </section>
 
@@ -128,7 +128,8 @@
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p> <b>NYC, United States 10013</b> </p>
+                    <p> <b>Sunnyvale, California 94043</b> </p>
+                    <p> <a href="about">About Brisebox</a> </p>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-linkedin"></a>

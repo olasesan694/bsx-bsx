@@ -108,17 +108,17 @@
         <div class="container text-center">
             <div class="row text-left">
                 <div class="col-md-4 services">
-                    <img src="images/customize.png" alt="picture" class="service-img">
+                    <img src="images/customize.png" alt="customize" class="service-img">
                     <h4>Customize</h4>
                     <p>Easily customize the Brisebox UI layout to match your brand. You can customize the display of the UI to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
-                    <img src="images/group.png" alt="picture" class="service-img">
+                    <img src="images/group.png" alt="integrate quickly" class="service-img">
                     <h4>Integrate Quickly</h4>
                     <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
                 </div>
                 <div class="col-md-4 services">
-                    <img src="images/purchase.png" alt="picture" class="service-img">
+                    <img src="images/purchase.png" alt="customers initiate purchases faster" class="service-img">
                     <h4>Customers Initiate Purchases Faster</h4>
                     <p>The Brisebox API functionality helps engage your customers until they are ready to make their purchase.</p>
                 </div>
@@ -171,7 +171,8 @@
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p> <b>NYC, United States 10013</b> </p>
+                    <p> <b>Sunnyvale, California 94043</b> </p>
+                    <p> <a href="about">About Brisebox</a> </p>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-linkedin"></a>
