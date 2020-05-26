@@ -733,6 +733,11 @@ hr {
         padding: 5px 8px;
         margin-right: 10px;
     }
+
+    .sample img {
+        width: 100%;
+        padding: 20px;
+    }
 }
 
 
@@ -784,6 +789,7 @@ hr {
 
     #services {
         margin-top: 0;
+        height: 200vh;
     }
     
     #about {
@@ -794,8 +800,17 @@ hr {
 
     #sample {
         margin-top: 500px;
+        height: 160vh;
     }
 
+    .sample img {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #pricingdiv {
+        height: 250vh;
+    }
 
     .pricing, .happyclients, .contactus {
         height: auto;

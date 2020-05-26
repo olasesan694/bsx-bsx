@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section id="sample">
+    <section id="sample" class="sample">
         {{-- <div id="demo"> --}}
             <h3 class="text-center">Get started to try the Brisebox Sample Button</h3>
         {{-- </div> --}}
