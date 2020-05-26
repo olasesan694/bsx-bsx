@@ -33,13 +33,17 @@
             color: pink;
         }
 
+        .card-header p {
+            font-size: 13px;
+        }
+
         .btn-register {
             width: 150px;
         }
 
         /* -------------------- FAQ ----------------------- */
 .faq {
-    height: 70vh;
+    height: 100vh;
 }
 
 .faq h2{

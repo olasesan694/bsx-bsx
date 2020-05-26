@@ -6,7 +6,7 @@
             <div class="container text-uppercase p-2">
                 <a class="navbar-brand font-weight-bold text-white" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">{{ config('app.name', 'brisebox') }}</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">--</span>
+                    <span class="navbar-toggler-icon">-- <br> --</span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -74,7 +74,7 @@
         <section class="header-section">
             <div class="center-div">
                 <h1 class="font-weight-bold">
-                    Use Brisebox for <span class="txt-type" data-wait="1500" data-words='["your e-commerce store.", "your customers."]'></span> 
+                    Use Brisebox for <span class="txt-type" data-wait="1500" data-words='["your e-commerce website.", "your customers."]'></span> 
                 </h1>
                 <p> Get help with closing online purchases faster.</p>
                 <div class="header-buttons">

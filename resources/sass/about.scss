@@ -650,6 +650,25 @@ hr {
 /* -------------------- REsponsiveness ----------------------- */
 
 @media only screen and (max-width:990px) {
+
+    .header-section h1 {
+        font-size: 20px;
+    }
+
+    .details, .happyclients, .contactus {
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .card-second {
+        transform: translate(0px);
+        margin: 30px 0;
+    }
+
+    .contactus p {
+        padding: 0 50px;
+    }
+    
     .wave-img {
         display: none;
     }

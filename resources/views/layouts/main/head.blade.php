@@ -7,13 +7,13 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>brisebox - Software for Faster Sales on Any Online Platform</title>
+        <title>Brisebox Software: more shoppers, more purchases.</title>
 
         {{-- <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/> --}}
-        <meta name="description" content="If you are wondering how to sell faster on any online platform, from Ebay to Etsy, Brisebox is for you."/>
+        <meta name="description" content="Use the Brisebox Software for more shoppers, and more purchases. Brisebox is for your e-commerce website, and your customers."/>
         <meta property="og:title" content="Brisebox is hiring! Apply now."/>
         <meta property="og:url" content="https://retailers.brisebox.com"/>
-        <meta property="og:description" content="Sell faster on any online platform like Ebay, or Etsy using Brisebox."/>
+        <meta property="og:description" content="Use Brisebox to get more shoppers, and more purchases. Brisebox is for your e-commerce website, and your customers."/>
         <meta property="og:type" content="website"/>
 
         <!-- Scripts -->

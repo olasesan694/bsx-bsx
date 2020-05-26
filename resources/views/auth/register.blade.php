@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Try the Brisebox Sample in Action. <br> Create your Account.</div>
+                <div class="card-header">Try the Brisebox Sample in Action. <p> Create your Account. </p> </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -114,22 +114,22 @@
 <section id="faq" class="faq">
     <div class="container text-center">
         <h2>Join the Talk.</h2>
-    
-        <button class="accordion">Are there any additional fees (or fine print) that I should know about?</button>
+
+        <button class="accordion">WHAT ABOUT SUPPORT?</button>
         <div class="panel">
-          <p>We will only issue invoices, and VAT is included in the price if it applies to you. You can view your invoice information in your dashboard.</p>
-        </div>
-        
-        <button class="accordion">What information do you store about the users after the Brisebox API integration?</button>
-        <div class="panel">
-          <p>Brisebox takes data security very seriously. We only collect the user's login information to verified and connect each user.</p>
-        </div>
-        
-        <button class="accordion">Do you issue invoices? Is VAT included?</button>
-        <div class="panel">
-          <p>Yes, we do. Please refer to Q1 for more.</p>
+          <p>Your Free Plan, as well as all our Paid Plans, includes a personal onboarding assistant, available via the chat. Feel free to ask all your questions in the chat and be sure we’ll do our best to provide you with an outstanding support.</p>
         </div>
     
+        <button class="accordion">WHAT IF I WANT TO TRY A CUSTOM PLAN FOR MORE TEAM MEMBERS?</button>
+        <div class="panel">
+          <p>Just register your Free Plan account and chat with us from your Brisebox account explaining what custom plan you want to try. We’ll ask you just a few questions and will set up your Free Plan account according to your requirements.</p>
+        </div>
+        
+        <button class="accordion">DO I NEED TO ENTER MY CREDIT CARD DATA DURING THE TRIAL PERIOD?</button>
+        <div class="panel">
+          <p>You do not have to enter your card information if you do not want to. The Free Plan period does not require a credit card. You should enter your billing information only when you decide to subscribe to a Paid Plan.</p>
+        </div>
+        
     <h6>Have more questions? Join the Q&A, <a href="{{ url('/contact') }}" target="_blank" rel="noopener noreferrer">Talk with us</a></h6>
     
     </div>

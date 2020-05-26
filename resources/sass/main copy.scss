@@ -23,15 +23,15 @@ p {
 
 .header {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     /* background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('shoes.jpg'); */
-    /* background-image: linear-gradient(#16c9f6, #16c9f6); */
-    background-color: whitesmoke;
+    // background-image: linear-gradient(#16c9f6, #16c9f6);
+    background-image: linear-gradient(#282639, #282639);
     /* background-image: linear-gradient(whitesmoke, whitesmoke); */
     /* background-image: linear-gradient(orangered, orangered), url('shoes.jpg'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0); */
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
     position: relative;
 }
 
@@ -46,10 +46,6 @@ p {
     z-index: -1;
     /* background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%); */
     /* background: linear-gradient(to right, #ffffff 9 0%, #ffffff 0%, #ffffff 100%); */
-}
-
-.navbar-brand {
-    color: #1e292c;
 }
 
 .navbar-brand img {
@@ -71,18 +67,29 @@ p {
 }
 
 .nav-item a {
-    color: #1e292c !important;
+    color: #ffffff !important;
     font-weight: bold;
 }
 
 .header-section {
     width: 100%;
     height: inherit;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     position: relative;
 }
 
+.txt-type {
+    /* color: rgb(248, 136, 136); */
+    /* color: rgb(255, 140, 175); */
+    // color: #f7d16c;
+    color: rgb(255, 82, 19);
+}
+
+/* cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
 
 .center-div {
     width: 100%;
@@ -120,7 +127,6 @@ p {
 .center-div p {
     font-size: 1.3rem;
     padding: 10px 0 20px 0;
-    color: #1e292c;
 }
 
 .first-h2 {
@@ -337,18 +343,21 @@ p {
 
 
 
-/* -----values section ----- */
+/* -----services section ----- */
 
-#values {
+#services {
     /* padding: 210px 0; */
-    padding: 150px 0 100px 0;
+    padding: 150px 0 0 0;
+    height: 120vh;
+    background-color: #ffffff;
+    
 }
 
-#values .container .row {
+#services .container .row {
     padding: 100px; 
 }
 
-/* #values .container .row img {
+/* #services .container .row img {
     width: 60px;
 } */
 
@@ -357,27 +366,71 @@ p {
     margin-top: 20px;
 }
 
-.values {
+.services {
     padding: 20px;
 }
 
-#values h2 {
-    color: #fc687e;
+#services h2 {
+    // color: rgb(165, 153, 221);
+    /* color: #f8ada8; */
+    // color: orangered;
+    // color: #50d1c0;
+    color: #000000;
+    // color: #41b592;
 }
 
-.values h3 {
+.services h4 {
     padding: 5px;
     margin-top: 25px;
+    // color: rgb(165, 153, 221);
+    /* color: #f8ada8; */
+    // color: orange;
     color: #50d1c0;
+    // color: #000000;
+    // color: #41b592;
+    /* text-transform: uppercase; */
 }
 
-.values p {
-    color: rgb(37, 37, 37);
+.services p {
+    // color: rgb(167, 167, 167);
+    color: #282639;
+    font-size: 16px;
 }
 
+/* .title:before {
+    content: '';
+    background-image: linear-gradient(to right,#f8ada8, #f8cfa8);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(98px);
+}
 
+.title:after {
+    content: '';
+    background-image: linear-gradient(to right,#f8ada8, #f8cfa8);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+} */
 
-#values .btn-primary {
+/* #services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #fa710e, #c55709); 
+    background: #fa710e; 
+    color: white;
+} */
+
+#services .btn-primary {
     border-radius: 5px;
     background-color: #000;
     border: none;
@@ -394,28 +447,154 @@ p {
 
 
 
+/* -------------------- ABOUT ----------------------- */
+.about {
+    height: 120vh;
+    // background-color: whitesmoke;
+}
+
+.about h2{
+    color: rgb(85, 85, 85);
+    padding: 30px;
+}
+
+.left-about {
+    background-color: whitesmoke;
+    border-radius: 1px;
+    height: 80vh;
+    padding: 10%;
+    font-size: 20px;
+}
+
+.right-about {
+    background-color: #41b592;
+    border-radius: 1px;
+    height: 80vh;
+    padding: 10%;
+    font-size: 20px;
+    color: #ffffff
+}
+
+.left-about li {
+    padding: 5%;
+}
+
+.right-about li {
+    padding: 5%;
+}
+/* END ABOUT */
 
 
-/* -------------------- details ----------------------- */
-.details {
+
+
+
+
+
+/* -------------------- SAMPLE ----------------------- */
+
+#sample {
+    // padding: 250px 0 250px 0; 
+    height: 120vh;
+    // padding-top: 100px;
+    /* background-color: rgb(255, 121, 87); */
+    /* background-color: #ffb6c1; */
+    /* background: linear-gradient(160deg, #16c9f6 55%, #ffffff 0%); */
+    /* background-color: #ffdac8; */
+    background-color: #ffffff;
+}
+#sample .btn-primary {
+    border-radius: 5px;
+    background-color: #000;
+    border: none;
+    color: #ffb6c1;
+    text-align: center;
+    font-size: 20px;
+    padding: 7px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+}
+#sample h3 {
+    color: orangered;
+    text-align: center;
+    // padding-top: 100px;
+    // padding: 150px;
+}
+
+
+
+#sample .container {
+    margin-top: 100px;
+}
+
+#sample .newarrival {
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#sample .col-md-7 h4 {
+    color: #000000;
+}
+
+#sample img {
+    height: 400px;
+}
+
+#sample .stars {
+    height: 15px;
+}
+
+#sample .price {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#sample .input {
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+#sample .cart {
+    background: #fe980f;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 20px;
+}
+/* -------------------- END SAMPLE ----------------------- */
+
+
+
+
+
+
+
+/* -------------------- PRICING ----------------------- */
+.pricing {
     width: 100%;
-    height: 50vh;
-    padding: 50px;
+    height: 120vh;
+    // padding: 50px;
     position: relative;
-    background-color: white;
 }
 
-.details h1 {
-    color: #50d1c0;
-    padding: 20px;
+.pricing h1 {
+    padding-top: 20px;
 }
 
-.details p {
+.pricing p {
     padding: 3%;
-    color: #50d1c0;
 }
 
-.details:before {
+.pricing:before {
     content: "";
     position: absolute;
     top: 0%;
@@ -423,7 +602,8 @@ p {
     left: 0;
     right: 0;
     z-index: -1;
-    /* background: linear-gradient(160deg, #16c9f6 55%, #ffffff 0%); */
+    // background: linear-gradient(160deg, #16c9f6 55%, #ffffff 0%);
+    background: linear-gradient((160deg, #50d1c0 55%, #ffffff 0%));
 }
 
 .money {
@@ -473,77 +653,27 @@ p {
 }
 
 .card-footer a:hover {
-    /* color: #ffffff;
+    color: #ffffff;
     background: #50d1c0;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .card:hover {
-    /* transform: translateY(-20px); */
-    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3); */
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .card:hover .card-header, .card:hover .money{
-    /* color: #50d1c0; */
+    color: #50d1c0;
 }
 
 .card-second {
-    /* transform: translateY(-20px); */
+    transform: translateY(-20px);
     /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3); */
 }
-/* -------------------- END details ----------------------- */
+/* -------------------- END PRICING ----------------------- */
 
-
-
-
-
-
-/* -------------------- FAQ ----------------------- */
-.faq {
-    height: 55vh;
-}
-
-.faq h2{
-    color: rgb(85, 85, 85);
-    padding-bottom: 20px;
-}
-
-.faq h6 {
-    color: rgb(141, 141, 141);
-    padding-top: 50px;
-}
-
-.accordion {
-    background-color: whitesmoke;
-    color: #282639;
-    cursor: pointer;
-    padding: 30px;
-    width: 100%;
-    border: 1px solid #282639;
-    text-align: left;
-    outline: none;
-    font-size: 20px;
-    font-weight: 900;
-    transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #ccc; 
-  }
-  
-  .panel {
-    padding: 18px;
-    display: none;
-    background-color: #ffffff;
-    overflow: hidden;
-  }
-
-  .panel p {
-      color: #000000;
-      font-size: 16px;
-  }
-/* END FAQ */
 
 
 
@@ -598,6 +728,7 @@ p {
 
 #footer {
     /* background-color: rgb(187, 187, 187); */
+    // background-color: #16c9f6;
     background-color: #282639;
     color: #fff;
 }
@@ -614,8 +745,9 @@ p {
     text-align: center;
     padding-top: 7px;
     border-radius: 2px;
+    // background-image: linear-gradient(to right, #a517ba, #a517ba);
     background-color: none;
-  }
+}
 
 .footer-box .form-control {
     box-shadow: none !important;
@@ -650,23 +782,22 @@ hr {
 /* -------------------- REsponsiveness ----------------------- */
 
 @media only screen and (max-width:990px) {
-
-    .header-section h1 {
-        font-size: 20px;
+    .header-buttons a {
+        padding: 7px;
+        font-size: 12px;
     }
 
-    .details, .happyclients, .contactus {
-        height: auto;
-        margin-top: 50px;
+    .services h4 {
+        font-size: 14px;
     }
 
-    .card-second {
-        transform: translate(0px);
-        margin: 30px 0;
+    #services h2 {
+        color: #000000;
+        font-size: 16px;
     }
 
-    .contactus p {
-        padding: 0 50px;
+    .services p {
+        font-size: 12px;
     }
     
     .wave-img {
@@ -681,6 +812,31 @@ hr {
 
 
 @media(max-width: 768px) {
+    .services h4 {
+        font-size: 14px;
+    }
+
+    #services h2 {
+        color: #000000;
+        font-size: 16px;
+    }
+
+    .services p {
+        font-size: 12px;
+    }
+
+    #services {
+        margin-top: 0px;
+    }
+    
+    #about {
+        margin-top: 550px;
+    }
+
+    #sample {
+        margin-top: 550px;
+    }
+
     .navbar-toggler {
         background-color: #ffffff;
     }
@@ -694,9 +850,10 @@ hr {
         text-align: center !important;
     }
 
-    .details, .happyclients, .contactus {
+    .pricing, .happyclients, .contactus {
         height: auto;
-        margin-top: 50px;
+        // margin-top: 50px;
+        margin-top: 550px;
     }
 
     .card-second {
@@ -707,4 +864,6 @@ hr {
     .contactus p {
         padding: 0 50px;
     }
+    
+    
 }

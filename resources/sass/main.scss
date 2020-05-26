@@ -7,11 +7,14 @@
     font-family: 'Poppins', sans-serif; /* google font */ 
 }
 
-a {text-decoration: none;}
 
-a:hover {text-decoration: none;}
+// h1 {font-size: 32px !important;}
 
-li {list-style: none;}
+// h2 {font-size: 26px !important;}
+
+// h4 {font-size: 20px !important;}
+
+// p {font-size: 16px !important;}
 
 p {
     font-size: 0.9rem;
@@ -21,14 +24,18 @@ p {
     color: #ffffff;
 }
 
+a {text-decoration: none;}
+
+a:hover {text-decoration: none;}
+
+li {list-style: none;}
+
+
+
 .header {
     width: 100%;
     height: 100vh;
-    /* background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('shoes.jpg'); */
-    // background-image: linear-gradient(#16c9f6, #16c9f6);
     background-image: linear-gradient(#282639, #282639);
-    /* background-image: linear-gradient(whitesmoke, whitesmoke); */
-    /* background-image: linear-gradient(orangered, orangered), url('shoes.jpg'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
@@ -44,8 +51,6 @@ p {
     right: 0;
     opacity: .3;
     z-index: -1;
-    /* background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%); */
-    /* background: linear-gradient(to right, #ffffff 9 0%, #ffffff 0%, #ffffff 100%); */
 }
 
 .navbar-brand img {
@@ -62,8 +67,6 @@ p {
     right: 0;
     opacity: .3;
     z-index: -1;
-    /* background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%); */
-    /* background: linear-gradient(to right, #16c9f6 0%, #16c9f6 0%, #16c9f6 100%); */
 }
 
 .nav-item a {
@@ -80,9 +83,6 @@ p {
 }
 
 .txt-type {
-    /* color: rgb(248, 136, 136); */
-    /* color: rgb(255, 140, 175); */
-    // color: #f7d16c;
     color: rgb(255, 82, 19);
 }
 
@@ -128,14 +128,6 @@ p {
     font-size: 1.3rem;
     padding: 10px 0 20px 0;
 }
-
-.first-h2 {
-    /* color: rgb(165, 153, 221); */
-    color: #41b592;
-}
-
-
-
 
 
 
@@ -246,48 +238,6 @@ p {
 }
 
 
-
-/* .wave-img {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url(wave.png);
-    background-size: 1000px 100px;
-}
-
-.wave-img.wave1 {
-    animation: animate 30s linear infinite;
-    z-index: 1000;
-    opacity: 1;
-    animation-delay: 0s;
-    bottom: 0;
-}
-
-.wave-img.wave2 {
-    animation: animate2 15s linear infinite;
-    z-index: 999;
-    opacity: 0.5;
-    animation-delay: -5s;
-    bottom: 10px;
-}
-
-.wave-img.wave3 {
-    animation: animate 30s linear infinite;
-    z-index: 998;
-    opacity: 0.2;
-    animation-delay: -2s;
-    bottom: 15;
-}
-
-.wave-img.wave4 {
-    animation: animate2 15s linear infinite;
-    z-index: 997;
-    opacity: 0.7;
-    animation-delay: -5s;
-    bottom: 20px;
-} */
-
 @keyframes animate {
     0% {
         background-position-x: 0;
@@ -346,7 +296,6 @@ p {
 /* -----services section ----- */
 
 #services {
-    /* padding: 210px 0; */
     padding: 150px 0 0 0;
     height: 120vh;
     background-color: #ffffff;
@@ -371,64 +320,19 @@ p {
 }
 
 #services h2 {
-    // color: rgb(165, 153, 221);
-    /* color: #f8ada8; */
-    // color: orangered;
-    // color: #50d1c0;
     color: #000000;
-    // color: #41b592;
 }
 
 .services h4 {
     padding: 5px;
     margin-top: 25px;
-    // color: rgb(165, 153, 221);
-    /* color: #f8ada8; */
-    // color: orange;
     color: #50d1c0;
-    // color: #000000;
-    // color: #41b592;
-    /* text-transform: uppercase; */
 }
 
 .services p {
-    // color: rgb(167, 167, 167);
     color: #282639;
     font-size: 16px;
 }
-
-/* .title:before {
-    content: '';
-    background-image: linear-gradient(to right,#f8ada8, #f8cfa8);
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(98px);
-}
-
-.title:after {
-    content: '';
-    background-image: linear-gradient(to right,#f8ada8, #f8cfa8);
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-} */
-
-/* #services .btn-primary {
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #fa710e, #c55709); 
-    background: #fa710e; 
-    color: white;
-} */
 
 #services .btn-primary {
     border-radius: 5px;
@@ -448,9 +352,12 @@ p {
 
 
 /* -------------------- ABOUT ----------------------- */
+#about {
+    padding-top: 0;
+} 
+
 .about {
     height: 120vh;
-    // background-color: whitesmoke;
 }
 
 .about h2{
@@ -493,13 +400,7 @@ p {
 /* -------------------- SAMPLE ----------------------- */
 
 #sample {
-    // padding: 250px 0 250px 0; 
     height: 120vh;
-    // padding-top: 100px;
-    /* background-color: rgb(255, 121, 87); */
-    /* background-color: #ffb6c1; */
-    /* background: linear-gradient(160deg, #16c9f6 55%, #ffffff 0%); */
-    /* background-color: #ffdac8; */
     background-color: #ffffff;
 }
 #sample .btn-primary {
@@ -519,8 +420,6 @@ p {
 #sample h3 {
     color: orangered;
     text-align: center;
-    // padding-top: 100px;
-    // padding: 150px;
 }
 
 
@@ -602,7 +501,6 @@ p {
     left: 0;
     right: 0;
     z-index: -1;
-    // background: linear-gradient(160deg, #16c9f6 55%, #ffffff 0%);
     background: linear-gradient((160deg, #50d1c0 55%, #ffffff 0%));
 }
 
@@ -670,7 +568,6 @@ p {
 
 .card-second {
     transform: translateY(-20px);
-    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3); */
 }
 /* -------------------- END PRICING ----------------------- */
 
@@ -703,14 +600,9 @@ p {
 
 #testimonials a {
     text-decoration: none !important;
-    /* background: #fa710e; */
     border-radius: 20px;
     padding: 10px 20px;
     margin-right: 30px;
-    /* border: 2px solid #fa710e !important;
-    color: #fff; */
-    /* #e3f8a8 */
-    /* background-image: linear-gradient(to right, #e66efc, #eca8f8, #f8ada8, #f8cfa8) !important; */
     background-image: linear-gradient(to right,#f8ada8, #f8cfa8) !important;
     color: white !important;
     border: 1px solid linear-gradient(to right,#f8ada8, #f8cfa8) !important;
@@ -727,8 +619,6 @@ p {
 }
 
 #footer {
-    /* background-color: rgb(187, 187, 187); */
-    // background-color: #16c9f6;
     background-color: #282639;
     color: #fff;
 }
@@ -745,7 +635,6 @@ p {
     text-align: center;
     padding-top: 7px;
     border-radius: 2px;
-    // background-image: linear-gradient(to right, #a517ba, #a517ba);
     background-color: none;
 }
 
@@ -782,6 +671,60 @@ hr {
 /* -------------------- REsponsiveness ----------------------- */
 
 @media only screen and (max-width:990px) {
+    h1 {font-size: 24px;}
+
+    h2 {font-size: 20px;}
+
+    h4 {font-size: 14px;}
+
+    p {font-size: 12px;}
+
+    .navbar-toggler  {
+        background-color: #ffffff;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 10px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .pricing, .happyclients, .contactus {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .card-second {
+        transform: translate(0px);
+        margin: 30px 0;
+    }
+
+    .contactus p {
+        padding: 0 50px;
+    }
+
+    .header-buttons a {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .services h4 {
+        // font-size: 14px;
+    }
+
+    #services h2 {
+        color: #000000;
+        // font-size: 16px;
+    }
+
+    .services p {
+        // font-size: 12px;
+    }
+
+    #about {
+        margin-top: 0;
+    }
+    
     .wave-img {
         display: none;
     }
@@ -794,23 +737,69 @@ hr {
 
 
 @media(max-width: 768px) {
-    .navbar-toggler {
+    h1 {font-size: 26px !important;}
+
+    h2 {font-size: 23px !important;}
+
+    h3 {font-size: 20px !important;}
+
+    h4 {font-size: 14px !important;}
+
+    p {font-size: 12px !important;}
+
+    .left-about li {
+        font-size: 12px;
+    }
+    
+    .right-about li {
+        font-size: 12px;
+    }
+
+    .navbar-toggler  {
         background-color: #ffffff;
     }
 
     .navbar-toggler-icon {
         font-size: 10px;
         text-align: center;
+        color: #ffffff;
     }
 
     .nav-item {
         text-align: center !important;
     }
 
+    .services h4 {
+        font-size: 14px;
+    }
+
+    #services h2 {
+        color: #000000;
+        font-size: 16px;
+    }
+
+    .services p {
+        font-size: 12px;
+    }
+
+    #services {
+        margin-top: 0;
+    }
+    
+    #about {
+        padding-top: 200px;
+        height: 160vh;
+        // padding-top: 100px;
+    }
+
+    #sample {
+        margin-top: 500px;
+    }
+
+
     .pricing, .happyclients, .contactus {
         height: auto;
-        // margin-top: 50px;
-        margin-top: 550px;
+        margin-top: 0px;
     }
 
     .card-second {
@@ -822,15 +811,5 @@ hr {
         padding: 0 50px;
     }
     
-    #services {
-        margin-top: 550px;
-    }
     
-    #about {
-        margin-top: 550px;
-    }
-
-    #sample {
-        margin-top: 550px;
-    }
 }
