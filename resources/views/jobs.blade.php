@@ -191,7 +191,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pe-7s-graph1"></span>
               </div><!-- .service-item-icon -->
               <h4 class="service-item-title">our commitment</h4>
-              <p>Pioneering the way e-commerce data is accessed and used by millions of people requires the best talent, and we’re looking for A-players who can raise the bar and contribute their utmost to this endeavor.</p>
+              <p>Defining the way e-commerce data is accessed and used by millions of people requires the best talent, and we’re looking for A-players who can raise the bar and contribute their utmost to this endeavor.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
         </div><!-- .row -->

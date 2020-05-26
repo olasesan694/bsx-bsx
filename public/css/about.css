@@ -653,6 +653,12 @@ hr {
 
     .header-section h1 {
         font-size: 20px;
+        padding: 10px;
+    }
+
+    .header-section p {
+        font-size: 12px;
+        padding: 10px;
     }
 
     .details, .happyclients, .contactus {
@@ -668,7 +674,7 @@ hr {
     .contactus p {
         padding: 0 50px;
     }
-    
+
     .wave-img {
         display: none;
     }
@@ -681,6 +687,16 @@ hr {
 
 
 @media(max-width: 768px) {
+    .header-section h1 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .header-section p {
+        font-size: 12px;
+        padding: 10px;
+    }
+
     .navbar-toggler {
         background-color: #ffffff;
     }

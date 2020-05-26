@@ -34,7 +34,7 @@
         <section class="header-section">
             <div class="center-div">
                 <h1 class="font-weight-bold">
-                    Brisebox is pioneering engagement on e-commerce platforms. 
+                    Brisebox is defining engagement on e-commerce platforms. 
                 </h1>
                 <p> We help online businesses close purchases faster using our Brisebox API.</p>
                 <div class="header-buttons">
