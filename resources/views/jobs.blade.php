@@ -145,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           
           <div class="col-sm-10 col-sm-push-1">
             <h4 class="text-grey marg-40-btm">About us</h4>
-            <p>We are Brisebox, a e-commerce API platform for Latam that enables any company or developer to access and interpret their end-users' e-commerce information, through one easy-to-use API.</p>
+            <p>We are Brisebox, an e-commerce API platform that enables any company or developer to access and provide better purchasing experience for their end-users' online shopping, through one easy-to-use API.</p>
           </div><!-- .col-## -->
           
         </div><!-- .row -->
@@ -173,7 +173,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pe-7s-global"></span>
               </div><!-- .service-item-icon -->
               <h4 class="service-item-title">Our vision</h4>
-              <p>Our vision is to power the next generation of e-commerce services in Latam by enabling more inclusive, efficient and empowering offerings through tech and data. Latam is a very exciting and dynamic place to be right now and a great place to build infrastructure for the next generation of e-commerce products for a huge market.</p>
+              <p>Our vision is to power the next generation of e-commerce services across the U.S. by enabling more inclusive, efficient and empowering offerings through tech and data. Cities in this region are a very exciting and dynamic place to be right now and a great place to build infrastructure for the next generation of e-commerce products for a huge market.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
           <div class="col-sm-4">
@@ -182,7 +182,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pe-7s-users"></span>
               </div><!-- .service-item-icon -->
               <h4 class="service-item-title">our team</h4>
-              <p>We’re a highly-technical, passionate and driven team based in New York City and New York that is tackling a very challenging problem. Connecting online retailers innovators with legacy e-commerce infrastructure. We strive to go beyond the limits of what is possible today and to do so in an elegant and developer-first way.</p>
+              <p>We’re a highly-technical, passionate and driven team based in Sunnyvale, CA. (and in your city and remotely) that is tackling a very challenging problem: connecting online retailers innovators with legacy e-commerce infrastructure. We strive to go beyond the limits of what is possible today and to do so in an elegant and developer-first way.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
           <div class="col-sm-4">
@@ -191,7 +191,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pe-7s-graph1"></span>
               </div><!-- .service-item-icon -->
               <h4 class="service-item-title">our commitment</h4>
-              <p>Changing the way e-commerce data is accessed and used by millions of people requires the best talent, and we’re looking for A-players who can raise the bar and contribute their utmost to this endeavor.</p>
+              <p>Pioneering the way e-commerce data is accessed and used by millions of people requires the best talent, and we’re looking for A-players who can raise the bar and contribute their utmost to this endeavor.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
         </div><!-- .row -->

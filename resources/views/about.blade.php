@@ -104,9 +104,10 @@
 
 
     <section id="values" class="values">
-        <div class="container text-center">
+        <div class="container text-left">
             <h3>Core Values</h3>
-            <p>We are fueled by a fundamental belief that having access to enagement services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. Our open digital Brisebox Button gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways, whether they are online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while online shopping on ecommerce stores. Available in a few markets, Brisebox enables consumers and merchants to achieve better online shopping. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
+            <p>Of the 1.3M+ e-commerce businesses across the U.S. looking to grow their online, Brisebox serves futuristic online companies and brings more shoppers and purchases to their platform using the afforable Brisebox Retail Software. We run on the fundamental belief that having access to engaging services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. 
+                <br> <br> Our open digital Brisebox Button gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while shopping on ecommerce stores. Available in a few markets, Brisebox enables businesses to provide better online shopping for customers. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
         </div>
     </section>
 
