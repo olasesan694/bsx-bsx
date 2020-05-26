@@ -1,4 +1,4 @@
-var linkToOpen = 'http://brisebox.com/demo';
+var linkToOpen = 'https://retailers.brisebox.com/demo';
 var linkTitle = 'Demo.';
 var linkWidth = 500;
 var linkHeight = 600;

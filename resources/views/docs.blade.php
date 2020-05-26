@@ -72,7 +72,7 @@
                   &lt;!-- Brisebox Script --&gt;
                   <br>
                   <br>
-                  &lt;script src="cn_bsx_bb_dl.js"&gt;&lt;/script&gt;
+                  &lt;script src="bsx_connect.js"&gt;&lt;/script&gt;
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@
               <div class="well">
                   <p> Cannot download? <a href="contact">Talk to us.</a> </p>
                   <div class="code">
-                    <a href="/js/cn_bsx_bb_dl.js" download="cn_bsx_bb_dl.js"> Download </a>
+                    <a href="/js/bsx_connect.js" download="bsx_connect.js"> Download </a>
                   </div>
               </div>
           </div>

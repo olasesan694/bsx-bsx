@@ -23,6 +23,6 @@ Route::get('/contact', 'ContactController@index')->name('contact');
 Route::get('/dashboard', 'DashboardController@index')->middleware('auth')->name('dashboard');
 Route::get('/pricing', 'PricingController@index')->name('pricing');
 Route::get('/docs', 'DocumentationController@index')->middleware('auth')->name('docs');
-Route::get('/demo', 'DemoController@index')->middleware('auth')->name('demo');
+Route::get('/demo', 'DemoController@index')->name('demo');
 Route::get('/jobs', 'JobsController@index')->name('jobs');
 Route::get('/about', 'AboutController@index')->name('about');
