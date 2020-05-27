@@ -69,6 +69,7 @@
   font-size: 20px;
   font-weight: 900;
   transition: 0.4s;
+  text-transform: uppercase;
   }
   
   .active, .accordion:hover {

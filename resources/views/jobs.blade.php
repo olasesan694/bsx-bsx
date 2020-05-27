@@ -78,7 +78,7 @@
               <div class="service-item-icon">
                 <span class="pe-7s-global"></span>
               </div><!-- .service-item-icon -->
-              <h4 class="service-item-title">Our vision</h4>
+              <h4 class="service-item-title">Our Vision</h4>
               <p>Our vision is to power the next generation of e-commerce services across the U.S. by enabling more inclusive, efficient and empowering offerings through tech and data. Cities in this region are a very exciting and dynamic place to be right now and a great place to build infrastructure for the next generation of e-commerce products for a huge market.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
@@ -87,7 +87,7 @@
               <div class="service-item-icon">
                 <span class="pe-7s-users"></span>
               </div><!-- .service-item-icon -->
-              <h4 class="service-item-title">our team</h4>
+              <h4 class="service-item-title">Our Team</h4>
               <p>We’re a highly-technical, passionate and driven team based in Sunnyvale, CA. (and in your city and remotely) that is tackling a very challenging problem: connecting online retailers innovators with legacy e-commerce infrastructure. We strive to go beyond the limits of what is possible today and to do so in an elegant and developer-first way.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
@@ -96,7 +96,7 @@
               <div class="service-item-icon">
                 <span class="pe-7s-graph1"></span>
               </div><!-- .service-item-icon -->
-              <h4 class="service-item-title">our commitment</h4>
+              <h4 class="service-item-title">Our Commitment</h4>
               <p>Defining the way e-commerce data is accessed and used by millions of people requires the best talent, and we’re looking for A-players who can raise the bar and contribute their utmost to this endeavor.</p>
             </div><!-- .service-item -->
           </div><!-- .col-sm-4 -->
