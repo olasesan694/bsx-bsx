@@ -1,4 +1,4 @@
-var linkToOpen = 'https://connect.brisebox.com/';
+var linkToOpen = 'https://connect.brisebox.com/connect';
 var linkTitle = 'BRISEBOX';
 var linkWidth = 500;
 var linkHeight = 600;
