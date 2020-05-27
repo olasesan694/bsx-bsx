@@ -114,14 +114,14 @@ li {
   line-height: 1.4;
   text-align: center;
   background-color: #ffffff;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 whitesmoke;
 }
 
 .header-buttons a:hover {
   color: #50d1c0;
   background: #ffffff;
   text-decoration: none;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 whitesmoke;
 }
 
 .center-div p {

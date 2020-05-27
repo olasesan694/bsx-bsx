@@ -6,7 +6,7 @@
             <div class="container text-uppercase p-2">
                 <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">Brisebox</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">--</span>
+                    <span class="navbar-toggler-icon"> --- <br> --- </span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -81,7 +81,8 @@
                             <li>Austin, Texas</li>
                             <li>Seattle, WA</li>
                             <li>Fishers, IN</li>
-                            <li>Denver, Co.</li>
+                            <li>Denver, CO</li>
+                            <li>New York City, NY</li>
                         </div>
                     </div>
                 </div>
@@ -106,8 +107,8 @@
     <section id="values" class="values">
         <div class="container text-left">
             <h3>Core Values</h3>
-            <p>Of the 1.3M+ e-commerce businesses across the U.S. looking to grow their online, Brisebox serves futuristic online companies and brings more shoppers and purchases to their platform using the afforable Brisebox Retail Software. We run on the fundamental belief that having access to engaging services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. 
-                <br> <br> Our open digital Brisebox Button gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while shopping on ecommerce stores. Available in a few markets, Brisebox enables businesses to provide better online shopping for customers. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
+            <p>Of the 1.3M+ e-commerce businesses across the U.S. looking to grow online, Brisebox serves futuristic online companies and brings more shoppers and purchases to their platform using the afforable Brisebox Retail Software. We run on the fundamental belief that having access to engaging services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. 
+                <br> <br> Our open digital Brisebox API gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while shopping on ecommerce stores. Available in a few markets, Brisebox enables businesses to provide better online shopping for customers. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
         </div>
     </section>
 

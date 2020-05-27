@@ -1,77 +1,173 @@
-@extends('layouts.jobs.head')
-@section('content')
 
-<div id="topheader"class="header">
-  <nav class="navbar navbar-expand-lg">
-      <div class="container text-uppercase p-2">
-          <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">Brisebox</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">--- <br> --- </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto text-uppercase">
-                  <li class="nav-item">
-                      <a class="nav-link" href="dashboard">Docs & API <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="pricing">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="jobs">Careers</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="login">Sign In -></a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-  <section class="header-section">
-      <div class="center-div">
-          <h1 class="font-weight-bold">
-              Build the future in E-commerce. 
-          </h1>
-          {{-- <p> Close online purchases faster with the Brisebox API.</p>
-          <div class="header-buttons">
-              <a href="contact">Contact Sales</a>
-              <a href="contact">Get Support</a>
-          </div> --}}
-      </div>
-  </section>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-<div id="cookie-consent-banner-container" style="position: fixed;bottom: 0;width:100%;z-index:100000;">
-  <div class="row">
-    <div class="col-sm-8 col-sm-push-2" style="text-align:center;background-color:lightyellow;padding:5px;">
-      <span>This website uses cookies to give you the best experience on our website.</span>&nbsp;&nbsp;<span id="cookie-consent-confirm-btn" style="font-weight:bold;cursor:pointer;color:#4d619a;">Got it!</span>&nbsp;&nbsp;<a href="https://recruiterflow.com/privacy-policy" target="_blank" style="font-weight:bold;"class="link-style">Learn more</a>
+  <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/>
+  <meta name="description" content="Brisebox is hiring! Apply now."/>
+  <meta property="og:title" content="Brisebox is hiring! Apply now."/>
+  <meta property="og:url" content="https://recruiterflow.com/Brisebox/jobs"/>
+  <meta property="og:description" content="Brisebox is hiring!"/>
+  <meta property="og:type" content="website"/>
+
+  <meta name="twitter:title" content="Brisebox is hiring! Apply now."/>
+  <meta name="twitter:description" content="Brisebox is hiring!"/>
+  <meta name="twitter:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/>
+  <meta name="twitter:site" content="@recruiterflow"/>
+  <meta name="twitter:label2" content="Company"/>
+  <meta name="twitter:data2" content="Brisebox"/>
+  <meta name="twitter:label1" content="Location">
+  <meta name="twitter:data" content="">
+
+    <link rel="icon" type="image/png" href="/static/img/favicon.png?v=0.2">
+    <title>Jobs in e-commerce | Brisebox </title>
+
+    <!-- Bootstrap -->
+    <!--<link href="/static/css/manual/careers/bootstrap.min.css?v=0.4" rel="stylesheet">-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:300,500" rel="stylesheet">
+    <link rel="preload" as="style" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="/static/css/manual/careers/owl.carousel.css" rel="stylesheet">
+    <link href="/static/css/manual/careers/owl.theme.css" rel="stylesheet">
+    <link href="/static/css/careers-edit.css?v=0.3" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/manual/careers/style.min.css?v=0.2">
+
+    <link href="{{ asset('css/jobs.css') }}" rel="stylesheet">
+
+
+  <link href="/static/css/selectize.css?v=0.7" rel="stylesheet">
+  <link href="/static/css/manual/careers/careers.css?v=0.3" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/plugins/html5shiv.min.js"></script>
+      <script src="assets/plugins/respond.min.js"></script>
+
+    <![endif]-->
+
+   
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-103230963-1', 'auto');
+  ga('require', 'GTM-WWV4XF4');
+  ga('send', 'pageview');
+
+</script>
+
+
+   
+  </head>
+  <body id="home">
+    
+  
+          <!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M72BJFK');</script>
+<!-- End Google Tag Manager -->
+
+
+    <!-- begin:header -->
+      <!-- begin:site-navigation -->
+      <div class="site-header-affix-wrapper">
+        
+        <header id="masthead" class="site-header" role="banner" style="background-color: white;"> <!--change2-->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="site-branding">
+                    <!--<h1 class="site-title"><a href="#home" rel="home">Lucky.</a></h1> change 1-->
+                <a id="logo-path-link" href="{{ url('/') }}" target="_blank"> 
+                        <img id="logo-path" src="/images/logo.png" alt="brisebox logo" class="img-responsive center-block" style="width:50px; height:50px;"> 
+                    </a>
+                </div><!-- .site-branding -->
+              </div><!-- .col-sm-3 -->
+
+              <div class="col-sm-7 col-xs-12">
+              </div><!-- .col-sm-7 -->
+
+              <div class="col-sm-2 hidden-xs">
+                <div class="navbar-menu nav-cta">
+                  <a style="font-size:13px;font-weight:600;background-color:#d9534f;border-color:#d9534f;" href="jobs/#menu" class="btn btn-danger link-scroll" style="font-weight: 600;" target="_self" id="view-opportunities-btn">View Opportunities</a>
+                </div>
+              </div>
+            </div><!-- .row -->
+          </div><!-- .container -->
+        </header><!-- #masthead -->
+        
+      </div><!-- .site-header-affix-wrapper -->
+      
+    
+    <div id="parallax-window" class="header" data-parallax="scroll" data-image-src="https://s3-eu-central-1.amazonaws.com/com-recruiterflow-static-content-eu/careers-page/prod/db_01633a44e40b6d07f100fb2ce945d0ca/IMG_20200312_162645.jpg" style="max-height: 300px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <div class="header-caption text-center marg-40-top">
+             <!-- <img src="assets/img/restaurant/img-logo-restaurant.png" class="img-responsive center-block" alt="lucky bar restaurant"> change 6 -->
+            <h2 class="caption-subtitle text-secondary-bold marg-40-top" style="font-weight: 600; font-size: 30px; color:white; padding: 20px">build the future in e-commerce.</h2>
+          </div><!-- .header-caption -->
+        </div><!-- .col-sm-5 -->
+      </div><!-- .row -->
+    </div><!-- .container -->
+    <!-- end:header -->
+    
+
     </div>
-  </div>
-</div>
-
-<!-- begin:about -->
-
-<div id="about" class="about block-section padd-60-top padd-20-btm bg-white">
-<div class="container">
-  <div class="row">
+      <!-- end:site-navigation -->
     
-    <div class="col-sm-10 col-sm-push-1">
-      <h4 class="text-grey marg-40-btm">About us</h4>
-      <p>We are Brisebox, a backed startup building e-commerce API platform that enables any company or developer to access and provide better purchasing experience for their end-users' online shopping, through one easy-to-use API.</p>
-    </div><!-- .col-## -->
     
-  </div><!-- .row -->
-</div><!-- .container -->
-</div><!-- #about -->
-<!-- end:about -->
+    <div id="cookie-consent-banner-container" style="position: fixed;bottom: 0;width:100%;z-index:100000;">
+        <div class="row">
+          <div class="col-sm-8 col-sm-push-2" style="text-align:center;background-color:lightyellow;padding:5px;">
+            <span>This website uses cookies to give you the best experience on our website.</span>&nbsp;&nbsp;<span id="cookie-consent-confirm-btn" style="font-weight:bold;cursor:pointer;color:#4d619a;">Got it!</span>&nbsp;&nbsp;<a href="https://recruiterflow.com/privacy-policy" target="_blank" style="font-weight:bold;"class="link-style">Learn more</a>
+          </div>
+        </div>
+    </div>
+    
+    <!-- begin:about -->
+    
+    <div id="about" class="about block-section padd-60-top padd-20-btm bg-white">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-10 col-sm-push-1">
+            <h4 class="text-grey marg-40-btm">About us</h4>
+            <p>We are Brisebox, a backed startup building e-commerce API platform that enables any company or developer to access and provide better purchasing experience for their end-users' online shopping, through one easy-to-use API.</p>
+          </div><!-- .col-## -->
+          
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </div><!-- #about -->
+    <!-- end:about -->
+    
+
     
     <!-- begin:whyus -->
     <div id="whyus" class="whyus content-section bg-green">
       <div class="container">
+        <div class="row">
+          {{-- <div class="col-md-8 col-md-offset-2"> --}}
+          <div class="col-md-8">
+            <div class="section-title">
+              <h2>Join the Brisebox Team!</h2>
+            </div>
+          </div><!-- .col-## -->
+        </div><!-- .row -->
         <div class="row">
           <div class="col-sm-4">
             <div class="service-item service-item-icon-top">
@@ -111,7 +207,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
             <div class="section-title">
-              <h2 style="margin-bottom:10px;">Open Positions:</h2>
+              <h2 style="margin-bottom:10px;">Open positions</h2>
             </div>
             <!--<p class="text-center"></p>-->
           </div><!-- .col-## -->
@@ -134,9 +230,7 @@
                             <option value="New York">Indiana</option>
                           
                             <option value="Remote">Texas</option>
-
-                            <option value="Seattle">Seattle</option>
-                            
+                          
                             <option value="remotefriendly">remotefriendly</option>
                           
                         </select>
@@ -178,7 +272,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">CV</h6></a>
-                <h6>New York City, NY</h6>
+                <h6>New York, New York</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -199,7 +293,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Customer Success Associate (Tech)</h6></a>
-                <h6>Fishers, IN</h6>
+                <h6>New York</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -220,7 +314,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Scraping Developer (PHP)</h6></a>
-                <h6>Sunnyvale, California, Remote</h6>
+                <h6>California, Remote</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -234,7 +328,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Backend Engineer (PHP/APIs)</h6></a>
-                <h6>Austin, TX, Glendale, CA, remotefriendly</h6>
+                <h6>Texas, California, remotefriendly</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -248,7 +342,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Frontend Developer</h6></a>
-                <h6>Fishers, IN </h6>
+                <h6>Indiana</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -269,7 +363,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Finance Associate</h6></a>
-                <h6>Denver, CO</h6>
+                <h6>New York</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -283,7 +377,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Operations Associate</h6></a>
-                <h6>Seattle, WA</h6>
+                <h6>New York</h6>
                 <span class="fade-06">
                   
                     Full time
@@ -334,6 +428,29 @@
       </div><!-- .container -->
     </footer><!-- #colophon -->
     <!-- end:footer -->
-    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="/static/js/manual/careers/navigation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/static/js/manual/careers/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="/static/js/manual/careers/plugins/owl.carousel.min.js"></script>
+    <script src="/static/js/manual/careers/restaurant.min.js"></script>
 
-@endsection
+  
+  <script>
+    if(localStorage.getItem('rf-cookie-consent-received')) {
+        $('#cookie-consent-banner-container').hide();
+    }
+    $('#cookie-consent-confirm-btn').click(function(e) {
+        localStorage.setItem('rf-cookie-consent-received', true);
+        $('#cookie-consent-banner-container').hide();
+    });
+  </script>
+  <script src="/static/js/selectize.min.js?v=0.1"></script>
+  <script src="/static/js/manual/careers/careers.js?v=0.4"></script>
+
+  </body>
+</html>

@@ -6,7 +6,7 @@
             <div class="container text-uppercase p-2">
                 <a class="navbar-brand font-weight-bold text-white" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">{{ config('app.name', 'brisebox') }}</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">-- <br> --</span>
+                    <span class="navbar-toggler-icon">--- <br> ---</span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -90,7 +90,7 @@
 
     <section id="services">
         <div class="container text-center">
-            <h2 class="title">  We help your customers initiate a purchase faster <br> through the Brisebox API.</h2>
+            <h2 class="title">  Help your customers initiate a purchase faster <br> through the Brisebox API.</h2>
             <div class="row text-left">
                 <div class="col-md-4 services">
                     <img src="images/doc.png" alt="customize" class="service-img">
@@ -118,7 +118,7 @@
                 <div class="col-md-6 left-about">
                     <h3>Exposure</h3>
                     <ul>
-                        <li>1. Help invite new guests</li>
+                        <li>1. Help invite new shoppers and guests</li>
                         <li>2. Get you more customer interaction on your platform</li>
                         <li>3. Provide you instant feedback</li>
                         <li>4. Get you live insights </li>
@@ -257,11 +257,11 @@
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p> <b>Sunnyvale, California 94043</b> </p>
+                    <p><b>Sunnyvale, California 94043</b> </p>
                     <p> <a href="about">About Brisebox</a> </p>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>
+                    <a href="https://linkedin.com/company/brisebox" class="fa fa-linkedin"></a>
                 </div>
             </div>
             <p class="copyright"> &copy; brisebox 2020 </p>

@@ -6,7 +6,7 @@
             <div class="container text-uppercase p-2">
                 <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">Brisebox</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">--</span>
+                    <span class="navbar-toggler-icon">--- <br> --- </span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -132,7 +132,7 @@
         
             <button class="accordion">Are there any additional fees (or fine print) that I should know about?</button>
             <div class="panel">
-              <p>We will only issue invoices, and VAT is included in the price if it applies to you. You can view your invoice information in your dashboard.</p>
+              <p>No, there are absolutely no hidden fees and no additional costs. You'll be charged the amount shown on this page, annually or month-to-month, depending on the plan you choose.</p>
             </div>
             
             <button class="accordion">What information do you store about the users after the Brisebox API integration?</button>
@@ -142,7 +142,12 @@
             
             <button class="accordion">Do you issue invoices? Is VAT included?</button>
             <div class="panel">
-              <p>Yes, we do. Please refer to Q1 for more.</p>
+                <p>Yes, we will only issue invoices -- and VAT is included in the price if it applies to you. You can view your invoice information in your dashboard.</p>
+            </div>
+
+            <button class="accordion">WHAT PAYMENT OPTIONS ARE AVAILABLE?</button>
+            <div class="panel">
+                <p>We accept all major payment methods or credit cards. Your options will be available later in your dashboard. Once you subscribe for the annual or month-to-month plan, your card will be automatically charged at the end of each year or month respectively.</p>
             </div>
         
         <h6>Have more questions? Join the Q&A, <a href="{{ url('/contact') }}" target="_blank" rel="noopener noreferrer">Talk with us</a></h6>
