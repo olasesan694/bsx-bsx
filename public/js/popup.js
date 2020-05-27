@@ -1,5 +1,5 @@
 var linkToOpen = 'https://retailers.brisebox.com/demo';
-var linkTitle = 'Demo.';
+var linkTitle = 'Demo: Shop Live with a Friend';
 var linkWidth = 500;
 var linkHeight = 600;
 

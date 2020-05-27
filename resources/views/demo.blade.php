@@ -4,13 +4,13 @@
 
     <div class="container">
       <div class="content">
-        <h5> ** This is an example of what your customers will see when they click the BRISEBOX BUTTON that will be displayed on your website. **</h5>
+        <h6> ** This is an example of what your customers will see when they click the BRISEBOX BUTTON that will be displayed on your website. **</h6>
         <div class="company-brand">
           <p id="uppercase-brand"></p>
-          COMPANY BRAND
+          COMPANY-BRAND
         </div>
-        <h4> Shop live with "Morgan" in "Company-Name". </h2>
-        <p><img src="navydress.jpeg" class="feature-img" alt="" style="width:50%;"></p> 
+        <h6> Shop live with User-Name in Company-Name. </h6>
+        <p><img src="images/navydress.jpeg" class="feature-img" alt="navy" style="width:50%;"></p> 
         <p>Navy Blue Long Paperbag T. Dress.
         </p>
         <p>$98.99</p>
