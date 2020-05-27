@@ -44,14 +44,6 @@
       </div>
   </section>
 </div>
-    
-<div id="cookie-consent-banner-container" style="position: fixed;bottom: 0;width:100%;z-index:100000;">
-  <div class="row">
-    <div class="col-sm-8 col-sm-push-2" style="text-align:center;background-color:lightyellow;padding:5px;">
-      <span>This website uses cookies to give you the best experience on our website.</span>&nbsp;&nbsp;<span id="cookie-consent-confirm-btn" style="font-weight:bold;cursor:pointer;color:#4d619a;">Got it!</span>&nbsp;&nbsp;<a href="https://recruiterflow.com/privacy-policy" target="_blank" style="font-weight:bold;"class="link-style">Learn more</a>
-    </div>
-  </div>
-</div>
 
 <!-- begin:about -->
 
