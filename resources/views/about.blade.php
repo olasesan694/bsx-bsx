@@ -3,8 +3,8 @@
 @section('content')
     <div id="topheader"class="header">
         <nav class="navbar navbar-expand-lg">
-            <div class="container text-uppercase p-2">
-                <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">Brisebox</a>
+            <div class="container p-2">
+                <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">brisebox</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"> --- <br> --- </span>
                 </button>
@@ -34,9 +34,9 @@
         <section class="header-section">
             <div class="center-div">
                 <h1 class="font-weight-bold">
-                    Brisebox is defining engagement on e-commerce platforms. 
+                    More Shoppers. More Purchases. 
                 </h1>
-                <p> We help online businesses close purchases faster using our Brisebox API.</p>
+                <p> Brisebox serves futuristic online companies using our API.</p>
                 <div class="header-buttons">
                     <a href="contact">Get in Touch</a>
                 </div>
@@ -79,7 +79,6 @@
                             <li>Sunnyvale, California 94043 </li>
                             <h5>Others</h5>
                             <li>Austin, Texas</li>
-                            <li>Seattle, WA</li>
                             <li>Fishers, IN</li>
                             <li>Denver, CO</li>
                             <li>New York City, NY</li>

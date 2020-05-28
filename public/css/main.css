@@ -378,6 +378,14 @@ li {
   font-size: 20px;
 }
 
+.left-about h3 {
+  font-weight: 600;
+}
+
+.left-about li {
+  padding: 5%;
+}
+
 .right-about {
   background-color: #41b592;
   border-radius: 1px;
@@ -385,10 +393,6 @@ li {
   padding: 10%;
   font-size: 20px;
   color: #ffffff;
-}
-
-.left-about li {
-  padding: 5%;
 }
 
 .right-about li {

@@ -26,7 +26,7 @@ p {
     height: 50vh;
     /* background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('shoes.jpg'); */
     /* background-image: linear-gradient(#16c9f6, #16c9f6); */
-    background-color: whitesmoke;
+    background-color: white;
     /* background-image: linear-gradient(whitesmoke, whitesmoke); */
     /* background-image: linear-gradient(orangered, orangered), url('shoes.jpg'); */
     background-repeat: no-repeat;
@@ -83,30 +83,21 @@ p {
     position: relative;
 }
 
-
-.center-div {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); /* microsoft */
-    -webkit-transform: translate(-50%, -50%); /* apple, safari, chrome */
-}
-
 .header-buttons a {
     border: 1px solid #ffffff;
+    background-color: #0070ba;
+    /* background-color: #50d1c0; */
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
-    color: #000000;
+    /* color: #000000; */
+    color: white;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
     text-align: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -115,6 +106,18 @@ p {
     background: #ffffff;
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding-top: 50px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* microsoft */
+    -webkit-transform: translate(-50%, -50%); /* apple, safari, chrome */
 }
 
 .center-div p {
@@ -366,9 +369,10 @@ p {
 }
 
 .values h3 {
-    padding: 5px;
-    margin-top: 25px;
-    color: #50d1c0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    /* margin-top: 25px; */
+    color: #555555;
 }
 
 .values p {
@@ -406,8 +410,8 @@ p {
 }
 
 .details h1 {
-    color: #50d1c0;
-    padding: 20px;
+    color: #555555;
+    padding: 50px;
 }
 
 .details p {

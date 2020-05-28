@@ -94,6 +94,7 @@ p {
   width: 100%;
   height: auto;
   position: absolute;
+  padding-top: 50px;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -109,12 +110,12 @@ p {
   margin: 0 5px;
   padding: 12px 35px;
   outline: none;
-  color: #000000;
+  color: white;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #0070ba;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -379,7 +380,7 @@ p {
 .services h4 {
   padding: 5px;
   margin-top: 25px;
-  color: #f8ada8;
+  color: #50d1c0;
 }
 
 .services p {
@@ -405,14 +406,16 @@ p {
 
 .pricing {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   padding: 50px;
   position: relative;
   background-color: white;
 }
 
 .pricing h1 {
-  color: #50d1c0;
+  color: #555555;
+  padding: 50px;
+  font-size: 25px;
 }
 
 .pricing p {

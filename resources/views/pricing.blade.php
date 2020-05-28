@@ -3,8 +3,8 @@
 @section('content')
     <div id="topheader"class="header">
         <nav class="navbar navbar-expand-lg">
-            <div class="container text-uppercase p-2">
-                <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">Brisebox</a>
+            <div class="container p-2">
+                <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">brisebox</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">--- <br> --- </span>
                 </button>
@@ -48,9 +48,9 @@
     <section id="pricingdiv" class="pricing">
         <div class="container headings text-center">
             <h1 class="text-center font-weight-bold">
-                What we Offer
+                Try the Brisebox API in action.
             </h1>
-            <p class="text-center">Choose a plan to see the Brisebox API in action.</p>
+            {{-- <p class="text-center">Choose a plan to see the Brisebox API in action.</p> --}}
         </div>
         <div class="container">
             <div class="row">
@@ -104,27 +104,27 @@
     </section>
 
 
-    <section id="services">
+    {{-- <section id="services">
         <div class="container text-center">
             <div class="row text-left">
                 <div class="col-md-4 services">
-                    <img src="images/customize.png" alt="customize" class="service-img">
+                    <img src="/images/doc.png" alt="customize" class="service-img">
                     <h4>Customize</h4>
                     <p>Easily customize the Brisebox UI layout to match your brand. You can customize the display of the UI to fit your website. </p>
                 </div>
                 <div class="col-md-4 services">
-                    <img src="images/group.png" alt="integrate quickly" class="service-img">
+                    <img src="/images/gear.png" alt="integrate quickly" class="service-img">
                     <h4>Integrate Quickly</h4>
                     <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
                 </div>
                 <div class="col-md-4 services">
-                    <img src="images/purchase.png" alt="customers initiate purchases faster" class="service-img">
+                    <img src="/images/cart.png" alt="customers initiate purchases faster" class="service-img">
                     <h4>Customers Initiate Purchases Faster</h4>
                     <p>The Brisebox API functionality helps engage your customers until they are ready to make their purchase.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section id="faq" class="faq">
         <div class="container text-center">

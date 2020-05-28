@@ -3,8 +3,8 @@
 
 <div id="topheader"class="header">
   <nav class="navbar navbar-expand-lg">
-      <div class="container text-uppercase p-2">
-          <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">Brisebox</a>
+      <div class="container p-2">
+          <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">brisebox</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">--- <br> --- </span>
           </button>
@@ -123,11 +123,11 @@
                           
                             <option value="California">California</option>
                           
-                            <option value="New York">Indiana</option>
+                            <option value="Indiana">Indiana</option>
                           
-                            <option value="Remote">Texas</option>
+                            <option value="Texas">Texas</option>
 
-                            <option value="Seattle">Seattle</option>
+                            <option value="Colorado">Colorado</option>
                             
                             <option value="remotefriendly">remotefriendly</option>
                           
@@ -136,12 +136,12 @@
                       <td>
                         <select id="job-filter-by-department" class="job-filter-by job-filter-by-department">
                           <option value="-1">Departments</option>
+
+                          <option value="All">All</option>
                           
                           <option value="Customer Success">Customer Success</option>
                           
                           <option value="Product">Product</option>
-                          
-                          <option value="All">All</option>
                           
                           <option value="Finance &amp; Ops">Finance &amp; Ops</option>
                           
@@ -158,27 +158,6 @@
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-            
-              <div class="row">
-                <div class="col-sm-12" style="padding: 10px 15px;margin-bottom:20px;background-color: whitesmoke;">
-                  <span class="job-label-header">All</span>
-                </div>
-              </div>
-              
-              <div class="marg-40-btm">
-                <span class="pull-right text-bold text-big"> 
-                  <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
-                </span>
-                <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">CV</h6></a>
-                <h6>New York City, NY</h6>
-                <span class="fade-06">
-                  
-                    Full time
-                  
-                </span>
-                <hr>
-              </div>
-              
             
               <div class="row">
                 <div class="col-sm-12" style="padding: 10px 15px;margin-bottom:20px;background-color: whitesmoke;">
@@ -275,7 +254,7 @@
                   <a href="contact" class="btn" style="color:white;background-color:#d9534f;font-weight: 600; padding-left: 30px; padding-right: 30px;" target="_self">Apply</a>
                 </span>
                 <a href="contact" target="_self"><h6 style="color:black;" class="text-uppercase text-bold">Operations Associate</h6></a>
-                <h6>Seattle, WA</h6>
+                <h6>New York City, NY</h6>
                 <span class="fade-06">
                   
                     Full time
