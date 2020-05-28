@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <meta name="google-site-verification" content="p4-65xlqi61a68qS1IVsBUAEC_zjfXJr4fHfvJh11ek" />
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
