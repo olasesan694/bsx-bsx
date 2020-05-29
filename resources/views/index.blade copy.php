@@ -4,7 +4,7 @@
     <div id="topheader"class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container p-2">
-                <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">{{ config('app.name', 'brisebox') }}</a>
+                <a class="navbar-brand font-weight-bold text-white" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">{{ config('app.name', 'brisebox') }}</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">--- <br> ---</span>
                 </button>
@@ -86,55 +86,65 @@
         </section>
     </div>
 
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-6 left-about">
-                <img src="/images/officepeople.jpg" alt="">
-              </div>
-              <div class="col-md-6 right-about">
-                <h3>EXPOSURE</h3>
-                <ul>
-                    <li>&#8594; Provide engagement for new shoppers and guests</li>
-                    <li>&#8594; Instantly boost your customer interaction</li>
-                    {{-- <li>3. Provide you instant feedback</li>
-                    <li>4. Get you live insights </li> --}}
-                </ul>
-              </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-6 right-about">
-                <h3>CLOSURE & RETENTION</h3>
-                <ul>
-                    <li>&#8594; Get longer customer retention</li>
-                    <li>&#8594; Achieve more purchases faster</li>
-                    {{-- <li>3. Provide you instant feedback</li>
-                    <li>4. Get you live insights </li> --}}
-                </ul>
-              </div>
-              <div class="col-md-6 ">
-                <img src="/images/creative_team.png" alt="creative team">
-              </div>
-            </div>
-        </div>
-    </section>
-
     
+
+    <section id="services">
+        <div class="container text-center">
+            <h2 class="title">  Help your customers initiate a purchase faster <br> through the Brisebox API.</h2>
+            <div class="row text-left">
+                <div class="col-md-4 services">
+                    <img src="/images/doc.png" alt="customize" class="service-img">
+                    <h4>Customize</h4>
+                    <p>Easily customize the Brisebox UI layout to match your brand. You can customize the display of the UI to fit your website. </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="/images/gear.png" alt="integrate quickly" class="service-img">
+                    <h4>Integrate Quickly</h4>
+                    <p>If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="/images/cart.png" alt="customers initiate purchases faster" class="service-img">
+                    <h4>Customers Initiate Purchases Faster</h4>
+                    <p>The Brisebox API functionality helps engage your customers until they are ready to make their purchase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="text-center">What we do for your online store. </h2>
+        <div class="container text-center">
+            <div class="row text-left">
+                <div class="col-md-6 left-about">
+                    <h3>Exposure</h3>
+                    <ul>
+                        <li>1. Help invite new shoppers and guests</li>
+                        <li>2. Get you more customer interaction on your platform</li>
+                        <li>3. Provide you instant feedback</li>
+                        <li>4. Get you live insights </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 right-about">
+                    <h3>Retention & Closure </h3>
+                    <ul>
+                        <li>1. Create you longer customer retention</li>
+                        <li>2. Increase your customer engagement</li>
+                        <li>3. Provide your customers instant shopping assistance</li>
+                        <li>4. Help your customers initiate a purchase faster</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="sample" class="sample">
         {{-- <div id="demo"> --}}
-            <h3 class="text-center">Try the Brisebox Sample Button.</h3>
+            <h3 class="text-center">Get started to try the Brisebox Sample Button</h3>
         {{-- </div> --}}
         {{-- <br>
         <br> --}}
         <div class="container">
-            <div class="row samplediv">
+            <div class="row">
                 <div class="col-md-5">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -164,9 +174,7 @@
                         use Brisebox <div style="font-style: italic; display:inline;"> Sample </div>
                     </button>
                 </div>
-                <div class="stores">
-                    <img src="/images/stores.png" alt="stores">
-                </div>
+                <img src="/images/stores.png" alt="stores" style="height:100px;">
                 {{-- <img src="/images/stores2.png" alt="stores" style="height:100px;"> --}}
             </div>
             
@@ -175,7 +183,7 @@
 
     <section id="pricingdiv" class="pricing">
         <div class="container headings text-center">
-            <h1 class="text-center font-weight-bold">
+            <h1 class="text-center font-weight-bold text-white">
                 What We Offer
             </h1>
             <p class="text-center">Choose a plan to see the Brisebox API in action.</p>
@@ -187,10 +195,10 @@
                         <div class="card-header">BASIC</div>
                         <div class="card-body">
                             <li>$<span class="money">0</span></li>
-                            <li>&#10003; Basic integration</li>
-                            <li>&#10003; Upgrade Option</li>
-                            <li>&#10003; Customization</li>
-                            <li>&#10003; Quick Support</li>
+                            <li>Provision of New users</li>
+                            <li>Customer Retention</li>
+                            <li>Faster initiation of purchases.</li>
+                            <li>Support</li>
                         </div>
                         <div class="card-footer">
                             <a href="pricing">Purchase</a>
@@ -202,10 +210,10 @@
                         <div class="card-header">STANDARD</div>
                         <div class="card-body">
                             <li>$<span class="money">30</span>/website</li>
-                            <li>All of Basic including</li>
-                            <li>&#10003; In-app assistance</li>
-                            <li>&#10003; Instant feedback</li>
-                            <li>&#10003; Customer Support 24/7</li>
+                            <li>All of free plan</li>
+                            <li>In-app assistance</li>
+                            <li>Instant feedback</li>
+                            <li>Customer Support 24/7</li>
                         </div>
                         <div class="card-footer">
                             <a href="pricing">Purchase</a>
@@ -236,20 +244,20 @@
             <div class="row offset-1">
                 <div class="col-md-4 footer-box">
                     <p> <b>Account</b> </p>
-                    <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="dashboard"> Dashboard </a></p>
-                    <p> <i class="fa fa-address-book-o" aria-hidden="true"></i> <a href="register">Register </a> </p>
-                    <p> <i class="fa fa-sign-in" aria-hidden="true"></i> <a href="login">Sign In </a> </p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="contact">Support </a> </p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
+                    <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Sign In</p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Support</p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p> <b>Resources</b> </p>
-                    <p> <i class="fa fa-file" aria-hidden="true"></i> <a href="docs">Docs & APIs </a> </p>
-                    <p> <i class="fa fa-dollar" aria-hidden="true"></i> <a href="pricing">Pricing </a> </p>
-                    <p> <i class="fa fa-mortar-board" aria-hidden="true"></i> <a href="jobs">Careers </a> </p>
-                    <p> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="contact">Contact </a> </p>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Docs & APIs</p>
+                    <p> <i class="fa fa-phone" aria-hidden="true"></i>Pricing</p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Careers</p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p><b> <i class="fa fa-map-marker" aria-hidden="true"></i><a href="about">Sunnyvale, California 94043 </a> </b> </p>
+                    <p><b>Sunnyvale, California 94043</b> </p>
                     <p> <a href="about">About Brisebox</a> </p>
                     <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
                     <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>

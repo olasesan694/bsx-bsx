@@ -7,7 +7,7 @@
                 <div class="col-md-7">
                     <div class="feature-box">
                         <h2>Fill out the form and we’ll get back to you in a few.</h2>
-                        <p>General Questions or Feedback. Reach Sales or Request Phone #.</p>
+                        <p>General Questions or Feedback. Reach Sales or Phone #.</p>
                         <form action="contactInc.php" method="POST">
                             <input type = "text" maxlength = "40" name = "fullName" autocomplete = "off" id = "businessTextboxes" placeholder = "Full name" required>
                             <br>
