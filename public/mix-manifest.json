@@ -1,7 +1,10 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/main.css": "/css/main.css",
+    "/css/main/main.css": "/css/main/main.css",
+    "/css/main/mobile-main.css": "/css/main/mobile-main.css",
+    "/css/about.css": "/css/about.css",
+    "/css/docs.css": "/css/docs.css",
     "/css/contact.css": "/css/contact.css",
     "/css/dashboard.css": "/css/dashboard.css",
     "/css/pricing.css": "/css/pricing.css",

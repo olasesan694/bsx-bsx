@@ -23,37 +23,12 @@
         <!-- Styles -->
         <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     </head>
     
     <body>
         <div id="app">
-            <section id="nav-bar">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo" style="width:50px; height:50px;">brisebox</a> 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="/images/menu.png" alt="responsive menu icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto text-uppercase">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="dashboard">Docs & API <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pricing">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="jobs">Careers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login">Sign In -></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </section>
             <main class="py-0">
                 @yield('content')
             </main>

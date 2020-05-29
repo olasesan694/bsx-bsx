@@ -49821,6 +49821,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/about.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/about.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -49854,10 +49865,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/main.scss":
+/***/ "./resources/sass/docs.scss":
 /*!**********************************!*\
-  !*** ./resources/sass/main.scss ***!
+  !*** ./resources/sass/docs.scss ***!
   \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/main/main.scss":
+/*!***************************************!*\
+  !*** ./resources/sass/main/main.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/main/mobile-main.scss":
+/*!**********************************************!*\
+  !*** ./resources/sass/main/mobile-main.scss ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -49877,15 +49910,18 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main.scss ./resources/sass/contact.scss ./resources/sass/dashboard.scss ./resources/sass/pricing.scss ***!
-  \************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main/main.scss ./resources/sass/main/mobile-main.scss ./resources/sass/about.scss ./resources/sass/docs.scss ./resources/sass/contact.scss ./resources/sass/dashboard.scss ./resources/sass/pricing.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/main/main.scss */"./resources/sass/main/main.scss");
+__webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/main/mobile-main.scss */"./resources/sass/main/mobile-main.scss");
+__webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/about.scss */"./resources/sass/about.scss");
+__webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/docs.scss */"./resources/sass/docs.scss");
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/contact.scss */"./resources/sass/contact.scss");
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/dashboard.scss */"./resources/sass/dashboard.scss");
 module.exports = __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/pricing.scss */"./resources/sass/pricing.scss");

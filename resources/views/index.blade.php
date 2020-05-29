@@ -75,13 +75,13 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-              <div class="col-md-6 left-about">
+              <div class="col-md-6">
                 <img src="/images/officepeople.jpg" alt="">
               </div>
-              <div class="col-md-6 right-about">
-                <h3>EXPOSURE</h3>
+              <div class="col-md-6 left-about">
+                <h3>GET EXPOSURE</h3>
                 <ul>
-                    <li>&#8594; Provide engagement for new shoppers and guests</li>
+                    <li>&#8594; Allow engagement for new shoppers and guests</li>
                     <li>&#8594; Instantly boost your customer interaction</li>
                 </ul>
               </div>
@@ -89,11 +89,11 @@
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about2" class="about2">
         <div class="container">
             <div class="row">
               <div class="col-md-6 right-about">
-                <h3>CLOSURE & RETENTION</h3>
+                <h3>INCREASE CLOSURE & RETENTION</h3>
                 <ul>
                     <li>&#8594; Get longer customer retention</li>
                     <li>&#8594; Achieve more purchases faster</li>
