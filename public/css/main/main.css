@@ -184,7 +184,7 @@ li {
 /* -------------------- SAMPLE ----------------------- */
 
 #sample {
-  height: 150vh;
+  height: 100vh;
   background-color: whitesmoke;
 }
 
@@ -206,7 +206,6 @@ li {
 #sample h3 {
   color: black;
   text-align: center;
-  padding-top: 100px;
 }
 
 #sample .container {

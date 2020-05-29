@@ -64,6 +64,10 @@
     border-style: none;
   }
 
+  #sample h3 {
+    padding-top: 200px;
+  }
+
   .pricing,
   .happyclients,
   .contactus {
