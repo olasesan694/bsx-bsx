@@ -9,6 +9,12 @@
 
         <title>Pricing | Brisebox</title>
 
+        <meta name="description" content="Brisebox Pricing. Find out how much brisebox costs, and its charges."/>
+        <meta property="og:title" content="Brisebox Pricing"/>
+        <meta property="og:url" content="https://retailers.brisebox.com/pricing"/>
+        <meta property="og:description" content="Brisebox pricing, cost, and charges."/>
+        <meta property="og:type" content="website"/>
+
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
         <script src="{{ asset('js/faq.js') }}" defer></script>

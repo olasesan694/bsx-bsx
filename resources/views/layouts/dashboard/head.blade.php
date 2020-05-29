@@ -7,6 +7,12 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+        <meta name="description" content="Brisebox dashboard, access your account, settings, and other tools."/>
+        <meta property="og:title" content="Dashboard Brisebox."/>
+        <meta property="og:url" content="https://retailers.brisebox.com"/>
+        <meta property="og:description" content="Brisebox account, settings, and other tools."/>
+        <meta property="og:type" content="website"/>
+
         <title>Dashboard | Brisebox</title>
 
         <!-- Scripts -->

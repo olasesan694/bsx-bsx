@@ -7,6 +7,12 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+        <meta name="description" content="Brisebox Docs, access the docs and more"/>
+        <meta property="og:title" content="Docs Brisebox."/>
+        <meta property="og:url" content="https://retailers.brisebox.com"/>
+        <meta property="og:description" content="Access the docs, Brisebox."/>
+        <meta property="og:type" content="website"/>
+
         <title>Docs | Brisebox</title>
 
         <!-- Scripts -->
