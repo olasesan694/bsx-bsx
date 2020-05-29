@@ -119,7 +119,7 @@
                 </ul>
               </div>
               <div class="col-md-6 ">
-                <img src="/images/creative_team.png" alt="creative team">
+                <img src="/images/girl-schedule.png" alt="creative team">
               </div>
             </div>
         </div>
