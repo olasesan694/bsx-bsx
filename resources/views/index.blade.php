@@ -96,7 +96,7 @@
                 <h3>INCREASE CLOSURE & RETENTION</h3>
                 <ul>
                     <li>&#8594; Get longer customer retention</li>
-                    <li>&#8594; Achieve more purchases faster</li>
+                    <li>&#8594; Achieve more purchases, faster</li>
                 </ul>
               </div>
               <div class="col-md-6 ">
