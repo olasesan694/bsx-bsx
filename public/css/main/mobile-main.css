@@ -64,12 +64,21 @@
     border-style: none;
   }
 
+  #sample {
+    height: 150px;
+  }
+
+  #sample button {
+    margin-top: 10px;
+  }
+
   #sample h3 {
     padding-top: 100px;
   }
 
   #sample img {
     height: 200px;
+    margin-top: 10px;
   }
 
   .pricing,
