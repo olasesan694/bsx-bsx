@@ -127,7 +127,7 @@ li {
   color: #fff;
   background: #50d1c0;
   text-decoration: none;
-  box-shadow: 0 0 10px 0 whitesmoke;
+  box-shadow: 0 0 10px 0 #50d1c0;
 }
 
 .center-div p {
