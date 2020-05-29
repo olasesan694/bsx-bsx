@@ -621,6 +621,11 @@ p {
   background-color: none;
 }
 
+.footer-box a {
+  font-size: 12px;
+  color: white;
+}
+
 .footer-box .form-control {
   box-shadow: none !important;
   border: none;

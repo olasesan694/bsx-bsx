@@ -249,7 +249,7 @@
                     <p> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="contact">Contact </a> </p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p><b> <i class="fa fa-map-marker" aria-hidden="true"></i><a href="about">Sunnyvale, California 94043 </a> </b> </p>
+                    <p><b> <a href="about">Sunnyvale, California 94043 </a> </b> </p>
                     <p> <a href="about">About Brisebox</a> </p>
                     <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
                     <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>
