@@ -50,21 +50,6 @@
                                     </form>
                                 </div>
                             </li>
-                            {{-- <li class="nav-item ">
-                                <div class="dropdown show">
-                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        {{ Auth::user()->name }}
-                                    </a>
-                                
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            @csrf
-                                        </form>
-                                    </div>
-                                </div>
-                            </li> --}}
                         @endguest
                     </ul>
                 </div>
@@ -98,8 +83,6 @@
                 <ul>
                     <li>&#8594; Provide engagement for new shoppers and guests</li>
                     <li>&#8594; Instantly boost your customer interaction</li>
-                    {{-- <li>3. Provide you instant feedback</li>
-                    <li>4. Get you live insights </li> --}}
                 </ul>
               </div>
             </div>
@@ -114,8 +97,6 @@
                 <ul>
                     <li>&#8594; Get longer customer retention</li>
                     <li>&#8594; Achieve more purchases faster</li>
-                    {{-- <li>3. Provide you instant feedback</li>
-                    <li>4. Get you live insights </li> --}}
                 </ul>
               </div>
               <div class="col-md-6 ">
@@ -128,11 +109,7 @@
     
 
     <section id="sample" class="sample">
-        {{-- <div id="demo"> --}}
-            <h3 class="text-center">Try the Brisebox Sample Button.</h3>
-        {{-- </div> --}}
-        {{-- <br>
-        <br> --}}
+        <h3 class="text-center">Try the Brisebox Sample Button.</h3>
         <div class="container">
             <div class="row samplediv">
                 <div class="col-md-5">
@@ -167,7 +144,6 @@
                 <div class="stores">
                     <img src="/images/stores.png" alt="stores">
                 </div>
-                {{-- <img src="/images/stores2.png" alt="stores" style="height:100px;"> --}}
             </div>
             
         </div>
