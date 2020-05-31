@@ -65,7 +65,7 @@
                             <li>Support</li>
                         </div>
                         <div class="card-footer">
-                            <a href="dashboard">Purchase</a>
+                            <a href="dashboard">Start</a>
                         </div>
                     </div>
                 </div>
@@ -73,14 +73,14 @@
                     <div class="card text-center">
                         <div class="card-header">STANDARD</div>
                         <div class="card-body">
-                            <li>$<span class="money">30</span>/website</li>
+                            <li>$<span class="money">30</span>/month</li>
                             <li>All of free plan</li>
                             <li>In-app assistance</li>
                             <li>Instant feedback</li>
                             <li>Customer Support 24/7</li>
                         </div>
                         <div class="card-footer">
-                            <a href="dashboard">Purchase</a>
+                            <a href="dashboard">Try it Free</a>
                         </div>
                     </div>
                 </div>

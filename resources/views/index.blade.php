@@ -111,12 +111,15 @@
     </section> --}}
 
     <section id = "info" class="info">
+        <h1 class="text-center font-weight-bold">
+            Shoppers are less likely to purchase with poor online experiences.
+        </h1>
         <div class="row d-flex justify-content-center" >
             <div class="col-md-6 infobody">
                 <img src="images/doc.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Quick Download Integration</h5>
-                    <p class="card-text">If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
+                    <h5 class="card-title">Quick Downloadable Integration</h5>
+                    <p class="card-text">If your customers need better shopping experience, and are leaving without making purchases, take advantage of our pre-made Brisebox UI to close deals faster.</p>
                     {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
                 </div>
             </div>
@@ -124,7 +127,7 @@
                 <img src="images/cart.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Higher Conversion Rates</h5>
-                    <p class="card-text">The Brisebox API functionality helps engage your customers until they are ready to make their purchase. Close more sales deals here and get an increase in conversion rates</p>
+                    <p class="card-text">Rentention and conversion rates are important for create better customer experiences. Use the Brisebox API functionality to engage your customers until they are ready to make their purchase. Increase in conversion rates, and sell faster with Brisebox. </p>
                     {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
                 </div>
             </div>
@@ -138,7 +141,7 @@
                 <h3>WE INCREASE CLOSURE & RETENTION</h3>
                 <ul>
                     <li>&#8594; Get longer customer retention and engagment.</li>
-                    <li>&#8594; Achieve more purchases, faster.</li>
+                    <li>&#8594; Achieve more purchase deals, faster.</li>
                 </ul>
               </div>
               <div class="col-md-6 ">
@@ -171,8 +174,8 @@
                 </div>
                 <div class="col-md-7">
                     <p class="newarrival text-center">NEW</p>
-                    <h4> Women's Paperbag Detail Dress Piece</h4>
-                    <p class="price"> USD $65.00</p>
+                    <h4> Women's Long-Sleeve Detail Dress Piece</h4>
+                    <p class="price"> USD $79.99</p>
                     <br>
                     <br>
                     <br>
@@ -209,7 +212,7 @@
                             <li>&#10003; Quick Support</li>
                         </div>
                         <div class="card-footer">
-                            <a href="pricing">Purchase</a>
+                            <a href="pricing">Start</a>
                         </div>
                     </div>
                 </div>
@@ -217,14 +220,14 @@
                     <div class="card text-center">
                         <div class="card-header">STANDARD</div>
                         <div class="card-body">
-                            <li>$<span class="money">30</span>/website</li>
+                            <li>$<span class="money">30</span>/month</li>
                             <li>All of Basic including</li>
                             <li>&#10003; In-app assistance</li>
                             <li>&#10003; Instant feedback</li>
                             <li>&#10003; Customer Support 24/7</li>
                         </div>
                         <div class="card-footer">
-                            <a href="pricing">Purchase</a>
+                            <a href="pricing">Try it Free</a>
                         </div>
                     </div>
                 </div>
