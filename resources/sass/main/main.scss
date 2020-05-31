@@ -133,17 +133,52 @@ li {
 
 
 
+#info {
+  height: 100vh;
+}
+
+.info {
+  padding-top: 0;
+  padding-left: 300px;
+  padding-right: 300px;
+  // padding-bottom: 100px;
+}
+
+.info img {
+  width: 60px;
+  height: 60px;
+}
+
+.info .col-md-6 {
+  padding: 150px;
+  background-color: whitesmoke;
+  text-align: left;
+  color: white;
+}
+
+.info p {
+  color: #000000;
+}
+
+.card-title {
+  color: #50d1c0;
+}
+
+
+
+
+
 /* -------------------- ABOUT ----------------------- */
 
 .about {
   height: 100vh;
   background-color: white;
-  // padding: 100px;
+  padding: 0;
 }
 
 .about img {
   width: 100%;
-  height: 50vh;
+  // height: auto;
 }
 
 .about2 {
@@ -154,7 +189,7 @@ li {
 
 .about2 img {
   width: 100%;
-  height: 50vh;
+  // height: 100%;
 }
 
 .left-about {
@@ -192,6 +227,7 @@ li {
 #sample {
   height: 100vh;
   background-color: whitesmoke;
+  padding: 0;
 }
 
 #sample .btn-primary {
@@ -276,6 +312,7 @@ li {
   width: 100%;
   height: 100vh;
   position: relative;
+  padding: 0;
 }
 
 .pricing h1 {
@@ -373,6 +410,7 @@ li {
 #footer {
   background-color: #282639;
   color: #fff;
+  padding: 0;
 }
 
 .footer-box {

@@ -61,7 +61,7 @@
                 <h1 class="font-weight-bold">
                     Use Brisebox for <span class="txt-type" data-wait="1500" data-words='["your e-commerce website.", "your shoppers."]'></span> 
                 </h1>
-                <p> Get instantly more shoppers, and more purchases.</p>
+                <p> Instantly improve your customer's shopping experience. </p>
                 <div class="header-buttons">
                     <a href="register">Try it</a>
                     <a href="contact">Help with Integration</a>
@@ -79,12 +79,33 @@
                 <img src="/images/officepeople.jpg" alt="">
               </div>
               <div class="col-md-6 left-about">
-                <h3>GET EXPOSURE</h3>
+                <h3>GET ASSISTANCE ON ENGAGING VISITORS</h3>
                 <ul>
-                    <li>&#8594; Allow engagement for new shoppers and guests</li>
-                    <li>&#8594; Instantly boost your customer interaction</li>
+                    <li>&#8594; We bring new visitors, and engage your new shoppers and guests. </li>
+                    <li>&#8594; Instantly boost your customer interaction.</li>
                 </ul>
               </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "info" class="info">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/doc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Download Integration</h5>
+                    <p class="card-text">If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
+                    {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/cart.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Faster Deal Closure</h5>
+                    <p class="card-text">The Brisebox API functionality helps engage your customers until they are ready to make their purchase. Close more sales deals here and get an increase in conversion rates</p>
+                    {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+                </div>
             </div>
         </div>
     </section>
@@ -93,10 +114,10 @@
         <div class="container">
             <div class="row">
               <div class="col-md-6 right-about">
-                <h3>INCREASE CLOSURE & RETENTION</h3>
+                <h3>WE INCREASE CLOSURE & RETENTION</h3>
                 <ul>
-                    <li>&#8594; Get longer customer retention</li>
-                    <li>&#8594; Achieve more purchases, faster</li>
+                    <li>&#8594; Get longer customer retention and engagment.</li>
+                    <li>&#8594; Achieve more purchases, faster.</li>
                 </ul>
               </div>
               <div class="col-md-6 ">
@@ -105,8 +126,6 @@
             </div>
         </div>
     </section>
-
-    
 
     <section id="sample" class="sample">
         <h3 class="text-center">Try the Brisebox Sample Button.</h3>
