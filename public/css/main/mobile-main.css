@@ -1,5 +1,53 @@
 /* -------------------- REsponsiveness ----------------------- */
 
+@media (max-width: 350px) {
+  body h1 {
+    font-size: 14px;
+  }
+
+  .header-buttons a {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .about img {
+    width: 280px;
+    height: 196px;
+    margin: 0 auto 26px;
+    display: block;
+    border-style: none;
+  }
+
+  .about2 img {
+    width: 280px;
+    height: 196px;
+  }
+}
+
+@media (max-width: 400px) {
+  body h1 {
+    font-size: 14px;
+  }
+
+  .header-buttons a {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .about img {
+    width: 280px;
+    height: 196px;
+    margin: 0 auto 26px;
+    display: block;
+    border-style: none;
+  }
+
+  .about2 img {
+    width: 280px;
+    height: 196px;
+  }
+}
+
 @media screen and (max-width: 420px) {
   body h1 {
     font-size: 14px;
@@ -8,6 +56,19 @@
   .header-buttons a {
     font-size: 10px;
     padding: 10px;
+  }
+
+  .about img {
+    width: 280px;
+    height: 196px;
+    margin: 0 auto 26px;
+    display: block;
+    border-style: none;
+  }
+
+  .about2 img {
+    width: 280px;
+    height: 196px;
   }
 }
 
@@ -65,6 +126,11 @@
     margin: 0 auto 26px;
     display: block;
     border-style: none;
+  }
+
+  .about2 img {
+    width: 280px;
+    height: 196px;
   }
 
   #sample {
@@ -165,6 +231,11 @@
     border-style: none;
   }
 
+  .about2 img {
+    width: 280px;
+    height: 196px;
+  }
+
   .pricing,
   .happyclients,
   .contactus {
@@ -239,11 +310,16 @@
   }
 
   .about img {
-    width: 280px;
-    height: 196px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto 26px;
     display: block;
     border-style: none;
+  }
+
+  .about2 img {
+    width: 100%;
+    height: 100%;
   }
 
   .pricing,
@@ -320,11 +396,16 @@
   }
 
   .about img {
-    width: 280px;
-    height: 196px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto 26px;
     display: block;
     border-style: none;
+  }
+
+  .about2 img {
+    width: 100%;
+    height: 100%;
   }
 
   .pricing,

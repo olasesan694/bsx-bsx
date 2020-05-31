@@ -89,9 +89,30 @@
         </div>
     </section>
 
+    {{-- <section id = "info" class="info">
+        <div class="container">
+            <div class="card-columns d-flex justify-content-center">
+            <div class="card">
+                <div class="card-block">
+                <img src="images/doc.png" class="card-img-top" alt="...">
+                <h4 class="card-title">Quick Download Integration</h4>
+                <p class="card-text">If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block">
+                <img src="images/cart.png" class="card-img-top" alt="...">
+                <h4 class="card-title">Faster Deal Closure</h4>
+                <p class="card-text">The Brisebox API functionality helps engage your customers until they are ready to make their purchase. Close more sales deals here and get an increase in conversion rates</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section> --}}
+
     <section id = "info" class="info">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row d-flex justify-content-center" >
+            <div class="col-md-6 infobody">
                 <img src="images/doc.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Quick Download Integration</h5>
@@ -99,10 +120,10 @@
                     {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 infobody">
                 <img src="images/cart.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Faster Deal Closure</h5>
+                    <h5 class="card-title">Higher Conversion Rates</h5>
                     <p class="card-text">The Brisebox API functionality helps engage your customers until they are ready to make their purchase. Close more sales deals here and get an increase in conversion rates</p>
                     {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
                 </div>
@@ -128,7 +149,7 @@
     </section>
 
     <section id="sample" class="sample">
-        <h3 class="text-center">Try the Brisebox Sample Button.</h3>
+        <h3 class="text-center">Try the sample button.</h3>
         <div class="container">
             <div class="row samplediv">
                 <div class="col-md-5">

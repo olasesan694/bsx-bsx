@@ -77,6 +77,7 @@ li {
   color: black;
   text-align: center;
   position: relative;
+  color: #232a32;
 }
 
 .txt-type {
@@ -128,27 +129,33 @@ li {
 .center-div p {
   font-size: 1.3rem;
   padding: 10px 0 20px 0;
-  color: #000;
+  color: #585858;
 }
+
+/* -------------------- ABOUT ----------------------- */
+
+.about {
+  background-color: white;
+  padding: 100px;
+}
+
+.about img {
+  width: 100%;
+}
+
+/* -------------------- INFO ----------------------- */
 
 #info {
-  height: 100vh;
-}
-
-.info {
-  padding-top: 0;
-  padding-left: 300px;
-  padding-right: 300px;
+  background-color: whitesmoke;
+  padding: 100px;
 }
 
 .info img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
-.info .col-md-6 {
-  padding: 150px;
-  background-color: whitesmoke;
+.infobody .card-body {
   text-align: left;
   color: white;
 }
@@ -157,25 +164,21 @@ li {
   color: #000000;
 }
 
+.infobody {
+  padding: 100px 20px 100px 20px;
+  border: 1px solid white;
+  background-color: white;
+  color: #000000;
+  border-radius: 25px;
+}
+
 .card-title {
   color: #50d1c0;
 }
 
-/* -------------------- ABOUT ----------------------- */
-
-.about {
-  height: 100vh;
-  background-color: white;
-  padding: 0;
-}
-
-.about img {
-  width: 100%;
-}
-
 .about2 {
-  height: 100vh;
   background-color: white;
+  padding: 100px;
 }
 
 .about2 img {
@@ -213,9 +216,7 @@ li {
 /* -------------------- SAMPLE ----------------------- */
 
 #sample {
-  height: 100vh;
   background-color: whitesmoke;
-  padding: 0;
 }
 
 #sample .btn-primary {
@@ -236,6 +237,7 @@ li {
 #sample h3 {
   color: black;
   text-align: center;
+  padding-top: 100px;
 }
 
 #sample .container {
@@ -296,9 +298,9 @@ li {
 
 .pricing {
   width: 100%;
-  height: 100vh;
   position: relative;
-  padding: 0;
+  background-color: whitesmoke;
+  padding: 100px;
 }
 
 .pricing h1 {
