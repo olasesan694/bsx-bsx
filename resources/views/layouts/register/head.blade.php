@@ -7,13 +7,13 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta name="description" content="Reset your password and access retrieve your account in Brisebox."/>
-    <meta property="og:title" content="Retrieve Brisebox Account"/>
-    <meta property="og:url" content="https://retailers.brisebox.com/password/reset"/>
-    <meta property="og:description" content="Reset your account, Brisebox."/>
+    <meta name="description" content="Register, and create your account in Brisebox."/>
+    <meta property="og:title" content="Create Brisebox Account"/>
+    <meta property="og:url" content="https://retailers.brisebox.com/register"/>
+    <meta property="og:description" content="Create your account, Brisebox."/>
     <meta property="og:type" content="website"/>
 
-    <title>Reset Password | {{ config('app.name', 'Brisebox') }}</title>
+    <title>Register | Brisebox</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

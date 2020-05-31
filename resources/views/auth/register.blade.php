@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.register.head')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Try the Brisebox Sample in Action. <p> Create your Account. </p> </div>
+                <div class="card-header"><h1> Create your Account. </h1> <p> Try the Brisebox Sample in Action. </p> </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">

@@ -9,7 +9,7 @@
 
         <meta name="description" content="Let's talk. Contact Brisebox."/>
         <meta property="og:title" content="Brisebox Contact"/>
-        <meta property="og:url" content="https://retailers.brisebox.com"/>
+        <meta property="og:url" content="https://retailers.brisebox.com/contact"/>
         <meta property="og:description" content="Contact Us, Brisebox."/>
         <meta property="og:type" content="website"/>
 

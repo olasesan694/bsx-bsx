@@ -30,6 +30,15 @@
                 </div>
             </div>
         </nav>
+
+        <section class="header-section">
+            <div class="center-div  text-center">
+                <h1 class="font-weight-bold">
+                    Contact Us
+                </h1>
+                <p>Have general questions or feedback? Want to reach our sales team or would just like to talk?</p>
+            </div>
+        </section>
     </div>
     <div class="container">
         <div class="wrapper">
@@ -37,7 +46,6 @@
                 <div class="col-md-7">
                     <div class="feature-box">
                         <h2>Fill out the form and we’ll get back to you in a few.</h2>
-                        <p>General Questions or Feedback. Reach Sales or Phone #.</p>
                         <form action="contactInc.php" method="POST">
                             <input type = "text" maxlength = "40" name = "fullName" autocomplete = "off" id = "businessTextboxes" placeholder = "Full name" required>
                             <br>

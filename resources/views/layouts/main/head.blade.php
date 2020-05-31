@@ -12,8 +12,8 @@
         <title>Brisebox Software: more shoppers, more purchases.</title>
 
         {{-- <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/> --}}
-        <meta name="description" content="Brisebox is the software for more shoppers, and more purchases. Brisebox is for your e-commerce website, and your customers."/>
-        <meta property="og:title" content="Brisebox is hiring! Apply now."/>
+        <meta name="description" content="Brisebox is the software for -- more shoppers, and more purchases. Use Brisebox for your e-commerce website, and your customers."/>
+        <meta property="og:title" content="Brisebox Retail Software."/>
         <meta property="og:url" content="https://retailers.brisebox.com"/>
         <meta property="og:description" content="Use Brisebox to get more shoppers, and more purchases. Brisebox is for your e-commerce website, and your customers."/>
         <meta property="og:type" content="website"/>
