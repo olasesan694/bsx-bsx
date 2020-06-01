@@ -212,7 +212,7 @@
                             <li>&#10003; Quick Support</li>
                         </div>
                         <div class="card-footer">
-                            <a href="pricing">Start</a>
+                            <a href="dashboard">Start</a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                             <li>&#10003; Customer Support 24/7</li>
                         </div>
                         <div class="card-footer">
-                            <a href="pricing">Try it Free</a>
+                            <a href="pricing">View</a>
                         </div>
                     </div>
                 </div>
