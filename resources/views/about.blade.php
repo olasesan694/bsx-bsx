@@ -116,24 +116,24 @@
             <div class="row offset-1">
                 <div class="col-md-4 footer-box">
                     <p> <b>Account</b> </p>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
-                    <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Sign In</p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Support</p>
+                    <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="dashboard"> Dashboard </a></p>
+                    <p> <i class="fa fa-address-book-o" aria-hidden="true"></i> <a href="register">Register </a> </p>
+                    <p> <i class="fa fa-sign-in" aria-hidden="true"></i> <a href="login">Sign In </a> </p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="contact">Support </a> </p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p> <b>Resources</b> </p>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Documentation</p>
-                    <p> <i class="fa fa-phone" aria-hidden="true"></i>API</p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Sales</p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
+                    <p> <i class="fa fa-file" aria-hidden="true"></i> <a href="docs">Docs & APIs </a> </p>
+                    <p> <i class="fa fa-dollar" aria-hidden="true"></i> <a href="pricing">Pricing </a> </p>
+                    <p> <i class="fa fa-mortar-board" aria-hidden="true"></i> <a href="jobs">Careers </a> </p>
+                    <p> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="contact">Contact </a> </p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p> <b>Sunnyvale, California 94043</b> </p>
+                    <p><b> <a href="about">Sunnyvale, California 94043 </a> </b> </p>
                     <p> <a href="about">About Brisebox</a> </p>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>
+                    <a href="https://linkedin.com/company/brisebox" class="fa fa-linkedin"></a>
                 </div>
             </div>
             <p class="copyright"> &copy; brisebox 2020 </p>

@@ -71,14 +71,14 @@
         <div class="container">
             <div class="row offset-1">
                 <div class="col-md-4 footer-box">
-                    <p> <b>Account</b> </p>
+                    <b>Accounts</b>
                     <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="dashboard"> Dashboard </a></p>
                     <p> <i class="fa fa-address-book-o" aria-hidden="true"></i> <a href="register">Register </a> </p>
                     <p> <i class="fa fa-sign-in" aria-hidden="true"></i> <a href="login">Sign In </a> </p>
                     <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="contact">Support </a> </p>
                 </div>
                 <div class="col-md-4 footer-box">
-                    <p> <b>Resources</b> </p>
+                    <b>Resources</b>
                     <p> <i class="fa fa-file" aria-hidden="true"></i> <a href="docs">Docs & APIs </a> </p>
                     <p> <i class="fa fa-dollar" aria-hidden="true"></i> <a href="pricing">Pricing </a> </p>
                     <p> <i class="fa fa-mortar-board" aria-hidden="true"></i> <a href="jobs">Careers </a> </p>
