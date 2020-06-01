@@ -57,17 +57,17 @@
                         <div class="card-header">People</div>
                         <div class="card-body">
                             <p> <b>Marc Waston</b> </p>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#details" class="fa fa-facebook"></a>
+                            <a href="#details" class="fa fa-twitter"></a>
+                            <a href="#details" class="fa fa-linkedin"></a>
                             <p> <b>Christy Adams</b> </p>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#details" class="fa fa-facebook"></a>
+                            <a href="#details" class="fa fa-twitter"></a>
+                            <a href="#details" class="fa fa-linkedin"></a>
                             <p> <b>Helen Stevenson</b> </p>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#details" class="fa fa-facebook"></a>
+                            <a href="#details" class="fa fa-twitter"></a>
+                            <a href="#details" class="fa fa-linkedin"></a>
                         </div>
                     </div>
                 </div>
@@ -106,8 +106,8 @@
     <section id="values" class="values">
         <div class="container text-left">
             <h3>Core Values</h3>
-            <p>Of the 1.3M+ e-commerce businesses across the U.S. looking to grow online, Brisebox serves futuristic online companies and brings more shoppers and purchases to their platform using the afforable Brisebox Retail Software. We run on the fundamental belief that having access to engaging services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to join and thrive in the global economy. 
-                <br> <br> Our open digital Brisebox API gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while shopping on ecommerce stores. Available in a few markets, Brisebox enables businesses to provide better online shopping for customers. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
+            <p>Of the 1.3M+ e-commerce businesses across the U.S. looking to grow online, Brisebox serves futuristic online companies and brings more shoppers and purchases to their platform using the <a href="pricing"> afforable Brisebox Retail Software </a>. We run on the fundamental belief that having access to engaging services creates valuable opportunity. Brisebox is committed to democratizing enagement services and empowering people and businesses to <a href="jobs"> join and thrive in the global economy </a>. 
+                <br> <br> Our open <a href="docs"> digital Brisebox API </a> gives Brisebox's active account holders the confidence to connect and interact in new and powerful ways online. Through a combination of technological innovation and strategic partnerships, Brisebox creates better ways to manage engagement, and offers choice and flexibility while shopping on ecommerce stores. Available in a few markets, Brisebox enables businesses to provide better online shopping for customers. For more information on Brisebox, visit <a href="https://retailers.brisebox.com/contact">https://retailers.brisebox.com/contact</a>.
         </div>
     </section>
 

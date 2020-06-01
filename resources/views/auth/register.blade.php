@@ -54,12 +54,12 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="company" class="col-md-4 col-form-label text-md-right">Company Name</label>
+                            <label for="domain" class="col-md-4 col-form-label text-md-right">Website URL</label>
 
                             <div class="col-md-6">
-                                <input id="company" type="company" class="form-control @error('company') is-invalid @enderror" name="company" value="{{ old('company') }}" required autocomplete="company">
+                                <input id="domain" type="domain" class="form-control @error('domain') is-invalid @enderror" name="domain" value="{{ old('domain') }}" placeholder="https://www.example.com" required autocomplete="domain">
 
-                                @error('company')
+                                @error('domain')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <p style="color:#ccc">By creating an account you agree to our <a href="privacy">Terms & Privacy</a>.</p>
+                                {{-- <p style="color:#ccc">By creating an account you agree to our <a href="privacy">Terms & Privacy</a>.</p> --}}
                             </div>
                         </div>
                     </form>
