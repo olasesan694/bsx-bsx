@@ -258,7 +258,7 @@
                     <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="dashboard"> Dashboard </a></p>
                     <p> <i class="fa fa-address-book-o" aria-hidden="true"></i> <a href="register">Register </a> </p>
                     <p> <i class="fa fa-sign-in" aria-hidden="true"></i> <a href="login">Sign In </a> </p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="contact">Support </a> </p>
+                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="contact">support </a> </p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p> <b>Resources</b> </p>
@@ -269,6 +269,7 @@
                 </div>
                 <div class="col-md-4 footer-box">
                     <p><b> <a href="about">Sunnyvale, California 94043 </a> </b> </p>
+                    <p> <a href="contact"> +1 (531)-466-0308</a> </p>
                     <p> <a href="about">About Brisebox</a> </p>
                     <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
                     <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>

@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="feature-box">
-                        <h2>Fill out the form and we’ll get back to you in a few.</h2>
+                        <h2>Available 24/7. Fill out the form, we’ll respond in a few minutes.</h2>
                         <form action="contactInc.php" method="POST">
                             <input type = "text" maxlength = "40" name = "fullName" autocomplete = "off" id = "businessTextboxes" placeholder = "Full name" required>
                             <br>
