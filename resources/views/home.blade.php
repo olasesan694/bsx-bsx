@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    CLICK ON YOUR NAME TO LOGOUT.
+                    ** CLICK ON YOUR NAME TO LOGOUT. **
                 </div>
             </div>
         </div>

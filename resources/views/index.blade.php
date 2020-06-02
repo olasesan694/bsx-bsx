@@ -138,7 +138,7 @@
         <div class="container">
             <div class="row">
               <div class="col-md-6 right-about">
-                <h3>WE INCREASE CLOSURE & RETENTION</h3>
+                <h3>INCREASE CLOSURE & RETENTION</h3>
                 <ul>
                     <li>&#8594; Get longer customer retention and engagment.</li>
                     <li>&#8594; Achieve more purchase deals, faster.</li>
