@@ -60,14 +60,14 @@
                                     <a href="#" class="text-white">Admin</a>
                                 </div>
                                 <ul class="navbar-nav flex-column mt-4">
-                                    <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current">Get Started</a></li>
+                                    <li class="nav-item"><a href="#tables" class="nav-link text-white p-3 mb-2 current">Get Started</a></li>
                                     <li class="nav-item"><a href="docs" class="nav-link text-white p-3 mb-2 sidebar-link">Try it</a></li>
                                     <li class="nav-item"><a href="docs" class="nav-link text-white p-3 mb-2 sidebar-link">Docs</a></li>
                                     <li class="nav-item"><a href="docs" class="nav-link text-white p-3 mb-2 sidebar-link">API</a></li>
                                     <li class="nav-item"><a href="contact" class="nav-link text-white p-3 mb-2 sidebar-link">Sales</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link">Analytics</a></li>
+                                    <li class="nav-item"><a href="#tables" class="nav-link text-white p-3 mb-2 sidebar-link">Analytics (beta soon)</a></li>
                                     <li class="nav-item"><a href="contact" class="nav-link text-white p-3 mb-2 sidebar-link">Support</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link">Settings</a></li>
+                                    <li class="nav-item"><a href="home" class="nav-link text-white p-3 mb-2 sidebar-link">Settings</a></li>
                                     <!-- <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a></li> -->
                                     {{-- <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-user text-light fa-lg mr-3"></i>Get Started</a></li>
                                     <li class="nav-item"><a href="docs" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-table text-light fa-lg mr-3"></i>Try it</a></li>
