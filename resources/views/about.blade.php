@@ -4,35 +4,6 @@
     <div id="topheader"class="header">
 
         @include('nav')
-        
-        {{-- <nav class="navbar navbar-expand-lg">
-            <div class="container p-2">
-                <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">brisebox</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"> --- <br> --- </span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto text-uppercase">
-                        <li class="nav-item">
-                            <a class="nav-link" href="dashboard">Docs & API <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register">Register -></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav> --}}
 
         <section class="header-section">
             <div class="center-div">

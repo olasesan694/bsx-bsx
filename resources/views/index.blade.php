@@ -61,7 +61,7 @@
 
     <section id = "info" class="info">
         <h1 class="text-center font-weight-bold">
-            Shoppers are less likely to purchase with poor online experiences.
+            Shoppers are less likely to make purchases with <br>  poor online experiences.
         </h1>
         <div class="row d-flex justify-content-center" >
             <div class="col-md-6 infobody">
