@@ -140,30 +140,30 @@
     </div>
   </div>
   
-    <section id="footer">
-        <hr>
-        <div class="container">
-            <div class="row offset-1">
-                <div class="col-md-4 footer-box">
-                    <p> <b>Account</b> </p>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
-                    <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Support</p>
-                </div>
-                <div class="col-md-4 footer-box">
-                    <p> <b>Resources</b> </p>
-                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Documentation</p>
-                    <p> <i class="fa fa-phone" aria-hidden="true"></i>API</p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
-                </div>
-                <div class="col-md-4 footer-box">
-                    <p> <b>Subscribe for developer updates</b> </p>
-                    <input type="email" class="form-control" placeholder="Your Email">
-                    <button type="button" class="btn btn-primary">Subscribe</button>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright"> &copy; brisebox 2020 </p>
-        </div>
-    </section>
+  <section id="footer">
+      <hr>
+      <div class="container">
+          <div class="row offset-1">
+              <div class="col-md-4 footer-box">
+                  <p> <b>Account</b> </p>
+                  <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Dashboard</p>
+                  <p> <i class="fa fa-phone" aria-hidden="true"></i>Register </p>
+                  <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Support</p>
+              </div>
+              <div class="col-md-4 footer-box">
+                  <p> <b>Resources</b> </p>
+                  <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Documentation</p>
+                  <p> <i class="fa fa-phone" aria-hidden="true"></i>API</p>
+                  <p> <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</p>
+              </div>
+              <div class="col-md-4 footer-box">
+                  <p> <b>Subscribe for developer updates</b> </p>
+                  <input type="email" class="form-control" placeholder="Your Email">
+                  <button type="button" class="btn btn-primary">Subscribe</button>
+              </div>
+          </div>
+          <hr>
+          <p class="copyright"> &copy; brisebox 2020 </p>
+      </div>
+  </section>
 @endsection

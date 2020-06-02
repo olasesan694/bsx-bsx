@@ -13,13 +13,13 @@
                     <ul class="navbar-nav ml-auto text-uppercase">
                         @guest
                             <li class="nav-item active">
-                                <a class="nav-link" href="dashboard">Docs & API <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="docs">Docs & API <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="jobs">Careers</a>
+                                <a class="nav-link" href="jobs">Jobs</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact">Contact</a>
@@ -63,8 +63,8 @@
                 </h1>
                 <p> Instantly improve your customer's shopping experience. </p>
                 <div class="header-buttons">
-                    <a href="register">Try it</a>
-                    <a href="contact">Help with Integration</a>
+                    <a href="register">TRY IT</a>
+                    <a href="contact">HELP WITH INTEGRATION</a>
                 </div>
                 <script src="/js/header.js"></script>
             </div>
@@ -180,7 +180,7 @@
                     <br>
                     <br>
                     <!-- BRISEBOX BUTTON CONNECTOR  -->
-                    <button class="btn-primary bb-share-button" onclick="window.location.href='{{ url('/dashboard') }}'" style="vertical-align:middle">
+                    <button class="btn-primary bb-share-button" onclick="window.location.href='{{ url('/register') }}'" style="vertical-align:middle">
                         use Brisebox <div style="font-style: italic; display:inline;"> Sample </div>
                     </button>
                 </div>
@@ -250,33 +250,6 @@
         </div>
     </section>
 
-    <section id="footer">
-        <div class="container">
-            <div class="row offset-1">
-                <div class="col-md-4 footer-box">
-                    <p> <b>Account</b> </p>
-                    <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="dashboard"> Dashboard </a></p>
-                    <p> <i class="fa fa-address-book-o" aria-hidden="true"></i> <a href="register">Register </a> </p>
-                    <p> <i class="fa fa-sign-in" aria-hidden="true"></i> <a href="login">Sign In </a> </p>
-                    <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="contact">support </a> </p>
-                </div>
-                <div class="col-md-4 footer-box">
-                    <p> <b>Resources</b> </p>
-                    <p> <i class="fa fa-file" aria-hidden="true"></i> <a href="docs">Docs & APIs </a> </p>
-                    <p> <i class="fa fa-dollar" aria-hidden="true"></i> <a href="pricing">Pricing </a> </p>
-                    <p> <i class="fa fa-mortar-board" aria-hidden="true"></i> <a href="jobs">Careers </a> </p>
-                    <p> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="contact">Contact </a> </p>
-                </div>
-                <div class="col-md-4 footer-box">
-                    <p><b> <a href="about">Sunnyvale, California 94043 </a> </b> </p>
-                    <p> <a href="contact"> +1 (531)-466-0308</a> </p>
-                    <p> <a href="about">About Brisebox</a> </p>
-                    <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>
-                    <a href="https://linkedin.com/company/brisebox" class="fa fa-linkedin"></a>
-                </div>
-            </div>
-            <p class="copyright"> &copy; brisebox 2020 </p>
-        </div>
-    </section>
+    @include('footer')
+
 @endsection

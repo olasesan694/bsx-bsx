@@ -25,5 +25,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/contact.scss', 'public/css')
 
     .sass('resources/sass/dashboard.scss', 'public/css')
+
+    .sass('resources/sass/footer.scss', 'public/css')
     
     .sass('resources/sass/pricing.scss', 'public/css');
