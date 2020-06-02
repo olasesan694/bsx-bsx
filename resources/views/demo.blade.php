@@ -26,8 +26,10 @@
           </label>
         </div>
         <a href="#" onclick="toggle()">Send</a>
-    
+
+        @include('poweredby')
+        
       </div>
     </div>
-
+    
 @endsection

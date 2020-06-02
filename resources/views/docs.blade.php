@@ -10,6 +10,7 @@
           <li><a href="#demo">Demo</a></li>
           <li><a href="#getstarted">Get Started</a></li>
           <li><a href="#api">APIs</a></li>
+          <li><a href="dashboard">Return To Dashboard</a></li>
         </ul><br>
       </div>
       <br>

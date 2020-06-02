@@ -2,45 +2,14 @@
 @section('content')
 
 <div id="topheader"class="header">
-  <nav class="navbar navbar-expand-lg">
-      <div class="container p-2">
-          <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">brisebox</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">--- <br> --- </span>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto text-uppercase">
-                  <li class="nav-item">
-                      <a class="nav-link" href="dashboard">Docs & API <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="pricing">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="jobs">Careers</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="login">Sign In -></a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
+  @include('nav')
 
   <section class="header-section">
       <div class="center-div">
           <h1 class="font-weight-bold">
               Build the future in E-commerce. 
           </h1>
-          {{-- <p> Close online purchases faster with the Brisebox API.</p>
-          <div class="header-buttons">
-              <a href="contact">Contact Sales</a>
-              <a href="contact">Get Support</a>
-          </div> --}}
       </div>
   </section>
 </div>
