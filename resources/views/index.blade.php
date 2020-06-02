@@ -180,7 +180,7 @@
                     <br>
                     <br>
                     <!-- BRISEBOX BUTTON CONNECTOR  -->
-                    <button class="btn-primary bb-share-button" onclick="window.location.href='{{ url('/register') }}'" style="vertical-align:middle">
+                    <button class="btn-primary bb-share-button" onclick="window.location.href='{{ url('/dashboard') }}'" style="vertical-align:middle">
                         use Brisebox <div style="font-style: italic; display:inline;"> Sample </div>
                     </button>
                 </div>
@@ -242,7 +242,7 @@
                             <li>Talk to us</li>
                         </div>
                         <div class="card-footer">
-                            <a href="contact">Contact Us</a>
+                            <a href="contact">Contact</a>
                         </div>
                     </div>
                 </div>

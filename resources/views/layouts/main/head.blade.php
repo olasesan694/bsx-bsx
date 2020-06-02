@@ -19,7 +19,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Brisebox for Retailers - Online Shopping Experience Software</title>
+        <title>Brisebox for Retailers - Online Shopping Experience Solutions</title>
 
         {{-- <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/> --}}
         <meta name="description" content="Brisebox for Retailers is the solution for online shopping experience. Improve customer experience using the Brisebox api."/>

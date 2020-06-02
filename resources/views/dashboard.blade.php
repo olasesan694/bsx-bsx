@@ -81,7 +81,7 @@
                             <li class="list-group-item">(1). Trying the Brisebox Button to see how it will look for your users </li>
                             <li class="list-group-item">(2). Copying a code into your HTML page</li>
                             <li class="list-group-item">(3). Entering your website info</li>
-                            <li class="list-group-item">(4). Done. Enjoy more users on your platform.</li>
+                            <li class="list-group-item">(4). Done. Enjoy more users, sell more and faster on your platform.</li>
                         </ul>
                         <a href="docs" class="btn btn-danger btn-lg">Try Now</a>
                     </div>
