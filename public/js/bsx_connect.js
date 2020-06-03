@@ -3,7 +3,7 @@ var linkTitle = 'BRISEBOX';
 var linkWidth = 500;
 var linkHeight = 600;
 
-function PopupCenter(url, title, w, h) {
+function cnt_brisebox(url, title, w, h) {
     var userAgent = navigator.userAgent,
         mobile = function() {
           return /\b(iPhone|iP[ao]d)/.test(userAgent) ||

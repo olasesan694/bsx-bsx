@@ -1,5 +1,17 @@
 @extends('layouts.main.head')
 
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ed7e2024a7c62581799dadd/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+
 @section('content')
     <div id="topheader"class="header">
         
@@ -155,7 +167,7 @@
                         <div class="card-header">BASIC</div>
                         <div class="card-body">
                             <li>$<span class="money">0</span></li>
-                            <li>&#10003; Fast integration</li>
+                            <li>&#10003; Fast, Secure Integration</li>
                             <li>&#10003; Upgrade Option</li>
                             <li>&#10003; Customization</li>
                             <li>&#10003; Quick Support</li>

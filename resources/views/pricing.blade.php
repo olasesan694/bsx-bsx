@@ -32,7 +32,7 @@
                         <div class="card-header">BASIC</div>
                         <div class="card-body">
                             <li>$<span class="money">0</span></li>
-                            <li>&#10003; Fast integration</li>
+                            <li>&#10003; Fast, Secure Integration</li>
                             <li>&#10003; Upgrade Option</li>
                             <li>&#10003; Customization</li>
                             <li>&#10003; Quick Support</li>
