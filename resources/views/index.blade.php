@@ -37,7 +37,7 @@
         <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="/images/officepeople.jpg" alt="">
+                <img src="/images/guests.png" alt="">
               </div>
               <div class="col-md-6 left-about">
                 <h3>GET ASSISTANCE ON ENGAGING VISITORS</h3>
@@ -50,27 +50,6 @@
         </div>
     </section>
 
-    {{-- <section id = "info" class="info">
-        <div class="container">
-            <div class="card-columns d-flex justify-content-center">
-            <div class="card">
-                <div class="card-block">
-                <img src="images/doc.png" class="card-img-top" alt="...">
-                <h4 class="card-title">Quick Download Integration</h4>
-                <p class="card-text">If your customers are leaving without making purchases, take advantage of the pre-made Brisebox UI to get help with initiating purchases.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-block">
-                <img src="images/cart.png" class="card-img-top" alt="...">
-                <h4 class="card-title">Faster Deal Closure</h4>
-                <p class="card-text">The Brisebox API functionality helps engage your customers until they are ready to make their purchase. Close more sales deals here and get an increase in conversion rates</p>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section id = "info" class="info">
         <h1 class="text-center font-weight-bold">
             Shoppers are less likely to make purchases with <br>  poor online experiences.
@@ -81,15 +60,13 @@
                 <div class="card-body">
                     <h5 class="card-title">Quick Downloadable Integration</h5>
                     <p class="card-text">If your customers need better shopping experience, and are leaving without making purchases, take advantage of our pre-made Brisebox UI to close deals faster.</p>
-                    {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
                 </div>
             </div>
-            <div class="col-md-6 infobody">
+            <div class="col-md-6 infobody-second">
                 <img src="images/cart.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Higher Conversion Rates</h5>
-                    <p class="card-text">Rentention and conversion rates are important for create better customer experiences. Use the Brisebox API functionality to engage your customers until they are ready to make their purchase. Increase in conversion rates, and sell faster with Brisebox. </p>
-                    {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+                    <p class="card-text">Rentention and conversion rates are important for creating better customer experiences. Use the Brisebox API functionality to engage your customers until they are ready to make their purchase. Increase conversion rates, and sell faster with Brisebox. </p>
                 </div>
             </div>
         </div>
@@ -106,7 +83,7 @@
                 </ul>
               </div>
               <div class="col-md-6 ">
-                <img src="/images/girl-schedule.png" alt="creative team">
+                <img src="/images/money.png" alt="creative team">
               </div>
             </div>
         </div>

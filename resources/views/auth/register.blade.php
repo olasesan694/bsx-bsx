@@ -117,12 +117,12 @@
 
             <button class="accordion">WHAT ABOUT SUPPORT?</button>
             <div class="panel">
-            <p>Your Free Plan, as well as all our Paid Plans, includes a personal onboarding assistant, available via the chat. Feel free to ask all your questions in the chat and be sure we’ll do our best to provide you with an outstanding support.</p>
+            <p>Your Free Plan, as well as all our Paid Plans, includes a personal onboarding assistant, available via the chat. Feel free to ask all your questions in the chat and you can count on us to do our best to provide you with an outstanding support.</p>
             </div>
         
             <button class="accordion">WHAT IF I WANT TO TRY A CUSTOM PLAN FOR MORE TEAM MEMBERS?</button>
             <div class="panel">
-            <p>Just register your Free Plan account and chat with us from your Brisebox account explaining what custom plan you want to try. We’ll ask you just a few questions and will set up your Free Plan account according to your requirements.</p>
+            <p>Just register your Free Plan account and chat with us from your Brisebox account explaining what custom plan you want to try. We’ll ask you just a few questions and will set up your Custom Plan account according to your requirements.</p>
             </div>
             
             <button class="accordion">DO I NEED TO ENTER MY CREDIT CARD DATA DURING THE TRIAL PERIOD?</button>
