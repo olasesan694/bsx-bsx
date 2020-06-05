@@ -40,9 +40,9 @@
                 <img src="/images/guests.png" alt="">
               </div>
               <div class="col-md-6 left-about">
-                <h3>GET ASSISTANCE ON ENGAGING VISITORS</h3>
+                <h3>Get Assistance Engaging Visitors</h3>
                 <ul>
-                    <li>&#8594; We bring new visitors, and engage your new shoppers and guests. </li>
+                    <li>&#8594; Get new visitors, and engage new shoppers and guests. </li>
                     <li>&#8594; Instantly boost your customer interaction.</li>
                 </ul>
               </div>
@@ -76,7 +76,7 @@
         <div class="container">
             <div class="row">
               <div class="col-md-6 right-about">
-                <h3>INCREASE CLOSURE & RETENTION</h3>
+                <h3>Increase Closure & Retention</h3>
                 <ul>
                     <li>&#8594; Get longer customer retention and engagment.</li>
                     <li>&#8594; Achieve more purchase deals, faster.</li>

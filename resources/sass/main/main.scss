@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: 'Kanit', sans-serif;
+  // font-family: "Poppins", sans-serif;
   /* google font */
 }
 
@@ -51,8 +53,8 @@ li {
 }
 
 .navbar-brand img {
-  width: 50px;
-  height: 50px;
+  width: 160px;
+  height: 60px;
 }
 
 .navbar:before {
@@ -77,11 +79,12 @@ li {
   color: black;
   text-align: center;
   position: relative;
-  color:rgb(35, 42, 50);
+  // color:rgb(35, 42, 50);
 }
 
 .txt-type {
-  color: #ff5213;
+  // color: #ff5213;
+  color: #0070ba;
 }
 
 /* cursor */
@@ -105,7 +108,7 @@ li {
 
 .header-buttons a {
   border: 1px solid #000000;
-  border-radius: 100px;
+  border-radius: 50px;
   margin: 0 5px;
   padding: 12px 35px;
   outline: none;
@@ -176,7 +179,7 @@ li {
 
 .infobody {
   padding: 100px 20px 100px 20px;
-  border: 2px solid black;
+  border: 1px solid white;
   background-color: white;
   color: #000000;
   border-radius: 15px;
@@ -193,10 +196,10 @@ li {
 
 .infobody-second {
   padding: 100px 20px 100px 20px;
-  border: 2px solid white;
+  border: 3px solid black;
   background-color: black;
   color: #ffffff;
-  border-radius: 15px;
+  // border-radius: 15px;
 }
 
 .infobody-second .card-title {
