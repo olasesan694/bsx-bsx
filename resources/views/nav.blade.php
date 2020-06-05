@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logoimg.png" alt="brisebox logo"></a>
+        <a class="navbar-brand font-weight-bold" href="{{ url('/') }}"><img src="/images/logo.png" alt="brisebox logo">{{ config('app.name', 'brisebox') }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">--- <br> ---</span>
         </button>
