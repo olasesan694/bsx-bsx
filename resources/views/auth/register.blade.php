@@ -43,7 +43,7 @@
                                 <label for="phone" class="col-md-4 col-form-label text-md-right">Phone</label>
 
                                 <div class="col-md-6">
-                                    <input id="phone" type="phone" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone">
+                                    <input id="phone" type="tel" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone">
 
                                     @error('phone')
                                         <span class="invalid-feedback" role="alert">
@@ -57,7 +57,7 @@
                                 <label for="domain" class="col-md-4 col-form-label text-md-right">Website URL</label>
 
                                 <div class="col-md-6">
-                                    <input id="domain" type="domain" class="form-control @error('domain') is-invalid @enderror" name="domain" value="{{ old('domain') }}" placeholder="https://www.example.com" required autocomplete="domain">
+                                    <input id="domain" type="text" class="form-control @error('domain') is-invalid @enderror" name="domain" value="{{ old('domain') }}" placeholder="https://www.example.com" required autocomplete="domain">
 
                                     @error('domain')
                                         <span class="invalid-feedback" role="alert">

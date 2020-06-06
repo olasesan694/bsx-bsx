@@ -58,8 +58,8 @@
             <div class="col-md-6 infobody">
                 <img src="images/doc.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Quick Downloadable Integration</h5>
-                    <p class="card-text">If your customers need better shopping experience, and are leaving without making purchases, take advantage of our pre-made Brisebox UI to close deals faster.</p>
+                    <h5 class="card-title">3-Step Integration</h5>
+                    <p class="card-text">Take advantage of our pre-made Brisebox UI to close deals faster, if your customers need a better shopping experience, and are leaving without making purchases.</p>
                 </div>
             </div>
             <div class="col-md-6 infobody-second">

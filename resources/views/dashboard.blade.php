@@ -40,7 +40,7 @@
                             </div>
                             <div class="card-footer text-secondary">
                                 <i class="fas fa-sync mr-3"></i>
-                                <span>Option to update: begins 12/11/2021</span>
+                                <span>Optional Upgrade: begins 12/11/2021</span>
                             </div>
                         </div>
                     </div>
@@ -61,6 +61,22 @@
                             </div>
                         </div>
                     </div>
+                    {{-- <div class="col-xl-3 col-sm-6 p-2">
+                        <div class="card card-common">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <i class="fas fa-money-bill-alt fa-3x text-success"></i>
+                                    <div class="text-right text-secondary">
+                                        <h5>Get a Free Standard Plan Upgrade for 1yr</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-secondary">
+                                <i class="fas fa-sync mr-3"></i>
+                                <span><a href="#invite">Invite someone that can use brisebox</a></span>
+                            </div>
+                        </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -79,11 +95,11 @@
                         <ul class="list-group">
                             <li class="list-group-item ">Get Started By: <li>
                             <li class="list-group-item">(1). Trying the Brisebox Button to see how it will look for your users </li>
-                            <li class="list-group-item">(2). Copying a code into your HTML page</li>
-                            <li class="list-group-item">(3). Entering your website info</li>
+                            <li class="list-group-item">(2). Copying & downloading code for your HTML page and website</li>
+                            <li class="list-group-item">(3). Setting your website info</li>
                             <li class="list-group-item">(4). Done. Enjoy more users, sell more and faster on your platform.</li>
                         </ul>
-                        <a href="docs" class="btn btn-danger btn-lg">Try Now</a>
+                        <a href="docs" class="btn btn-danger btn-lg">Start 3 steps</a>
                     </div>
                     <div class="col-12">
                         
@@ -93,5 +109,73 @@
         </div>
     </div>
     </section>
-    <!-- end of tables  -->
+    
+    {{-- <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header"><h2>Invite Someone New </h2></div>
+        
+                        <div class="card-body">
+                            <form method="POST" action="{{ action('WelcomeController@c') }}">
+                                @csrf
+                                <input name="_token" type="hidden" value="{{ csrf_token() }}"/>
+                                <input type="hidden" name="inviter" value="{{ $Auth::id() }}">
+        
+                                <div id="invite" class="form-group row">
+                                    <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Guest Name') }}</label>
+        
+                                    <div class="col-md-6">
+                                        <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" required autocomplete="new-name">
+        
+                                        @error('name')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Guest E-Mail Address') }}</label>
+        
+                                    <div class="col-md-6">
+                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
+        
+                                        @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="domain" class="col-md-4 col-form-label text-md-right">{{ __('Guest Website URL') }}</label>
+        
+                                    <div class="col-md-6">
+                                        <input id="domain" type="text" class="form-control @error('domain') is-invalid @enderror" name="domain" value="{{ $email ?? old('domain') }}" placeholder="https://example.com" required autocomplete="domain" autofocus>
+        
+                                        @error('domain')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+                                    </div>
+                                </div>
+        
+                                <div class="form-group row mb-0">
+                                    <div class="col-md-6 offset-md-4">
+                                        <button type="submit" class="btn btn-primary">
+                                            {{ __('Send Invitation') }}
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
 @endsection
