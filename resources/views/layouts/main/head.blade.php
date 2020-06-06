@@ -11,7 +11,8 @@
         </script>
 
 
-        <meta name="google-site-verification" content="p4-65xlqi61a68qS1IVsBUAEC_zjfXJr4fHfvJh11ek" />
+        {{-- <meta name="google-site-verification" content="p4-65xlqi61a68qS1IVsBUAEC_zjfXJr4fHfvJh11ek" /> --}}
+        <meta name="google-site-verification" content="M4A1OeiHj3g3fB3-2OUGMyWHFLu9X_Yfguy6scMvtsI" />
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1      shrink-to-fit=no">
@@ -19,7 +20,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Brisebox for Retailers - Online Shopping Experience Solutions</title>
+        <title>Brisebox for Retailers - Tighter Online Experience</title>
 
         {{-- <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/> --}}
         <meta name="description" content="Brisebox for Retailers is the solution for online shopping experience. Improve customer experience using the Brisebox api."/>

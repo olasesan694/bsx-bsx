@@ -47,6 +47,21 @@
   <lastmod>2020-05-28T16:21:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://retailers.brisebox.com/dashboard</loc>
+  <lastmod>2020-05-28T16:21:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retailers.brisebox.com/demo</loc>
+  <lastmod>2020-05-28T16:21:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retailers.brisebox.com/docs</loc>
+  <lastmod>2020-05-28T16:21:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>
