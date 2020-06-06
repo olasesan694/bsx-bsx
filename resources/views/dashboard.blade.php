@@ -91,7 +91,8 @@
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-muted text-center mb-3">Allow <div style="font-style: italic; display:inline;"> Live </div> User-To-User Discussions on your Website.</h3>
+                        {{-- <h3 class="text-muted text-center mb-3">Allow <div style="font-style: italic; display:inline;"> Live </div> User-To-User Discussions on your Website.</h3> --}}
+                        <h3 class="text-muted text-center mb-3">What Next?</h3>
                         <ul class="list-group">
                             <li class="list-group-item ">Get Started By: <li>
                             <li class="list-group-item">(1). Trying the Brisebox Button to see how it will look for your users </li>
