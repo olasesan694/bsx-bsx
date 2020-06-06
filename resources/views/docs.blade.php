@@ -138,8 +138,8 @@
               <div class="well">
                   <p> Cannot download? <a href="contact">Talk to us.</a> </p>
                   <div class="code">
-                    {{-- <a href="/js/bsx_connect.js" download="bsx_connect.js"> Download </a> --}}
-                    <a href="#"> Download </a>
+                    <a href="/js/bsx_connect.js" download="bsx_connect.js"> Download </a>
+                    {{-- <a href="#"> Download </a> --}}
                   </div>
               </div>
           </div>
