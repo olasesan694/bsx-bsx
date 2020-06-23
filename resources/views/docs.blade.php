@@ -30,7 +30,7 @@
           <h3>Try the Button</h3>
           {{-- <p>Whether you’re a small or a global enterprise, try the Brisebox Button 
             <br> to see how your customers will have the option to invite a friend and begin live dicussions. </p> --}}
-            <p>Whether you’re a small or a global enterprise, try the Brisebox Button Below. </p>
+            <p>Whether you’re a small or a global enterprise, the Brisebox Button will appear as it is below. </p>
         </div>
   
         <div class="row">
@@ -40,7 +40,7 @@
                 <span>invite friend with BRISEBOX </span>
               </button> --}}
               <button class="button" >
-                <span> use Brisebox </span>
+                <div style="font-style: italic; display:inline;"> brisebox </div><span> Chat with Store Member</span>
               </button>
             </div>
           </div>
