@@ -114,9 +114,9 @@
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-muted text-center mb-3"> View New Customer Live Chat Requests:  </h3>
+                        <h3 class="text-muted mb-3"> View New Customer Live Chat Requests:  </h3>
                         <br>
-                        <a href="https://connect.brisebox.com/accept" class="btn btn-secondary btn-lg">Join Discussion</a>
+                        <a href="https://connect.brisebox.com/accept" class="btn btn-danger btn-lg">Join Discussion</a>
                     </div>
                     <div class="col-12">
                         
@@ -130,13 +130,13 @@
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-muted text-center mb-3"> Issues Checklist:  </h3>
+                        <h3 class="text-muted mb-3"> Issues Checklist:  </h3>
                         <ul>
-                            <li> Make sure meta tags are filled correctly (including the 'bb:' og graph)  </li>
-                            <li> Make sure website url matches the format: https://www.example.com </li>
-                            <li> Click the 'join disucssions' button and click accept often to view new chat requests from customers as they're updated.</li>                            
+                            <li> Make sure meta tags are modified completely (including the 'bb:' og graph).  </li>
+                            <li> The website url you registered should match the format: https://www.example.com </li>
+                            <li> Click the 'Join Disucssions' button and click accept often to view new chat requests from customers as they're updated.</li>                            
                         </ul>
-                        <p> For support, <a href="contact">contact us </a> </p>
+                        <p> For support, <a href="contact">contact brisebox support </a> </p>
                     </div>
                     <div class="col-12">
                         
