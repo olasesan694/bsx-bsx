@@ -133,7 +133,7 @@
                         <h3 class="text-muted mb-3"> Issues Checklist:  </h3>
                         <ul>
                             <li> Make sure meta tags are modified completely (including the 'bb:' og graph).  </li>
-                            <li> The website url you registered should match the format: https://www.example.com </li>
+                            <li> Your registered company email here and in <a href="https://connect.brisebox.com/register"> Connect Brisebox </a> should match. </li>
                             <li> Click the 'Join Disucssions' button and click accept often to view new chat requests from customers as they're updated.</li>                            
                         </ul>
                         <p> For support, <a href="contact">contact brisebox support </a> </p>
