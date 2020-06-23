@@ -92,7 +92,7 @@
                 <div class="row">
                     <div class="col-12">
                         {{-- <h3 class="text-muted text-center mb-3">Allow <div style="font-style: italic; display:inline;"> Live </div> User-To-User Discussions on your Website.</h3> --}}
-                        <h3 class="text-muted text-center mb-3">What Next?</h3>
+                        <h3 class="text-muted text-center mb-3">What's Next?</h3>
                         <ul class="list-group">
                             <li class="list-group-item ">Get Started By: <li>
                             <li class="list-group-item">(1). Trying the Brisebox Button to see how it will look for your users </li>
@@ -101,6 +101,22 @@
                             <li class="list-group-item">(4). Done. Enjoy more users, sell more and faster on your platform.</li>
                         </ul>
                         <a href="docs" class="btn btn-danger btn-lg">Start 3 steps</a>
+                    </div>
+                    <div class="col-12">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-muted text-center mb-3"> View New Customer Live Chat Requests.  </h3>
+                        <h5>* Always updated. Hint: accept and join discussions often. * </h5>
+                        <a href="https://connect.brisebox.com/accept" class="btn btn-danger btn-lg">Join Discussion</a>
                     </div>
                     <div class="col-12">
                         
