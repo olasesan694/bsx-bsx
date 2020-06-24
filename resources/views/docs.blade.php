@@ -40,7 +40,7 @@
                 <span>invite friend with BRISEBOX </span>
               </button> --}}
               <button class="button" >
-                <div style="font-style: italic; display:inline;"> brisebox </div><span> Chat with Store Member</span>
+                <div style="font-style: italic; display:inline;"> brisebox - </div><span> Chat with Store Member</span>
               </button>
             </div>
           </div>

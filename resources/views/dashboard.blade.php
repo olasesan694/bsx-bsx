@@ -116,7 +116,7 @@
                     <div class="col-12">
                         <h3 class="text-muted mb-3"> View New Customer Live Chat Requests:  </h3>
                         <br>
-                        <a href="https://connect.brisebox.com/accept" class="btn btn-danger btn-lg">Join Discussion</a>
+                        <a href="https://connect.brisebox.com/accept" class="btn btn-danger btn-lg">Join Discussions</a>
                     </div>
                     <div class="col-12">
                         
@@ -132,11 +132,11 @@
                     <div class="col-12">
                         <h3 class="text-muted mb-3"> Issues Checklist:  </h3>
                         <ul>
-                            <li> Make sure meta tags are modified completely (including the 'bb:' og graph).  </li>
-                            <li> Your registered company email here and in <a href="https://connect.brisebox.com/register"> Connect Brisebox </a> should match. </li>
-                            <li> Click the 'Join Disucssions' button and click accept often to view new chat requests from customers as they're updated.</li>                            
+                            <li> Make sure meta tags are modified completely (including the 'bb:' open graph tags).  </li>
+                            <li>Your registered company website url here and in <a href="https://connect.brisebox.com/register"> Connect Brisebox </a> should match, and follow the format: https://www.example.com</li>
+                            <li> Click the 'Join Disucssions' button and click accept <div style="font-style: italic; display:inline;"> often </div> to view new chat requests from customers as they're updated.</li>                            
                         </ul>
-                        <p> For support, <a href="contact">contact brisebox support </a> </p>
+                        <p> For support <a href="contact">contact brisebox support </a> </p>
                     </div>
                     <div class="col-12">
                         
