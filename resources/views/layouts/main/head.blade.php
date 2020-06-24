@@ -24,10 +24,25 @@
 
         {{-- <meta property="og:image" content="https://recruiterflow.com/api/careers/social/image?for=facebook&amp;company=Brisebox"/> --}}
         <meta name="description" content="Brisebox for Retailers is the solution for online shopping experience. Improve customer experience using the Brisebox api."/>
-        <meta property="og:title" content="Brisebox Retail Software."/>
+        
+
+        {{-- ********* BEGIN BRISEBOX TAGS **********  --}}
+
+        <!-- Meta and Open Graph Tags -->
+        <meta property="og:description" content="Improve customer shopping experience. Brisebox is for your e-commerce website, and your customers."/>        <meta property="og:title" content="Brisebox Retail Software."/>
         <meta property="og:url" content="https://retailers.brisebox.com"/>
-        <meta property="og:description" content="Improve customer shopping experience. Brisebox is for your e-commerce website, and your customers."/>
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Tigher Online Experience" />
+        {{-- <meta property="bb:price" content="$122.99" />
+        <meta property="og:image" content="https://www.your-domain.com/path/image.jpg" />
+        <meta property="bb:company" content="Retail Brisebox" /> --}}
+
+        <!-- Brisebox Script -->
+        <script src="/js/test_download/bsx_connect.js"></script>
+
+        {{-- ********* END BRISEBOX TAGS **********  --}}
+
+
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
