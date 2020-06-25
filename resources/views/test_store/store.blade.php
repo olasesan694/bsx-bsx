@@ -51,7 +51,7 @@
 </head>
 <body>
 
-<h2 style="text-align:center">Sample Product Page.</h2>
+<h2 style="text-align:center">Sample Product Details Page.</h2>
 
 <div class="card">
   <img src="/images/test-store/girldress.jpg" alt="Denim Jeans" style="width:100%">
