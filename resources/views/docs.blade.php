@@ -107,7 +107,7 @@
                     width: 250px;
                     transition: all 0.5s;
                     cursor: pointer;"&gt;
-                    &lt;span&gt; invite friend with BRISEBOX &lt;/span&gt;
+                    &lt;span&gt; brisebox - Live Chat with Store Member &lt;/span&gt;
                     &lt;/button&gt;
                 </div>
               </div>
