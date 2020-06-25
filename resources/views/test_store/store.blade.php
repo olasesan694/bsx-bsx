@@ -8,9 +8,9 @@
         <meta property="og:description" content="Improve customer shopping experience. Brisebox is for your e-commerce website, and your customers."/>        <meta property="og:title" content="Brisebox Retail Software."/>
         <meta property="og:url" content="https://retailers.brisebox.com"/>
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Tailored Jeans" />
-        <meta property="bb:price" content="$19.99" />
-        <meta property="og:image" content="https://www.your-domain.com/path/image.jpg" />
+        <meta property="og:title" content="Sleeveless Mock Neck Dress" />
+        <meta property="bb:price" content="$98.99" />
+        <meta property="og:image" content="https://www.hautelookcdn.com/products/S9FTJ-D4503M/large/12533047.jpg" />
         <meta property="bb:company" content="Retail Brisebox" />
 
         <!-- Brisebox Script -->
@@ -51,21 +51,21 @@
 </head>
 <body>
 
-<h2 style="text-align:center">Product Card</h2>
+<h2 style="text-align:center">Sample Product Page.</h2>
 
 <div class="card">
-  <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Tailored Jeans</h1>
-  <p class="price">$19.99</p>
-  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-  <p><button>Add to Cart</button></p>
+  <img src="/images/test-store/girldress.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Sleeveless Mock Neck Dress</h1>
+  <p class="price">$98.99</p>
+  <p>A fitted mock neck paired with the sleeveless silhouette of this breezy shift dress makes it an effortlessly stylish staple.</p>
+  <br>
+  <br>
+  <p>
+    <!-- Brisebox Button Connector -->
+    <button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> brisebox - Chat with Store Member </span> </button>
+  </p>
+  <br>
+  <br>
 </div>
-
-<br>
-<br>
-<!-- Brisebox Button Connector -->
-
-<button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> brisebox - Chat with Store Member </span> </button>
-
 </body>
 </html>

@@ -51,7 +51,7 @@
             <div class="well">
               <h3>Add meta tags</h3> 
               <p>Now that you've seen the Brisebox Button in action,</p> 
-              <p>Copy the following, and paste it inside the &lt;head&gt; tag of your details page.</p>
+              <p>Copy the following, and paste it inside the &lt;head&gt; tag of the product details page.</p>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
                   &lt;!-- Meta and Open Graph Tags --&gt;
                   <br>
                   <br>
-                  &lt;meta property="og:url"           content="https://www.your-domain.com/your-details-page" /&gt;
+                  &lt;meta property="og:url"           content="https://www.your-domain.com/your-product-details-page" /&gt;
                   <br>
                   &lt;meta property="og:type"          content="website" /&gt;
                   <br>
@@ -74,6 +74,8 @@
                   &lt;meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" /&gt;
                   <br>
                   &lt;meta property="bb:company"       content="your_company_name" /&gt;
+                  <br>
+                  &lt;meta property="bb:domain"       content="https://www.example.com" /&gt;
                   <br>
                   <br>
                   <br>
