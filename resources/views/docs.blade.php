@@ -17,28 +17,19 @@
       
       <div class="col-sm-9">
         <div id="about" class="well">
-          {{-- <h3>Allow User-To-User Shopping Discussions on your Website</h3> --}}
           <h3>Get Started</h3>
-          {{-- <p>Learn how to integrate with Brisebox to allow live user-to-user discussions while they shop online, and close purchases faster.
-              BRISEBOX API gives your customers a social and engaging shopping experience throughout their shopping experience.
-          </p> --}}
           <p>Learn how to integrate with Brisebox and close purchases faster.
         </p>
         </div>
   
         <div id="Demo" class="well">
           <h3>Try the Button</h3>
-          {{-- <p>Whether you’re a small or a global enterprise, try the Brisebox Button 
-            <br> to see how your customers will have the option to invite a friend and begin live dicussions. </p> --}}
             <p>Whether you’re a small or a global enterprise, the Brisebox Button will appear as it is below. </p>
         </div>
   
         <div class="row">
           <div class="col-sm-3">
             <div class="well">
-              {{-- <button class="button" onclick="PopupCenter(linkToOpen, linkTitle, linkWidth, linkHeight);">
-                <span>invite friend with BRISEBOX </span>
-              </button> --}}
               <button class="button" >
                 <div style="font-style: italic; display:inline;"> brisebox - </div><span> Chat with Store Member</span>
               </button>
@@ -141,7 +132,6 @@
                   <p> Cannot download? <a href="contact">Talk to us.</a> </p>
                   <div class="code">
                     <a href="/js/bsx_connect.js" download="bsx_connect.js"> Download </a>
-                    {{-- <a href="#"> Download </a> --}}
                   </div>
               </div>
           </div>
