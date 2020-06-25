@@ -75,7 +75,7 @@
                   <br>
                   &lt;meta property="bb:company"       content="your_company_name" /&gt;
                   <br>
-                  &lt;meta property="bb:domain"       content="https://www.example.com" /&gt;
+                  &lt;meta property="bb:domain"       content="support@example.com /&gt;
                   <br>
                   <br>
                   <br>

@@ -12,7 +12,7 @@
         <meta property="bb:price" content="$98.99" />
         <meta property="og:image" content="https://www.hautelookcdn.com/products/S9FTJ-D4503M/large/12533047.jpg" />
         <meta property="bb:company" content="Retail Brisebox" />
-        <meta property="bb:domain" content="https://retailers.brisebox.com" />
+        <meta property="bb:domain" content="nords@gmail.com" />
 
         <!-- Brisebox Script -->
         <script src="/js/test_download/bsx_connect.js"></script>

@@ -7,7 +7,6 @@ var price_of_product = document.querySelector("meta[property='bb:price']").getAt
 var product_img_url = document.querySelector("meta[property='og:image']").getAttribute("content");
 var domain_url = document.querySelector("meta[property='bb:domain']").getAttribute("content"); 
 
-
 var brisebox_url = 'https://connect.brisebox.com/connect?';
 var incUrl = "incUrl=";
 var incName = "incName=";
