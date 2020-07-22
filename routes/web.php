@@ -29,5 +29,7 @@ Route::get('/docs', 'DocumentationController@index')->middleware('auth')->name('
 Route::get('/demo', 'DemoController@index')->name('demo')->middleware('auth');
 Route::get('/jobs', 'JobsController@index')->name('jobs');
 Route::get('/about', 'AboutController@index')->name('about');
-Route::get('/store', 'StoreController@index')->name('store');
+Route::get('/store', 'StoreController@index')->name('store'); // demo
+
+Route::get('/blog', 'BlogController@index')->name('blog'); // blogs
 // Route::get('ReferralsController')->name('referral')->middleware(['auth']);

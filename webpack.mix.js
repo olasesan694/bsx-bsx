@@ -30,4 +30,6 @@ mix.js('resources/js/app.js', 'public/js')
 
     .sass('resources/sass/poweredby.scss', 'public/css')
     
-    .sass('resources/sass/pricing.scss', 'public/css');
+    .sass('resources/sass/pricing.scss', 'public/css')
+
+    .sass('resources/sass/blog.scss', 'public/css');
