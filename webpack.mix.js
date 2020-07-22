@@ -32,4 +32,6 @@ mix.js('resources/js/app.js', 'public/js')
     
     .sass('resources/sass/pricing.scss', 'public/css')
 
-    .sass('resources/sass/blog.scss', 'public/css');
+    .sass('resources/sass/blog.scss', 'public/css')
+
+    .sass('resources/sass/blog-create.scss', 'public/css');

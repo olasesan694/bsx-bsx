@@ -31,5 +31,7 @@ Route::get('/jobs', 'JobsController@index')->name('jobs');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/store', 'StoreController@index')->name('store'); // demo
 
-Route::get('/blog', 'BlogController@index')->name('blog'); // blogs
+// creates the routes to each of the resource methods in the BlogsController
+Route::resource('/blog', 'BlogsController'); // blogs
+
 // Route::get('ReferralsController')->name('referral')->middleware(['auth']);

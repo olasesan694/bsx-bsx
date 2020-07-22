@@ -49843,6 +49843,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/blog-create.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/blog-create.scss ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/blog.scss":
 /*!**********************************!*\
   !*** ./resources/sass/blog.scss ***!
@@ -49943,9 +49954,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main/main.scss ./resources/sass/main/mobile-main.scss ./resources/sass/about.scss ./resources/sass/docs.scss ./resources/sass/contact.scss ./resources/sass/dashboard.scss ./resources/sass/footer.scss ./resources/sass/poweredby.scss ./resources/sass/pricing.scss ./resources/sass/blog.scss ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main/main.scss ./resources/sass/main/mobile-main.scss ./resources/sass/about.scss ./resources/sass/docs.scss ./resources/sass/contact.scss ./resources/sass/dashboard.scss ./resources/sass/footer.scss ./resources/sass/poweredby.scss ./resources/sass/pricing.scss ./resources/sass/blog.scss ./resources/sass/blog-create.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -49960,7 +49971,8 @@ __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/dashboard.scs
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/footer.scss */"./resources/sass/footer.scss");
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/poweredby.scss */"./resources/sass/poweredby.scss");
 __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/pricing.scss */"./resources/sass/pricing.scss");
-module.exports = __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/blog.scss */"./resources/sass/blog.scss");
+__webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/blog.scss */"./resources/sass/blog.scss");
+module.exports = __webpack_require__(/*! /Users/s.o./Desktop/bsx_web/resources/sass/blog-create.scss */"./resources/sass/blog-create.scss");
 
 
 /***/ })
