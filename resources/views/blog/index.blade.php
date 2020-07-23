@@ -31,8 +31,8 @@
         @if (count($posts) > 0)
           @foreach ($posts as $post)
             <div class="card mb-4">
-              <img class="card-img-top" src="/storage/image_file_post/{{ $post->image_file_post }}" alt="Card image cap">
-              <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap">
+            <img class="card-img-top" src="{{ asset('storage/image_file_post/'.$post->image_file_post) }}" alt="Card image cap">
+              {{-- <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap"> --}}
 
               <div class="card-body">
                 <h2 class="card-title">{{$post->title}}</h2>
@@ -40,8 +40,8 @@
                 <a href="https://retailers.brisebox.com/register" class="btn btn-primary">Read More &rarr;</a>
               </div>
               <div class="card-footer text-muted">
-                Posted on {{date('Y-m-d H:i:s')}} by
-                <a href="https://retailers.brisebox.com">{{$post->user->name}}</a>
+                On {{date('Y-m-d')}}
+                <a href="https://retailers.brisebox.com">Brisebox Team</a>
               </div>
             </div>
 
@@ -174,8 +174,5 @@
         <p class="copyright"> &copy; brisebox 2020 </p>
     </div>
 </section>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 @endsection

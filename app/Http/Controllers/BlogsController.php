@@ -73,7 +73,7 @@ class BlogsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'descriptionText' => 'required',
-            'image_file_post' => 'image|nullable|max:1999' // nullable (not required) | Max (size should be under 2MB for apache)
+            'image_file_post' => 'image|nullable|mimes:jpeg,png,jpg,gif,svg|max:2048' // nullable (not required) | Max (size should be under 2MB for apache)
         ]); // takes the request and an array of rules | We specified names of the fields to be required
 
         // Handle File Upload
@@ -88,6 +88,7 @@ class BlogsController extends Controller
             $fileNameToStore = $filename.'_'.time().'.'.$extension; // using timestamp to make it unique and avoid overriding
             // Uploads the Image
             $path = $request->file('image_file_post')->storeAs('public/image_file_post', $fileNameToStore);
+
         } else { // if the user didn't upload anything
             $fileNameToStore = 'noimage.png';
         }
