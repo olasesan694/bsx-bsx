@@ -23,15 +23,28 @@
       <!-- Blog Entries Column -->
       <div class="col-md-8">
 
-        <h1 class="my-4"> Blog
-          <small>2020</small>
+        <h1 class="my-4"> 
+          <small>{{date('Y')}}</small>
         </h1>
 
         <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">5 steps to an even better deal on Amazon</h2>
+            <p class="card-text">If you are an online shopper, you are probably used to the popular way obtaining better deals on Amazon, which is through coupons and kindhearted gift cards. Here are 5 steps to get even better deals on the Amazon.</p>
+            <a href="https://retailers.brisebox.com/register" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            On {{date('Y-m-d')}}
+            <a href="https://retailers.brisebox.com">Brisebox Team</a>
+          </div>
+        </div>
+
         @if (count($posts) > 0)
           @foreach ($posts as $post)
             <div class="card mb-4">
-            <img class="card-img-top" src="{{ asset('storage/image_file_post/'.$post->image_file_post) }}" alt="Card image cap">
+            {{-- <img class="card-img-top" src="{{ asset('storage/image_file_post/'.$post->image_file_post) }}" alt="Card image cap"> --}}
               {{-- <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap"> --}}
 
               <div class="card-body">

@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.blog.head')
 
 @section('content')
-    <h1>Edit your Posts. </h1>
+    <h1>Edit your Post. </h1>
     {!! Form::open(['action' => ['BlogsController@update', $postRowToEdit->id], 'method' => 'POST', 'enctype' => 'multipart/form-data'])!!}
         <div class="form-group">
             {{Form::label('title', 'Title')}}

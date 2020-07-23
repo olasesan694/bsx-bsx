@@ -104,6 +104,7 @@ class BlogsController extends Controller
 
         // redirect to new page with a success message about the post being created
         return redirect('/blog')->with('success', 'Your post has been created.');
+         
     }
 
 
