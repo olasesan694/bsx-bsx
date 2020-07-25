@@ -44,7 +44,7 @@
         @if (count($posts) > 0)
           @foreach ($posts as $post)
             <div class="card mb-4">
-            {{-- <img class="card-img-top" src="{{ asset('storage/image_file_post/'.$post->image_file_post) }}" alt="Card image cap"> --}}
+            <img class="card-img-top" src="{{ asset('storage/image_file_post/'.$post->image_file_post) }}" alt="Card image cap">
               {{-- <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap"> --}}
 
               <div class="card-body">
