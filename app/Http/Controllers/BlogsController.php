@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
+use Purifier;
 
 // brings in the model
 use App\Post; /** brings in the posts, so we can use all it's functions 
@@ -76,30 +77,31 @@ class BlogsController extends Controller
             'image_file_post' => 'image|nullable|mimes:jpeg,png,jpg,gif,svg|max:2048' // nullable (not required) | Max (size should be under 2MB for apache)
         ]); // takes the request and an array of rules | We specified names of the fields to be required
 
-        // Handle File Upload
-        if($request->hasFile('image_file_post')) { // if user submitted an image
-            // get filename with the extension
-            $filenameWithExt = $request->file('image_file_post')->getClientOriginalName(); // ext.
-            // get just the filename without the extension
-            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME); // php funcs
-            // get just the extension
-            $extension = $request->file('image_file_post')->getClientOriginalExtension(); // laravel funcs
-            // the unique filename to store - to avoid interference with other upload of similar names
-            $fileNameToStore = $filename.'_'.time().'.'.$extension; // using timestamp to make it unique and avoid overriding
-            // Uploads the Image
-            $path = $request->file('image_file_post')->storeAs('public/image_file_post', $fileNameToStore);
+        // // Handle File Upload
+        // if($request->hasFile('image_file_post')) { // if user submitted an image
+        //     // get filename with the extension
+        //     $filenameWithExt = $request->file('image_file_post')->getClientOriginalName(); // ext.
+        //     // get just the filename without the extension
+        //     $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME); // php funcs
+        //     // get just the extension
+        //     $extension = $request->file('image_file_post')->getClientOriginalExtension(); // laravel funcs
+        //     // the unique filename to store - to avoid interference with other upload of similar names
+        //     $fileNameToStore = $filename.'_'.time().'.'.$extension; // using timestamp to make it unique and avoid overriding
+        //     // Uploads the Image
+        //     $path = $request->file('image_file_post')->storeAs('public/image_file_post', $fileNameToStore);
 
-        } else { // if the user didn't upload anything
-            $fileNameToStore = 'noimage.png';
-        }
+        // } else { // if the user didn't upload anything
+        //     $fileNameToStore = 'noimage.png';
+        // }
         
         // ELOQUENT: send to db. and create post
         $post = new Post; // creates a post
         $post->title = $request->input('title');
-        $post->body = $request->input('descriptionText');
+        $post->body = Purifier::clean($request->input('descriptionText')); // avoids placing raw script in db.
         $post->user_id = auth()->user()->id; // db value of column user_id is set to the currently logged in user.
         // add post image
-        $post->image_file_post = $fileNameToStore; // either no image or the image with timestamp
+        // $post->image_file_post = $fileNameToStore; // either no image or the image with timestamp
+        $post->image_file_post = 'noimage.png'; // either no image or the image with timestamp
 
         $post->save();
 
@@ -160,19 +162,19 @@ class BlogsController extends Controller
             'descriptionText' => 'required' 
         ]); // takes the request and an array of rules | We specified names of the fields to be required
 
-        // Handle File Upload
-        if($request->hasFile('image_file_post')) { // if user submitted an image
-            // get filename with the extension
-            $filenameWithExt = $request->file('image_file_post')->getClientOriginalName(); // ext.
-            // get just the filename without the extension
-            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME); // php funcs
-            // get just the extension
-            $extension = $request->file('image_file_post')->getClientOriginalExtension(); // laravel funcs
-            // the unique filename to store - to avoid interference with other upload of similar names
-            $fileNameToStore = $filename.'_'.time().'.'.$extension; // using timestamp to make it unique and avoid overriding
-            // Uploads the Image
-            $path = $request->file('image_file_post')->storeAs('public/image_file_post', $fileNameToStore);
-        } 
+        // // Handle File Upload
+        // if($request->hasFile('image_file_post')) { // if user submitted an image
+        //     // get filename with the extension
+        //     $filenameWithExt = $request->file('image_file_post')->getClientOriginalName(); // ext.
+        //     // get just the filename without the extension
+        //     $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME); // php funcs
+        //     // get just the extension
+        //     $extension = $request->file('image_file_post')->getClientOriginalExtension(); // laravel funcs
+        //     // the unique filename to store - to avoid interference with other upload of similar names
+        //     $fileNameToStore = $filename.'_'.time().'.'.$extension; // using timestamp to make it unique and avoid overriding
+        //     // Uploads the Image
+        //     $path = $request->file('image_file_post')->storeAs('public/image_file_post', $fileNameToStore);
+        // } 
 
         // send to db. and create post
         $editedPost = Post::find($id); // creates a post
@@ -182,10 +184,12 @@ class BlogsController extends Controller
         }
         $editedPost->title = $request->input('title');
         $editedPost->body = $request->input('descriptionText');
+
         // add only if user uploaded an image
-        if($request->hasFile('image_file_post')) { // if user submitted an image
-            $editedPost->image_file_post = $fileNameToStore;
-        }
+        // if($request->hasFile('image_file_post')) { // if user submitted an image
+        //     $editedPost->image_file_post = $fileNameToStore;
+        // }
+
         $editedPost->save();
 
         // redirect to new page with a success message about the post being created

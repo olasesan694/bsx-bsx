@@ -12,5 +12,8 @@
     "/css/pricing.css": "/css/pricing.css",
     "/css/blog.css": "/css/blog.css",
     "/css/blog-create.css": "/css/blog-create.css",
+    "/css/blog-show.css": "/css/blog-show.css",
+    "/css/blog-edit.css": "/css/blog-edit.css",
+    "/css/footer-white.css": "/css/footer-white.css",
     "/js/header.js": "/js/header.js"
 }

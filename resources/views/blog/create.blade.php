@@ -23,14 +23,19 @@
                     {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
                 </div>
                 <div class="form-group">
-                    {{Form::label('description', 'Body')}}
-                    {{Form::textarea('descriptionText', '', ['class' => 'form-control', 'placeholder' => 'Write...'])}}
+                    {{Form::label('description', 'Body:')}}
+                    <div id="editor" class="form-group">
+                      {{Form::textarea('descriptionText', '', ['class' => 'form-control', 'rows' => '30', 'placeholder' => 'Write...'])}}
+                    </div>
                 </div>
-                <div class="form-group">
+                {{-- <div class="form-group">
                     {{Form::file('image_file_post')}}
-                </div>
-                {{Form::submit('Submit', ['class'=>'btn btn-primary'])}}
+                </div> --}}
+                {{Form::submit('Publish', ['class'=>'btn btn-primary'])}}
             {!! Form::close() !!}
         </div>
     </div>
+
+    @include('footer-white')
+    
 @endsection 

@@ -1,0 +1,50 @@
+#footer {
+    background-color: whitesmoke;
+  }
+  
+  .footer-box {
+    padding: 50px;
+  }
+  
+  .footer-box .fa {
+    margin-right: 8px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+  }
+  
+  .footer-box a {
+    font-size: 12px;
+    color: black;
+  }
+  
+  .footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+    background-color: whitesmoke;
+  }
+  
+  .footer-box .btn-primary {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #411c4b, #a517ba);
+  }
+  
+  hr {
+    background-color: #979696;
+  }
+  
+  .copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+  }

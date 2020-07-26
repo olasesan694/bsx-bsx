@@ -38,7 +38,7 @@
           </div>
           <div class="card-footer text-muted">
             On {{date('Y-m-d')}}
-            <a href="https://retailers.brisebox.com">Brisebox Team</a>
+            <a href="https://retailers.brisebox.com" target="_blank">Brisebox Team</a>
           </div>
         </div>
 
@@ -50,12 +50,15 @@
 
               <div class="card-body">
                 <h2 class="card-title">{{$post->title}}</h2>
-                <p class="card-text">{{$post->body}}</p>
-                <a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=bsx02a-20&keywords=home decor clearance&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5c222b0c13fd1976614b622c83f15f65" class="btn btn-primary">Explore &rarr;</a>
+                <p class="card-text"> 
+                   {{ substr(strip_tags($post->body), 0, 1000) }} {{ strlen($post->body) > 1000 ? "..." : "" }}
+                </p>
+                <a href="/blog/{{$post->id}}" class="btn btn-primary">Read more </a>
+                {{-- <a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=bsx02a-20&keywords=home decor clearance&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5c222b0c13fd1976614b622c83f15f65" class="btn btn-primary">Explore &rarr;</a> --}}
               </div>
               <div class="card-footer text-muted">
-                On {{date('Y-m-d')}}
-                <a href="https://retailers.brisebox.com">Brisebox Team</a>
+                On {{ $post->created_at->format('Y-m-d') }}
+                <a href="https://retailers.brisebox.com" target="_blank">Brisebox Team</a>
               </div>
             </div>
 

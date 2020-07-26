@@ -34,4 +34,10 @@ mix.js('resources/js/app.js', 'public/js')
 
     .sass('resources/sass/blog.scss', 'public/css')
 
-    .sass('resources/sass/blog-create.scss', 'public/css');
+    .sass('resources/sass/blog-create.scss', 'public/css')
+
+    .sass('resources/sass/blog-show.scss', 'public/css')
+
+    .sass('resources/sass/blog-edit.scss', 'public/css')
+    
+    .sass('resources/sass/footer-white.scss', 'public/css');

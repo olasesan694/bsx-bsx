@@ -9,13 +9,13 @@
             <ul class="navbar-nav ml-auto text-uppercase">
                 @guest
                     <li class="nav-item active">
-                        <a class="nav-link" href="docs">Docs & API </a>
+                        <a class="nav-link" href="https://retailers.brisebox.com/docs">Docs & API </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pricing">Pricing</a>
+                        <a class="nav-link" href="https://retailers.brisebox.com/pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link" href="https://retailers.brisebox.com/contact">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/login') }}">{{ __('Login') }}</a>
