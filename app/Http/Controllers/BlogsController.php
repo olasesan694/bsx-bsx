@@ -100,6 +100,7 @@ class BlogsController extends Controller
         $post->user_id = auth()->user()->id; // db value of column user_id is set to the currently logged in user.
         // add post image
         $post->image_file_post = $fileNameToStore; // either no image or the image with timestamp
+
         $post->save();
 
         // redirect to new page with a success message about the post being created

@@ -31,7 +31,7 @@
         <div class="card mb-4">
           <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Your Daily on Home, Living & Decor</h2>
+            <h2 class="card-title">Your Daily on Home, Decor, Living & More</h2>
             <p class="card-text">Explore today on shopping deals & ideas. Get the latest on
               shopping deals, ideas, reviews and new home & living resources.</p>
             <a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=bsx02a-20&keywords=home decor clearance&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5c222b0c13fd1976614b622c83f15f65" class="btn btn-primary">Explore &rarr;</a>
