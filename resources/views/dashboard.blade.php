@@ -100,7 +100,7 @@
                             <li class="list-group-item">(3). Setting your website info</li>
                             <li class="list-group-item">(4). Done. Enjoy more users, sell more and faster on your platform.</li>
                         </ul>
-                        <a href="contact" class="btn btn-danger btn-lg">Start 3 steps</a>
+                        <a href="docs" class="btn btn-danger btn-lg">Start 3 steps</a>
                     </div>
                     <div class="col-12">
                         
