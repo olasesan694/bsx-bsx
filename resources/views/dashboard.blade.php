@@ -100,7 +100,7 @@
                             <li class="list-group-item">(3). Setting your website info</li>
                             <li class="list-group-item">(4). Done. Enjoy more users, sell more and faster on your platform.</li>
                         </ul>
-                        <a href="docs" class="btn btn-danger btn-lg">Start 3 steps</a>
+                        <a href="contact" class="btn btn-danger btn-lg">Start 3 steps</a>
                     </div>
                     <div class="col-12">
                         
@@ -116,7 +116,8 @@
                     <div class="col-12">
                         <h3 class="text-muted mb-3"> View New Customer Live Chat Requests:  </h3>
                         <br>
-                        <a href="https://connect.brisebox.com/accept" class="btn btn-danger btn-lg">Join Discussions</a>
+                        {{-- <a href="https://connect.brisebox.com/accept" class="btn btn-danger btn-lg">Join Discussions</a> --}}
+                        <a href="contact" class="btn btn-danger btn-lg">Join Discussions</a>
                     </div>
                     <div class="col-12">
                         

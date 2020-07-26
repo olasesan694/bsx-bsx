@@ -50,10 +50,6 @@
 }
 </style>
 
-<script src="https://cdn.tiny.cloud/1/tqwic7d9u7sl0wvh1hsi0xf1p5iclr5y99mrcd1i6mv4p2if/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-  <script>tinymce.init({selector:'textarea'});</script>
-
-
 </head>
 <body>
 
@@ -73,8 +69,6 @@
   <br>
   <br>
 </div>
-
-  <textarea>Next, use our Get Started docs to setup Tiny!</textarea>
 
 </body>
 </html>

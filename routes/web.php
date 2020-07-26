@@ -25,7 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contact', 'ContactController@index')->name('contact');
 Route::get('/dashboard', 'DashboardController@index')->middleware('auth')->name('dashboard');
 Route::get('/pricing', 'PricingController@index')->name('pricing');
-Route::get('/docs', 'DocumentationController@index')->middleware('auth')->name('docs');
+// Route::get('/docs', 'DocumentationController@index')->middleware('auth')->name('docs');
 Route::get('/demo', 'DemoController@index')->name('demo')->middleware('auth');
 Route::get('/jobs', 'JobsController@index')->name('jobs');
 Route::get('/about', 'AboutController@index')->name('about');
