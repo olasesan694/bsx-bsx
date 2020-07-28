@@ -19,7 +19,7 @@ var prodPrice = "prodPrice=";
 var domain = "origin=";
 
 // var cnt_bb_url = brisebox_url + incUrl + shareable_url + ampersand + incName + name_of_company + ampersand + prodTitle + title_of_product + ampersand + prodImage + product_img_url + ampersand + prodPrice + price_of_product + ampersand + domain + domain_url;
-var cnt_bb_url = 'http://connect.brisebox.com/demo-test';
+var cnt_bb_url = 'https://connect.brisebox.com/demo-test';
 var cnt_bb_title = 'Live chat with store members ' + name_of_company;
 
 var cnt_bb_w = 500;
