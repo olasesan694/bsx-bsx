@@ -11,4 +11,9 @@ class DemoController extends Controller
     {
         return view('demo');
     }
+
+    public function test()
+    {
+        return view('demo-test');
+    }
 }

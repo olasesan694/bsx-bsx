@@ -16,7 +16,8 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Demo: Shop Live with a Friend</title>
+        {{-- <title>Demo: Shop Live with a Friend</title> --}}
+        <title>Demo Test</title>
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
