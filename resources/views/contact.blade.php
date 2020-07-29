@@ -66,7 +66,7 @@
                     <a href="https://linkedin.com/company/brisebox" class="fa fa-linkedin"></a>
                 </div>
             </div>
-            <p class="copyright"> &copy; brisebox 2020 </p>
+            <p class="copyright"> &copy; brisebox {{ date('Y') }} </p>
         </div>
     </section>
 @endsection

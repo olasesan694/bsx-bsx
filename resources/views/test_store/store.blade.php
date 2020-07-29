@@ -14,7 +14,7 @@
         <meta property="bb:company" content="Bana Repub" />
         <meta property="bb:domain" content="support@banarepub.com" />
 
-        <!-- Brisebox Script -->
+        <!-- Brisebox Script for "Connector" -->
         <script src="/js/test_download/bsx_connect.js"></script>
 
         {{-- ********* END BRISEBOX TAGS **********  --}}
@@ -53,7 +53,7 @@
 </head>
 <body>
 
-<h2 style="text-align:center">*** Sample Product Details Page. ***</h2>
+<h2 style="text-align:center">*** Sample of your website's product details page. ***</h2>
 
 <div class="card">
   <img src="/images/test-store/girldress.jpg" alt="Sleeveless Dress" style="width:100%">
@@ -63,10 +63,8 @@
   <br>
   <br>
   <p>
-    <!-- Brisebox Button Connector -->
-    {{-- <button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> brisebox - Live Chat with Store Member </span> </button> --}}
-    <button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> Try Me </span> </button>
-
+    <!-- Connector -->
+    <button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> Try Me -- reach our API </span> </button>
   </p>
   <br>
   <br>

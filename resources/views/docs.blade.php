@@ -107,7 +107,7 @@
                     width: 250px;
                     transition: all 0.5s;
                     cursor: pointer;"&gt;
-                    &lt;span&gt; brisebox - Live Chat with Store Member &lt;/span&gt;
+                    &lt;span&gt; brisebox --> &lt;/span&gt;
                     &lt;/button&gt;
                 </div>
               </div>
@@ -164,7 +164,7 @@
               </div>
           </div>
           <hr>
-          <p class="copyright"> &copy; brisebox 2020 </p>
+          <p class="copyright"> &copy; brisebox {{ date('Y') }} </p>
       </div>
   </section>
 @endsection

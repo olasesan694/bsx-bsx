@@ -61,22 +61,6 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-xl-3 col-sm-6 p-2">
-                        <div class="card card-common">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <i class="fas fa-money-bill-alt fa-3x text-success"></i>
-                                    <div class="text-right text-secondary">
-                                        <h5>Get a Free Standard Plan Upgrade for 1yr</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-secondary">
-                                <i class="fas fa-sync mr-3"></i>
-                                <span><a href="#invite">Invite someone that can use brisebox</a></span>
-                            </div>
-                        </div>
-                    </div> --}}
                 </div>
             </div>
         </div>
@@ -91,7 +75,6 @@
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
                     <div class="col-12">
-                        {{-- <h3 class="text-muted text-center mb-3">Allow <div style="font-style: italic; display:inline;"> Live </div> User-To-User Discussions on your Website.</h3> --}}
                         <h3 class="text-muted text-center mb-3">What's Next?</h3>
                         <ul class="list-group">
                             <li class="list-group-item ">Get Started By: <li>
