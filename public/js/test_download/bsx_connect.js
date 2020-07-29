@@ -1,5 +1,5 @@
 var cnt_bb_url = 'https://retailers.brisebox.com/demo-test';
-var cnt_bb_title = 'Live chat with store members ' + name_of_company;
+var cnt_bb_title = 'Personalize Assistance : ' + name_of_company;
 
 var cnt_bb_w = 500;
 var cnt_bb_h = 600;
