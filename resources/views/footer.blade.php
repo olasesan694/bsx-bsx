@@ -21,9 +21,10 @@
                 <p><b> <a href="#footer">Sunnyvale, California 94043 </a> </b> </p>
                 <p> <a href="#footer"> +1 (531)-466-0308</a> </p>
                 <p> <a href="about">About Brisebox</a> </p>
-                <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>
-                <a href="https://linkedin.com/company/brisebox" class="fa fa-linkedin"></a>
+                <a href="https://twitter.com/thebrisebox/" class="fa fa-twitter"></a>
+                <a href="https://linkedin.com/company/thebrisebox" class="fa fa-linkedin"></a>
+                <a href="https://pinterest.com/thebrisebox/" class="fa fa-pinterest-square"></a>
+                <a href="https://www.facebook.com/thebrisebox/" class="fa fa-facebook"></a>
             </div>
         </div>
         <p class="copyright"> &copy; brisebox {{ date('Y') }} </p>

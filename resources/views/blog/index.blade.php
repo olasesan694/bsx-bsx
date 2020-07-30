@@ -34,6 +34,21 @@
             <h2 class="card-title">Your Daily on Home, Decor, Living & More</h2>
             <p class="card-text">Explore today on shopping deals & ideas. Get the latest on
               shopping deals, ideas, reviews and new home & living resources.</p>
+            <script type="text/javascript">
+              amzn_assoc_placement = "adunit0";
+              amzn_assoc_tracking_id = "bsx02a-20";
+              amzn_assoc_ad_mode = "search";
+              amzn_assoc_ad_type = "smart";
+              amzn_assoc_marketplace = "amazon";
+              amzn_assoc_region = "US";
+              amzn_assoc_default_search_phrase = "home decor";
+              amzn_assoc_default_category = "All";
+              amzn_assoc_linkid = "8fa8cc97ccf51fa23f45214959f05101";
+              amzn_assoc_title = "Shop Related Products";
+              amzn_assoc_search_bar = "false";
+              amzn_assoc_search_bar_position = "top";
+            </script>
+            <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
             <a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=bsx02a-20&keywords=home decor clearance&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5c222b0c13fd1976614b622c83f15f65" class="btn btn-primary">Explore &rarr;</a>
           </div>
           <div class="card-footer text-muted">
@@ -183,9 +198,10 @@
             <div class="col-md-4 footer-box">
                 <p><b> <a href="#footer">Sunnyvale, California 94043 </a> </b> </p>
                 <p> <a href="about">About Brisebox</a> </p>
-                <a href="https://www.facebook.com/brisebox/" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/brisebox/" class="fa fa-twitter"></a>
-                <a href="https://linkedin.com/company/brisebox" class="fa fa-linkedin"></a>
+                <a href="https://twitter.com/thebrisebox/" class="fa fa-twitter"></a>
+                <a href="https://linkedin.com/company/thebrisebox" class="fa fa-linkedin"></a>
+                <a href="https://pinterest.com/thebrisebox/" class="fa fa-pinterest-square"></a>
+                <a href="https://www.facebook.com/thebrisebox/" class="fa fa-facebook"></a>
             </div>
         </div>
         <p class="copyright"> &copy; brisebox 2020 </p>

@@ -29,5 +29,6 @@ Route::get('/demo-test', 'DemoController@test')->name('demo-test');
 Route::get('/jobs', 'JobsController@index')->name('jobs');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/store', 'StoreController@index')->name('store'); // demo
+Route::get('/stores', 'StoresController@index')->name('stores');
 
 Route::resource('/blog', 'BlogsController'); // blog

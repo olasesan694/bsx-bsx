@@ -1,7 +1,54 @@
-<link href="{{ asset('css/footer-white.css') }}" rel="stylesheet">
+@extends('layouts.stores.head')
 
-<!-- Footer -->
-<section id="footer">
+@section('content')
+    <div id="topheader"class="header">
+
+        @include('nav')
+
+        <section class="header-section">
+            <div class="center-div  text-center">
+                <h1 class="font-weight-bold">
+                    Shop from Stores 
+                </h1>
+                <p>New home decor releases by our partners and AMZN Prime small business stores.</p>
+            </div>
+        </section>
+    </div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+
+            <script type="text/javascript">
+                amzn_assoc_placement = "adunit0";
+                amzn_assoc_tracking_id = "bsx02a-20";
+                amzn_assoc_ad_mode = "search";
+                amzn_assoc_ad_type = "smart";
+                amzn_assoc_marketplace = "amazon";
+                amzn_assoc_region = "US";
+                amzn_assoc_default_search_phrase = "home decor";
+                amzn_assoc_default_category = "All";
+                amzn_assoc_linkid = "8fa8cc97ccf51fa23f45214959f05101";
+                amzn_assoc_title = "Shop Related Products";
+                amzn_assoc_search_bar = "false";
+                amzn_assoc_search_bar_position = "top";
+            </script>
+            <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+        </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <section id="footer">
     <div class="container">
         <div class="row offset-1">
             <div class="col-md-4 footer-box">
@@ -27,6 +74,8 @@
                 <a href="https://www.facebook.com/thebrisebox/" class="fa fa-facebook"></a>
             </div>
         </div>
-        <p class="copyright"> &copy; brisebox {{ date('Y') }} </p>
+        <p class="copyright"> &copy; brisebox 2020 </p>
     </div>
 </section>
+
+@endsection
