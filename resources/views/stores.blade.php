@@ -21,23 +21,9 @@
     <div class="row">
 
         <!-- Blog Entries Column -->
-        <div class="col-md-8">
+        <div class="col-md-8 p-5 text-center store">
 
-            <script type="text/javascript">
-                amzn_assoc_placement = "adunit0";
-                amzn_assoc_tracking_id = "bsx02a-20";
-                amzn_assoc_ad_mode = "search";
-                amzn_assoc_ad_type = "smart";
-                amzn_assoc_marketplace = "amazon";
-                amzn_assoc_region = "US";
-                amzn_assoc_default_search_phrase = "home decor";
-                amzn_assoc_default_category = "All";
-                amzn_assoc_linkid = "8fa8cc97ccf51fa23f45214959f05101";
-                amzn_assoc_title = "Shop Related Products";
-                amzn_assoc_search_bar = "false";
-                amzn_assoc_search_bar_position = "top";
-            </script>
-            <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+            <a href="https://amzn.to/3ggUGUK">Browse store -> </a>
 
         </div>
 

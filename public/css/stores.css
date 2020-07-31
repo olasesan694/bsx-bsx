@@ -12,6 +12,17 @@ a {
   text-decoration: none;
 }
 
+.store a {
+  background-color: #fff16f;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 2px solid #ffee52;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
 a:hover {
   text-decoration: none;
 }

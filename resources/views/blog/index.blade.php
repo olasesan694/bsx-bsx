@@ -121,7 +121,6 @@
         <p>Make your first post!</p>
       @endif
           
-
       <!-- Sidebar Widgets Column -->
       {{-- <div class="col-md-4">
 
