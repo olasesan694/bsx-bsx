@@ -19,6 +19,10 @@
 
         {{-- ********* END BRISEBOX TAGS **********  --}}
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -64,8 +68,32 @@
   <br>
   <p>
     <!-- Connector -->
-    <button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> Try Me -- reach our API </span> </button>
+    {{-- <button class="btn cn bsx bb-btn" onclick="cnt_brisebox(cnt_bb_url, cnt_bb_title, cnt_bb_w, cnt_bb_h)" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> Try Me -- reach our API </span> </button> --}}
+    <button type="button" class="btn cn bsx bb-btn" data-toggle="modal" data-target="#myModal" style="border-radius: 4px; background-color: #000000; border: none; color: #ffb6c1; text-align: center; font-size: 12px; padding: 7px; width: 250px; transition: all 0.5s; cursor: pointer;"> <span> Try Me -- reach our API </span> </button>
   </p>
+
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          {{-- <h4 class="modal-title">Modal Header</h4> --}}
+          <h4 class="modal-title">X</h4>
+        </div>
+        <div class="modal-body">
+          {{-- <p>Some text in the modal.</p> --}}
+          @include('demo-test')
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
   <br>
   <br>
 </div>

@@ -14,7 +14,8 @@
         </p>
         <p>$98.99</p>
 
-        <div class="discussion-form">
+        {{-- <div class="discussion-form" > --}}
+        <div class="discussion-form" style="border:2px solid whitesmoke; margin: 5px; padding:20px; height:120px;">
           <a href="#" class="btn btnInvite">Chat Area -- Sign In</a>
         </div>
 
