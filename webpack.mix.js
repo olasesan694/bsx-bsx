@@ -35,6 +35,8 @@ mix.js('resources/js/app.js', 'public/js')
 
     .sass('resources/sass/stores.scss', 'public/css')
 
+    .sass('resources/sass/jobs.scss', 'public/css')
+
     .sass('resources/sass/blog.scss', 'public/css')
     .sass('resources/sass/blog-create.scss', 'public/css')
     .sass('resources/sass/blog-show.scss', 'public/css')

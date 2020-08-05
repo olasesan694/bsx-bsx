@@ -80,6 +80,7 @@ p {
 .nav-item a {
   color: #1e292c !important;
   font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .header-section {
