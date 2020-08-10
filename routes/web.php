@@ -32,3 +32,6 @@ Route::get('/store', 'StoreController@index')->name('store'); // demo
 Route::get('/stores', 'StoresController@index')->name('stores');
 
 Route::resource('/blog', 'BlogsController'); // blog
+Route::get('/blog/{slug}', ['as' => 'blog.show', 'uses' => 'BlogsController@show'])->where('slug', '[\w\d\-\_]+'); //Named single, processed in getSingle. //url can be words,digits,underscore, or dash.
+
+

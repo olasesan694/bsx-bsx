@@ -17,7 +17,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title> {{ $postRow->title }} | Brisebox Blog </title>
+        <title> {{ $postRow->slug }} </title>
 
         <meta name="description" content="Inside infos on shopping blogs by brisebox blog to make the best deals and purchases."/>
         <meta property="og:title" content="Brisebox Blog"/>

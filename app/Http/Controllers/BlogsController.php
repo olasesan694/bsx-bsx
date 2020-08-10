@@ -5,7 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
-use Purifier;
+use Illuminate\Support\Facades\DB; //SO 
+
+use App\Slug;
+// use Illuminate\Support\Str; //slug
+// $slug = Str::slug('Laravel 5 Framework', '-'); //access to str_slug();
+
+use Purifier; // text purifier for safety
 
 // brings in the model
 use App\Post; /** brings in the posts, so we can use all it's functions 
@@ -37,7 +43,8 @@ class BlogsController extends Controller
         // loads the view | shows 10 pages at a time and then displays arrow for the option for more
         // $posts = Post::orderBy('created_at', 'desc');
         // $posts = Post::orderBy('created_at', 'desc')->paginate(10); 
-        $posts = Post::all(); // eloquent fetches all the data in an array
+        $posts = Post::orderBy('id', 'desc')->paginate(10);
+        // $posts = Post::all(); // eloquent fetches all the data in an array
         // $postRow = Post::orderBy('title', 'desc')->get();
         // $postRow = Post::orderBy('title', 'desc')->take(1)->get();
         // $postRow = Post::DB("SELECT * FROM posts"); | Can be used if use App\DB is imported
@@ -72,7 +79,8 @@ class BlogsController extends Controller
         // The validation | Specifies what is required
         // The store method gets called when the form's submit button is pressed.
         $this->validate($request, [
-            'title' => 'required',
+            'title' => 'required|unique:blogs|max:255',
+            // 'slug' => 'required|alpha_dash|min:5|max:255',
             'descriptionText' => 'required',
             'image_file_post' => 'image|nullable|mimes:jpeg,png,jpg,gif,svg|max:2048' // nullable (not required) | Max (size should be under 2MB for apache)
         ]); // takes the request and an array of rules | We specified names of the fields to be required
@@ -96,7 +104,9 @@ class BlogsController extends Controller
         
         // ELOQUENT: send to db. and create post
         $post = new Post; // creates a post
+        $slug = new Slug; // init Slug class
         $post->title = $request->input('title');
+        $post->slug = $slug->createSlug($request->input('title'));
         $post->body = Purifier::clean($request->input('descriptionText')); // avoids placing raw script in db.
         $post->user_id = auth()->user()->id; // db value of column user_id is set to the currently logged in user.
         // add post image
@@ -107,7 +117,6 @@ class BlogsController extends Controller
 
         // redirect to new page with a success message about the post being created
         return redirect('/blog')->with('success', 'Your post has been created.');
-         
     }
 
 
@@ -119,10 +128,16 @@ class BlogsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    // public function show($id)
+    // {
+    //     // fetches the data that correspond to that specific row clicked
+    //     $postRow = Post::find($id); // find corresponding data by id
+    //     return view('blog.show')->with('postRow', $postRow);
+    // }
+    public function show($slug)
     {
-        // fetches the data that correspond to that specific row clicked
-        $postRow = Post::find($id); // find corresponding data by id
+        // fetches the data by slug
+        $postRow = Post::where('slug', '=', $slug)->first(); // find the unique title slug
         return view('blog.show')->with('postRow', $postRow);
     }
 
@@ -135,10 +150,10 @@ class BlogsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($slug)
     {
         // bring in the specific post by it's id
-        $postRowToEdit = Post::find($id); // find corresponding data by id
+        $postRowToEdit = Post::where('slug', '=', $slug)->first(); // find corresponding data by slug
         // check for the user correct user
         if (auth()->user()->id !== $postRowToEdit->user_id) {
             return redirect('/blog')->with('error', '');
@@ -153,12 +168,12 @@ class BlogsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $slug)
     {
         // The validation | Specifies what is required
         // The store method gets called when the form's submit button is pressed.
         $this->validate($request, [
-            'title' => 'required',
+            'title' => 'required|unique:blogs|max:255',
             'descriptionText' => 'required' 
         ]); // takes the request and an array of rules | We specified names of the fields to be required
 
@@ -176,14 +191,14 @@ class BlogsController extends Controller
         //     $path = $request->file('image_file_post')->storeAs('public/image_file_post', $fileNameToStore);
         // } 
 
-        // send to db. and create post
-        $editedPost = Post::find($id); // creates a post
-        // check for the user correct user
-        if (auth()->user()->id !== $editedPost->user_id) {
+        
+        $editedPost = Post::where('slug', '=', $slug)->first(); // find post by slug
+        if (auth()->user()->id !== $editedPost->user_id) { // check for the user correct user
             return redirect('/blog')->with('error', '');
         }
         $editedPost->title = $request->input('title');
-        $editedPost->body = $request->input('descriptionText');
+        $editedPost->slug = $slug->createSlug($request->input('title'));
+        $editedPost->body = Purifier::clean($request->input('descriptionText')); // avoids placing raw script in db.;
 
         // add only if user uploaded an image
         // if($request->hasFile('image_file_post')) { // if user submitted an image
@@ -202,10 +217,10 @@ class BlogsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($slug)
     {
-        // find the specific post by it's id
-        $postToDelete = Post::find($id);
+        // find the specific post by it's slug (clean url)
+        $postToDelete = Post::where('slug', '=', $slug)->first();
 
         // check for the user correct user
         if (auth()->user()->id !== $postToDelete->user_id) {

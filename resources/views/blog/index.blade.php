@@ -101,7 +101,7 @@
                 <p class="card-text"> 
                    {{ substr(strip_tags($post->body), 0, 1000) }} {{ strlen($post->body) > 1000 ? "..." : "" }}
                 </p>
-                <a href="/blog/{{$post->id}}" class="btn btn-primary">Read more </a>
+                <a href="{{ route('blog.show', $post->slug) }}" class="btn btn-primary">Read more </a>
                 {{-- <a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=bsx02a-20&keywords=home decor clearance&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5c222b0c13fd1976614b622c83f15f65" class="btn btn-primary">Explore &rarr;</a> --}}
               </div>
               <div class="card-footer text-muted">
@@ -215,28 +215,28 @@
         <div class="row offset-1">
             <div class="col-md-4 footer-box">
                 <b>Accounts</b>
-                <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="dashboard"> Dashboard </a></p>
+                <p> <i class="fa fa-dashboard" aria-hidden="true"></i> <a href="{{ route('dashboard') }}"> Dashboard </a></p>
                 <p> <i class="fa fa-address-book-o" aria-hidden="true"></i> <a href="register">Register </a> </p>
                 <p> <i class="fa fa-sign-in" aria-hidden="true"></i> <a href="login">Login </a> </p>
-                <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="#footer">Support </a> </p>
+                <p> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="{{ route('contact') }}">Contact </a> </p>
             </div>
             <div class="col-md-4 footer-box">
                 <b>Resources</b>
-                <p> <i class="fa fa-file" aria-hidden="true"></i> <a href="docs">Docs & APIs </a> </p>
-                <p> <i class="fa fa-dollar" aria-hidden="true"></i> <a href="pricing">Pricing </a> </p>
-                <p> <i class="fa fa-mortar-board" aria-hidden="true"></i> <a href="jobs">Jobs </a> </p>
-                <p> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="contact">Contact </a> </p>
+                <p> <i class="fa fa-file" aria-hidden="true"></i> <a href="{{ route('docs') }}">Docs & APIs </a> </p>
+                <p> <i class="fa fa-dollar" aria-hidden="true"></i> <a href="{{ route('pricing') }}">Pricing </a> </p>
+                <p> <i class="fa fa-mortar-board" aria-hidden="true"></i> <a href="{{ route('jobs') }}">Jobs </a> </p>
+                <p> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="{{ route('blog.index') }}">Blog </a> </p>
             </div>
             <div class="col-md-4 footer-box">
                 <p><b> <a href="#footer">Sunnyvale, California 94043 </a> </b> </p>
-                <p> <a href="about">About Brisebox</a> </p>
+                <p> <a href="{{ route('about') }}">About Brisebox</a> </p>
                 <a href="https://twitter.com/thebrisebox/" class="fa fa-twitter"></a>
                 <a href="https://linkedin.com/company/thebrisebox" class="fa fa-linkedin"></a>
                 <a href="https://pinterest.com/thebrisebox/" class="fa fa-pinterest-square"></a>
                 <a href="https://www.facebook.com/thebrisebox/" class="fa fa-facebook"></a>
             </div>
         </div>
-        <p class="copyright"> &copy; brisebox 2020 </p>
+        <p class="copyright"> &copy; brisebox {{ date('Y') }} </p>
     </div>
 </section>
 

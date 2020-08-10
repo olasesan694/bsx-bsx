@@ -21,13 +21,15 @@
             <h1>{{$postRow->title}}</h1>
             {{-- <img src="/storage/image_file_post/{{$postRow->image_file_post}}" style="width:35%" alt="img"> --}}
             <img class="card-img-top" src="/images/homeplant.jpg" alt="Card image cap">
+            <br>
+            <br>
             <div>
                 {!! $postRow->body !!}
             </div>
-            <hr> 
+            {{-- <hr>  --}}
             {{-- <small>On {{$postRow->created_at}} {{$postRow->user->name}}</small> --}}
             <small>On {{ $postRow->created_at->format('Y-m-d') }} <a href="https://retailers.brisebox.com" target="_blank">Brisebox Team</a></small>
-            <hr>
+            {{-- <hr> --}}
             {{-- {!! Form::open(['action' => 'BlogsController@store', 'method' => 'POST']) !!}
                 <div class="form-group">
                     {{Form::label('', '')}}
