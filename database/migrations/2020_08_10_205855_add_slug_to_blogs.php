@@ -15,7 +15,7 @@ class AddSlugToBlogs extends Migration
     {
         Schema::table('blogs', function (Blueprint $table) {
             //
-            $table->string('slug')->unique()->after('image_file_post');
+            $table->string('slug')->unique()->after('user_id');
         });
     }
 
