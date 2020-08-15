@@ -19,12 +19,12 @@
           <a href="#" class="btn btnInvite">Chat Area -- Sign In</a>
         </div>
 
-        <div class="form">
+        {{-- <div class="form">
           <input type="text" name="name" oninput="this.className = ''" placeholder="Say something" autocomplete="off" disabled />
           <label for="name" class="label-name">
           </label>
         </div>
-        <a href="#" onclick="toggle()">Send</a>
+        <a href="#" onclick="toggle()">Send</a> --}}
 
         @include('poweredby')
         

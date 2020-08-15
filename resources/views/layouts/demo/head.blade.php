@@ -31,7 +31,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link href="{{ asset('css/demo.css') }}" rel="stylesheet">
+        {{-- <link href="{{ asset('css/demo.css') }}" rel="stylesheet"> --}}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
     </head>
